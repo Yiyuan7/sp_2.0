@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -13,5 +13,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resourceGroupName: AR Rezources
   referenceImages:
-  - {fileID: 11400000, guid: 9d6cedfb4c48647ca9007fb8cb8aa6b0, type: 2}
-  - {fileID: 11400000, guid: fa9c5deee83494083beea0977b5302c2, type: 2}
+  - {fileID: 11400000, guid: c3a1793aae5a0454aabcc36d1e27356d, type: 2}

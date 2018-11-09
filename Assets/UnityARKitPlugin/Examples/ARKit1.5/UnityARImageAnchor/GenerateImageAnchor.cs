@@ -14,23 +14,36 @@ public class GenerateImageAnchor : MonoBehaviour {
 
 	private GameObject imageAnchorGO;
 
-	// Use this for initialization
-	void Start () {
-		UnityARSessionNativeInterface.ARImageAnchorAddedEvent += AddImageAnchor;
-		UnityARSessionNativeInterface.ARImageAnchorUpdatedEvent += UpdateImageAnchor;
-		UnityARSessionNativeInterface.ARImageAnchorRemovedEvent += RemoveImageAnchor;
+    private Vector3 markerPosition;
+    private Quaternion markerRotation;
 
-	}
+    // Use this for initialization
+    void Start()
+    {
+        UnityARSessionNativeInterface.ARImageAnchorAddedEvent += AddImageAnchor;
+        //UnityARSessionNativeInterface.ARImageAnchorUpdatedEvent += UpdateImageAnchor;
+        //UnityARSessionNativeInterface.ARImageAnchorRemovedEvent += RemoveImageAnchor;
+
+    }
 
 	void AddImageAnchor(ARImageAnchor arImageAnchor)
 	{
 		Debug.LogFormat("image anchor added[{0}] : tracked => {1}", arImageAnchor.identifier, arImageAnchor.isTracked);
 		if (arImageAnchor.referenceImageName == referenceImage.imageName) {
-			Vector3 position = UnityARMatrixOps.GetPosition (arImageAnchor.transform);
-			Quaternion rotation = UnityARMatrixOps.GetRotation (arImageAnchor.transform);
+            markerPosition = UnityARMatrixOps.GetPosition (arImageAnchor.transform);
+            markerRotation = UnityARMatrixOps.GetRotation (arImageAnchor.transform);
+            Debug.Log("Marker Position: " + markerPosition);
+            Debug.Log("Marker Rotation: " + markerRotation);
 
-			imageAnchorGO = Instantiate<GameObject> (prefabToGenerate, position, rotation);
-		}
+            //GameObject markerFoundPrompt = new GameObject();
+            //markerFoundPrompt.AddComponent<TextMesh>();
+            //markerFoundPrompt.GetComponent<TextMesh>().text = "Marker position: " + markerPosition + ". MarkerRotation: " + markerRotation ;
+            //Vector3 worldPoint = Camera.main.ScreenToWorldPoint(new Vector3(0, 0, 0));
+            //imageAnchorGO = Instantiate<GameObject> (markerFoundPrompt, worldPoint, Quaternion.identity);
+            //Debug.Log(markerFoundPrompt.GetComponent<TextMesh>().text);
+            //Debug.Log(markerFoundPrompt.GetComponent<TextMesh>().transform.position);
+            //Debug.Log(markerFoundPrompt.GetComponent<TextMesh>().transform.rotation);
+        }
 	}
 
 	void UpdateImageAnchor(ARImageAnchor arImageAnchor)
