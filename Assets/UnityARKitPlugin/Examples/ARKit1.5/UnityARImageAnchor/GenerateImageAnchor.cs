@@ -14,8 +14,10 @@ public class GenerateImageAnchor : MonoBehaviour {
 
 	private GameObject imageAnchorGO;
 
-    private Vector3 markerPosition;
-    private Quaternion markerRotation;
+    public static Vector3 markerPosition;
+    public static Quaternion markerRotation;
+
+    public static GenerateImageAnchor GenerateImageAnchorInstance { get; private set; }
 
     // Use this for initialization
     void Start()
@@ -35,6 +37,7 @@ public class GenerateImageAnchor : MonoBehaviour {
             Debug.Log("Marker Position: " + markerPosition);
             Debug.Log("Marker Rotation: " + markerRotation);
 
+            GameObject markerText = GameObject.Find("markerLocation");
             //GameObject markerFoundPrompt = new GameObject();
             //markerFoundPrompt.AddComponent<TextMesh>();
             //markerFoundPrompt.GetComponent<TextMesh>().text = "Marker position: " + markerPosition + ". MarkerRotation: " + markerRotation ;

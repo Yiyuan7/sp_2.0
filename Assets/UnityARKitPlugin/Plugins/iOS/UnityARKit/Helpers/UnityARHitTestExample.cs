@@ -15,7 +15,16 @@ namespace UnityEngine.XR.iOS
         public Vector3 deviceposition;
 
         [SerializeField]
-        protected Button restartSceneButton;
+        protected Button GetDeviceLocationButton;
+
+        private Button phoneButton;
+
+        private void Start()
+        {
+            phoneButton = GetDeviceLocationButton.GetComponent<Button>();
+            phoneButton.onClick.AddListener(UpdateDeviceLocation);
+        }
+
 
         bool HitTestWithResultType (ARPoint point, ARHitTestResultType resultTypes)
         {
@@ -28,7 +37,10 @@ namespace UnityEngine.XR.iOS
                     transposition = m_HitTransform.position;
                     transorientation = m_HitTransform.rotation;
                     spawnlogo();
-                    Debug.Log (string.Format ("x:{0:0.######} y:{1:0.######} z:{2:0.######}", m_HitTransform.position.x, m_HitTransform.position.y, m_HitTransform.position.z));
+
+                    //Vector3 relativePosition = transposition - GenerateImageAnchor.GenerateImageAnchorInstance.markerPosition;
+                    //Debug.Log (string.Format ("Relative Position: x:{0:0.######} y:{1:0.######} z:{2:0.######}", relativePosition.x, relativePosition.y, relativePosition.z));
+                    //Debug.Log (string.Format(("Rotation: x:{0:0.######} y:{1:0.######} z:{2:0.######}"), transorientation.x, transorientation.y, transorientation.z));
                     return true;
                 }
             }
@@ -102,18 +114,33 @@ namespace UnityEngine.XR.iOS
 
         public void spawnlogo()
         {
-            Debug.Log("object position " + transposition);
-            Debug.Log("object orientation " + transorientation);
+            //Debug.Log("object position " + transposition);
+            //Debug.Log("object orientation " + transorientation);
+            Debug.Log("Spawn Logo!!!");
             Instantiate(Resources.Load("logo") as GameObject, transposition , transorientation);
-            Debug.Log("behind");
+
+            Debug.Log("spawnlogo HitTest Marker Position: " + GenerateImageAnchor.markerPosition);
+            Debug.Log("Tool Position:" + transposition);
+
+            Vector3 relativeToolPosition = GenerateImageAnchor.markerPosition - transposition;
+            Debug.Log("Relative Tool Position:" + relativeToolPosition);
+            Debug.Log("Tool Rotation:" + transorientation);
         }
 
-        protected void OnResetSceneButtonClicked()
+        protected void UpdateDeviceLocation()
         {
+            Debug.Log("Track handheld device!!!");
 
+            Debug.Log("UpdateDeviceLocation HitTest Marker Position: " + GenerateImageAnchor.markerPosition);
+
+            Vector3 cameraPosition = Camera.main.gameObject.transform.position;
+            Debug.Log("Phone Position:" + cameraPosition);
+
+
+            Vector3 relativePhonePosition = GenerateImageAnchor.markerPosition - cameraPosition;
+            Debug.Log("Relative phone Position:" + relativePhonePosition);
+            Debug.Log("Phone Rotation:" + Input.gyro.attitude);
         }
-
-
     }
 }
 
