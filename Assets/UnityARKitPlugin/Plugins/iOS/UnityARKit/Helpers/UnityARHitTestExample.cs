@@ -17,6 +17,8 @@ namespace UnityEngine.XR.iOS
         [SerializeField]
         protected Button GetDeviceLocationButton;
 
+
+
         private Button phoneButton;
 
         private void Start()
@@ -133,11 +135,11 @@ namespace UnityEngine.XR.iOS
 
             Debug.Log("UpdateDeviceLocation HitTest Marker Position: " + GenerateImageAnchor.markerPosition);
 
-            Vector3 cameraPosition = Camera.main.gameObject.transform.position;
-            Debug.Log("Phone Position:" + cameraPosition);
+            Vector3 camera_linePosition = camera_line.cubeposition;
+            Debug.Log("Phone-line Position:" + camera_linePosition);
 
 
-            Vector3 relativePhonePosition = GenerateImageAnchor.markerPosition - cameraPosition;
+            Vector3 relativePhonePosition = GenerateImageAnchor.markerPosition - Camera.main.gameObject.transform.position;
             Debug.Log("Relative phone Position:" + relativePhonePosition);
             Debug.Log("Phone Rotation:" + Input.gyro.attitude);
         }
