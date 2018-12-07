@@ -61,8 +61,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\camera_line.cs" />
-    <Compile Include="Assets\chooselogo.cs" />
+    <Compile Include="Assets\scripts\camera_line.cs" />
+    <Compile Include="Assets\scripts\chooselogo.cs" />
+    <Compile Include="Assets\scripts\MyLog.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
