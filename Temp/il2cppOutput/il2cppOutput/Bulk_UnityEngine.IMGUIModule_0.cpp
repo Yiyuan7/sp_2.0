@@ -290,6 +290,7 @@ extern RuntimeClass* GUILayoutOption_t811797299_il2cpp_TypeInfo_var;
 extern RuntimeClass* GUILayoutUtility_t66395690_il2cpp_TypeInfo_var;
 extern RuntimeClass* GUISettings_t1774757634_il2cpp_TypeInfo_var;
 extern RuntimeClass* GUISkin_t1244372282_il2cpp_TypeInfo_var;
+extern RuntimeClass* GUIStyleState_t1397964415_il2cpp_TypeInfo_var;
 extern RuntimeClass* GUIStyleU5BU5D_t2383250302_il2cpp_TypeInfo_var;
 extern RuntimeClass* GUIStyle_t3956901511_il2cpp_TypeInfo_var;
 extern RuntimeClass* GUITargetAttribute_t25796337_il2cpp_TypeInfo_var;
@@ -420,10 +421,12 @@ extern const uint32_t GUILayout_Width_m1777696537_MetadataUsageId;
 extern const uint32_t GUISkin_MakeCurrent_m3239192349_MetadataUsageId;
 extern const uint32_t GUISkin__ctor_m3576427628_MetadataUsageId;
 extern const uint32_t GUIStyleState_Finalize_m1466589588_MetadataUsageId;
+extern const uint32_t GUIStyleState_GetGUIStyleState_m74106824_MetadataUsageId;
 extern const uint32_t GUIStyle_Draw_m3190299676_MetadataUsageId;
 extern const uint32_t GUIStyle_Finalize_m1912900812_MetadataUsageId;
 extern const uint32_t GUIStyle_ToString_m3014660435_MetadataUsageId;
 extern const uint32_t GUIStyle__cctor_m3477697449_MetadataUsageId;
+extern const uint32_t GUIStyle__ctor_m2912682974_MetadataUsageId;
 extern const uint32_t GUIStyle__ctor_m4038363858_MetadataUsageId;
 extern const uint32_t GUIStyle_get_margin_m3595798603_MetadataUsageId;
 extern const uint32_t GUIStyle_get_none_m1545577352_MetadataUsageId;
@@ -450,7 +453,7 @@ extern const uint32_t GUI_CallWindowDelegate_m3309453386_MetadataUsageId;
 extern const uint32_t GUI_DoButton_m3631925833_MetadataUsageId;
 extern const uint32_t GUI_DoLabel_m1422046243_MetadataUsageId;
 extern const uint32_t GUI_DoSetSkin_m604425702_MetadataUsageId;
-extern const uint32_t GUI_Label_m2454565404_MetadataUsageId;
+extern const uint32_t GUI_Label_m2420537077_MetadataUsageId;
 extern const uint32_t GUI_Label_m3404668030_MetadataUsageId;
 extern const uint32_t GUI__cctor_m3051457990_MetadataUsageId;
 extern const uint32_t GUI_get_skin_m1874615010_MetadataUsageId;
@@ -5582,8 +5585,6 @@ extern "C" IL2CPP_METHOD_ATTR GUISkin_t1244372282 * GUIUtility_GetDefaultSkin_m1
 extern "C" IL2CPP_METHOD_ATTR void GUISkin_MakeCurrent_m3239192349 (GUISkin_t1244372282 * __this, const RuntimeMethod* method);
 // UnityEngine.GUIContent UnityEngine.GUIContent::Temp(System.String)
 extern "C" IL2CPP_METHOD_ATTR GUIContent_t3050628031 * GUIContent_Temp_m3538793263 (RuntimeObject * __this /* static, unused */, String_t* ___t0, const RuntimeMethod* method);
-// UnityEngine.GUIStyle UnityEngine.GUISkin::get_label()
-extern "C" IL2CPP_METHOD_ATTR GUIStyle_t3956901511 * GUISkin_get_label_m1693050720 (GUISkin_t1244372282 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.GUI::Label(UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.GUIStyle)
 extern "C" IL2CPP_METHOD_ATTR void GUI_Label_m3404668030 (RuntimeObject * __this /* static, unused */, Rect_t2360479859  ___position0, GUIContent_t3050628031 * ___content1, GUIStyle_t3956901511 * ___style2, const RuntimeMethod* method);
 // System.Void UnityEngine.GUI::DoLabel(UnityEngine.Rect,UnityEngine.GUIContent,System.IntPtr)
@@ -5873,6 +5874,8 @@ extern "C" IL2CPP_METHOD_ATTR void GUIStyle_SetDefaultFont_m1581452579 (RuntimeO
 extern "C" IL2CPP_METHOD_ATTR void SkinChangedDelegate_Invoke_m3627689407 (SkinChangedDelegate_t1143955295 * __this, const RuntimeMethod* method);
 // System.IntPtr UnityEngine.GUIStyle::Internal_Create(UnityEngine.GUIStyle)
 extern "C" IL2CPP_METHOD_ATTR intptr_t GUIStyle_Internal_Create_m2274420027 (RuntimeObject * __this /* static, unused */, GUIStyle_t3956901511 * ___self0, const RuntimeMethod* method);
+// System.IntPtr UnityEngine.GUIStyle::Internal_Copy(UnityEngine.GUIStyle,UnityEngine.GUIStyle)
+extern "C" IL2CPP_METHOD_ATTR intptr_t GUIStyle_Internal_Copy_m2771217011 (RuntimeObject * __this /* static, unused */, GUIStyle_t3956901511 * ___self0, GUIStyle_t3956901511 * ___other1, const RuntimeMethod* method);
 // System.Void UnityEngine.GUIStyle::Internal_Draw2_Injected(UnityEngine.Rect&,UnityEngine.GUIContent,System.Int32,System.Boolean)
 extern "C" IL2CPP_METHOD_ATTR void GUIStyle_Internal_Draw2_Injected_m848648564 (GUIStyle_t3956901511 * __this, Rect_t2360479859 * ___position0, GUIContent_t3050628031 * ___content1, int32_t ___controlID2, bool ___on3, const RuntimeMethod* method);
 // System.Void UnityEngine.GUIStyle::Internal_CalcSizeWithConstraints_Injected(UnityEngine.GUIContent,UnityEngine.Vector2&,UnityEngine.Vector2&)
@@ -5881,6 +5884,10 @@ extern "C" IL2CPP_METHOD_ATTR void GUIStyle_Internal_CalcSizeWithConstraints_Inj
 extern "C" IL2CPP_METHOD_ATTR void GUIStyle_Internal_CalcMinMaxWidth_Injected_m4148139125 (GUIStyle_t3956901511 * __this, GUIContent_t3050628031 * ___content0, Vector2_t2156229523 * ___ret1, const RuntimeMethod* method);
 // System.Void UnityEngine.GUIStyle::Internal_Destroy(System.IntPtr)
 extern "C" IL2CPP_METHOD_ATTR void GUIStyle_Internal_Destroy_m293134876 (RuntimeObject * __this /* static, unused */, intptr_t ___self0, const RuntimeMethod* method);
+// System.IntPtr UnityEngine.GUIStyle::GetStyleStatePtr(System.Int32)
+extern "C" IL2CPP_METHOD_ATTR intptr_t GUIStyle_GetStyleStatePtr_m751258175 (GUIStyle_t3956901511 * __this, int32_t ___idx0, const RuntimeMethod* method);
+// UnityEngine.GUIStyleState UnityEngine.GUIStyleState::GetGUIStyleState(UnityEngine.GUIStyle,System.IntPtr)
+extern "C" IL2CPP_METHOD_ATTR GUIStyleState_t1397964415 * GUIStyleState_GetGUIStyleState_m74106824 (RuntimeObject * __this /* static, unused */, GUIStyle_t3956901511 * ___sourceStyle0, intptr_t ___source1, const RuntimeMethod* method);
 // System.IntPtr UnityEngine.GUIStyle::GetRectOffsetPtr(System.Int32)
 extern "C" IL2CPP_METHOD_ATTR intptr_t GUIStyle_GetRectOffsetPtr_m2881421249 (GUIStyle_t3956901511 * __this, int32_t ___idx0, const RuntimeMethod* method);
 // System.Void UnityEngine.RectOffset::.ctor(System.Object,System.IntPtr)
@@ -5901,6 +5908,10 @@ extern "C" IL2CPP_METHOD_ATTR int32_t GUIStyle_get_imagePosition_m2258358513 (GU
 extern "C" IL2CPP_METHOD_ATTR Vector2_t2156229523  GUIStyle_Internal_CalcMinMaxWidth_m662671596 (GUIStyle_t3956901511 * __this, GUIContent_t3050628031 * ___content0, const RuntimeMethod* method);
 // System.IntPtr UnityEngine.GUIStyleState::Init()
 extern "C" IL2CPP_METHOD_ATTR intptr_t GUIStyleState_Init_m1843829800 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method);
+// System.Void UnityEngine.GUIStyleState::set_textColor_Injected(UnityEngine.Color&)
+extern "C" IL2CPP_METHOD_ATTR void GUIStyleState_set_textColor_Injected_m4151781644 (GUIStyleState_t1397964415 * __this, Color_t2555686324 * ___value0, const RuntimeMethod* method);
+// System.Void UnityEngine.GUIStyleState::.ctor(UnityEngine.GUIStyle,System.IntPtr)
+extern "C" IL2CPP_METHOD_ATTR void GUIStyleState__ctor_m3422479228 (GUIStyleState_t1397964415 * __this, GUIStyle_t3956901511 * ___sourceStyle0, intptr_t ___source1, const RuntimeMethod* method);
 // System.Void UnityEngine.GUIStyleState::Cleanup()
 extern "C" IL2CPP_METHOD_ATTR void GUIStyleState_Cleanup_m696329069 (GUIStyleState_t1397964415 * __this, const RuntimeMethod* method);
 // System.Reflection.MethodInfo System.Type::GetMethod(System.String,System.Reflection.BindingFlags)
@@ -6974,13 +6985,13 @@ IL_0013:
 		return;
 	}
 }
-// System.Void UnityEngine.GUI::Label(UnityEngine.Rect,System.String)
-extern "C" IL2CPP_METHOD_ATTR void GUI_Label_m2454565404 (RuntimeObject * __this /* static, unused */, Rect_t2360479859  ___position0, String_t* ___text1, const RuntimeMethod* method)
+// System.Void UnityEngine.GUI::Label(UnityEngine.Rect,System.String,UnityEngine.GUIStyle)
+extern "C" IL2CPP_METHOD_ATTR void GUI_Label_m2420537077 (RuntimeObject * __this /* static, unused */, Rect_t2360479859  ___position0, String_t* ___text1, GUIStyle_t3956901511 * ___style2, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (GUI_Label_m2454565404_MetadataUsageId);
+		il2cpp_codegen_initialize_method (GUI_Label_m2420537077_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -6988,11 +6999,9 @@ extern "C" IL2CPP_METHOD_ATTR void GUI_Label_m2454565404 (RuntimeObject * __this
 		String_t* L_1 = ___text1;
 		IL2CPP_RUNTIME_CLASS_INIT(GUIContent_t3050628031_il2cpp_TypeInfo_var);
 		GUIContent_t3050628031 * L_2 = GUIContent_Temp_m3538793263(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		GUIStyle_t3956901511 * L_3 = ___style2;
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t1624858472_il2cpp_TypeInfo_var);
-		GUISkin_t1244372282 * L_3 = ((GUI_t1624858472_StaticFields*)il2cpp_codegen_static_fields_for(GUI_t1624858472_il2cpp_TypeInfo_var))->get_s_Skin_9();
-		NullCheck(L_3);
-		GUIStyle_t3956901511 * L_4 = GUISkin_get_label_m1693050720(L_3, /*hidden argument*/NULL);
-		GUI_Label_m3404668030(NULL /*static, unused*/, L_0, L_2, L_4, /*hidden argument*/NULL);
+		GUI_Label_m3404668030(NULL /*static, unused*/, L_0, L_2, L_3, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -13799,6 +13808,24 @@ extern "C" IL2CPP_METHOD_ATTR void GUIStyle__ctor_m4038363858 (GUIStyle_t3956901
 		return;
 	}
 }
+// System.Void UnityEngine.GUIStyle::.ctor(UnityEngine.GUIStyle)
+extern "C" IL2CPP_METHOD_ATTR void GUIStyle__ctor_m2912682974 (GUIStyle_t3956901511 * __this, GUIStyle_t3956901511 * ___other0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GUIStyle__ctor_m2912682974_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Object__ctor_m297566312(__this, /*hidden argument*/NULL);
+		GUIStyle_t3956901511 * L_0 = ___other0;
+		IL2CPP_RUNTIME_CLASS_INIT(GUIStyle_t3956901511_il2cpp_TypeInfo_var);
+		intptr_t L_1 = GUIStyle_Internal_Copy_m2771217011(NULL /*static, unused*/, __this, L_0, /*hidden argument*/NULL);
+		__this->set_m_Ptr_0(L_1);
+		return;
+	}
+}
 // System.String UnityEngine.GUIStyle::get_name()
 extern "C" IL2CPP_METHOD_ATTR String_t* GUIStyle_get_name_m2109418832 (GUIStyle_t3956901511 * __this, const RuntimeMethod* method)
 {
@@ -13878,6 +13905,15 @@ extern "C" IL2CPP_METHOD_ATTR bool GUIStyle_get_stretchHeight_m4172805773 (GUISt
 	bool retVal = _il2cpp_icall_func(__this);
 	return retVal;
 }
+// System.Void UnityEngine.GUIStyle::set_fontSize(System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void GUIStyle_set_fontSize_m1566850023 (GUIStyle_t3956901511 * __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	typedef void (*GUIStyle_set_fontSize_m1566850023_ftn) (GUIStyle_t3956901511 *, int32_t);
+	static GUIStyle_set_fontSize_m1566850023_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (GUIStyle_set_fontSize_m1566850023_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GUIStyle::set_fontSize(System.Int32)");
+	_il2cpp_icall_func(__this, ___value0);
+}
 // System.IntPtr UnityEngine.GUIStyle::Internal_Create(UnityEngine.GUIStyle)
 extern "C" IL2CPP_METHOD_ATTR intptr_t GUIStyle_Internal_Create_m2274420027 (RuntimeObject * __this /* static, unused */, GUIStyle_t3956901511 * ___self0, const RuntimeMethod* method)
 {
@@ -13888,6 +13924,16 @@ extern "C" IL2CPP_METHOD_ATTR intptr_t GUIStyle_Internal_Create_m2274420027 (Run
 	intptr_t retVal = _il2cpp_icall_func(___self0);
 	return retVal;
 }
+// System.IntPtr UnityEngine.GUIStyle::Internal_Copy(UnityEngine.GUIStyle,UnityEngine.GUIStyle)
+extern "C" IL2CPP_METHOD_ATTR intptr_t GUIStyle_Internal_Copy_m2771217011 (RuntimeObject * __this /* static, unused */, GUIStyle_t3956901511 * ___self0, GUIStyle_t3956901511 * ___other1, const RuntimeMethod* method)
+{
+	typedef intptr_t (*GUIStyle_Internal_Copy_m2771217011_ftn) (GUIStyle_t3956901511 *, GUIStyle_t3956901511 *);
+	static GUIStyle_Internal_Copy_m2771217011_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (GUIStyle_Internal_Copy_m2771217011_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GUIStyle::Internal_Copy(UnityEngine.GUIStyle,UnityEngine.GUIStyle)");
+	intptr_t retVal = _il2cpp_icall_func(___self0, ___other1);
+	return retVal;
+}
 // System.Void UnityEngine.GUIStyle::Internal_Destroy(System.IntPtr)
 extern "C" IL2CPP_METHOD_ATTR void GUIStyle_Internal_Destroy_m293134876 (RuntimeObject * __this /* static, unused */, intptr_t ___self0, const RuntimeMethod* method)
 {
@@ -13896,6 +13942,16 @@ extern "C" IL2CPP_METHOD_ATTR void GUIStyle_Internal_Destroy_m293134876 (Runtime
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (GUIStyle_Internal_Destroy_m293134876_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GUIStyle::Internal_Destroy(System.IntPtr)");
 	_il2cpp_icall_func(___self0);
+}
+// System.IntPtr UnityEngine.GUIStyle::GetStyleStatePtr(System.Int32)
+extern "C" IL2CPP_METHOD_ATTR intptr_t GUIStyle_GetStyleStatePtr_m751258175 (GUIStyle_t3956901511 * __this, int32_t ___idx0, const RuntimeMethod* method)
+{
+	typedef intptr_t (*GUIStyle_GetStyleStatePtr_m751258175_ftn) (GUIStyle_t3956901511 *, int32_t);
+	static GUIStyle_GetStyleStatePtr_m751258175_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (GUIStyle_GetStyleStatePtr_m751258175_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GUIStyle::GetStyleStatePtr(System.Int32)");
+	intptr_t retVal = _il2cpp_icall_func(__this, ___idx0);
+	return retVal;
 }
 // System.IntPtr UnityEngine.GUIStyle::GetRectOffsetPtr(System.Int32)
 extern "C" IL2CPP_METHOD_ATTR intptr_t GUIStyle_GetRectOffsetPtr_m2881421249 (GUIStyle_t3956901511 * __this, int32_t ___idx0, const RuntimeMethod* method)
@@ -14024,6 +14080,36 @@ FINALLY_0033:
 IL_003a:
 	{
 		return;
+	}
+}
+// UnityEngine.GUIStyleState UnityEngine.GUIStyle::get_normal()
+extern "C" IL2CPP_METHOD_ATTR GUIStyleState_t1397964415 * GUIStyle_get_normal_m729441812 (GUIStyle_t3956901511 * __this, const RuntimeMethod* method)
+{
+	GUIStyleState_t1397964415 * V_0 = NULL;
+	{
+		GUIStyleState_t1397964415 * L_0 = __this->get_m_Normal_1();
+		if (L_0)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		intptr_t L_1 = GUIStyle_GetStyleStatePtr_m751258175(__this, 0, /*hidden argument*/NULL);
+		GUIStyleState_t1397964415 * L_2 = GUIStyleState_GetGUIStyleState_m74106824(NULL /*static, unused*/, __this, L_1, /*hidden argument*/NULL);
+		__this->set_m_Normal_1(L_2);
+	}
+
+IL_001f:
+	{
+		GUIStyleState_t1397964415 * L_3 = __this->get_m_Normal_1();
+		V_0 = L_3;
+		goto IL_002b;
+	}
+
+IL_002b:
+	{
+		GUIStyleState_t1397964415 * L_4 = V_0;
+		return L_4;
 	}
 }
 // UnityEngine.RectOffset UnityEngine.GUIStyle::get_margin()
@@ -14416,6 +14502,26 @@ extern "C" IL2CPP_METHOD_ATTR void GUIStyleState__ctor_m1648430456 (GUIStyleStat
 		return;
 	}
 }
+// System.Void UnityEngine.GUIStyleState::.ctor(UnityEngine.GUIStyle,System.IntPtr)
+extern "C" IL2CPP_METHOD_ATTR void GUIStyleState__ctor_m3422479228 (GUIStyleState_t1397964415 * __this, GUIStyle_t3956901511 * ___sourceStyle0, intptr_t ___source1, const RuntimeMethod* method)
+{
+	{
+		Object__ctor_m297566312(__this, /*hidden argument*/NULL);
+		GUIStyle_t3956901511 * L_0 = ___sourceStyle0;
+		__this->set_m_SourceStyle_1(L_0);
+		intptr_t L_1 = ___source1;
+		__this->set_m_Ptr_0(L_1);
+		return;
+	}
+}
+// System.Void UnityEngine.GUIStyleState::set_textColor(UnityEngine.Color)
+extern "C" IL2CPP_METHOD_ATTR void GUIStyleState_set_textColor_m1105876047 (GUIStyleState_t1397964415 * __this, Color_t2555686324  ___value0, const RuntimeMethod* method)
+{
+	{
+		GUIStyleState_set_textColor_Injected_m4151781644(__this, (Color_t2555686324 *)(&___value0), /*hidden argument*/NULL);
+		return;
+	}
+}
 // System.IntPtr UnityEngine.GUIStyleState::Init()
 extern "C" IL2CPP_METHOD_ATTR intptr_t GUIStyleState_Init_m1843829800 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
 {
@@ -14434,6 +14540,34 @@ extern "C" IL2CPP_METHOD_ATTR void GUIStyleState_Cleanup_m696329069 (GUIStyleSta
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (GUIStyleState_Cleanup_m696329069_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GUIStyleState::Cleanup()");
 	_il2cpp_icall_func(__this);
+}
+// UnityEngine.GUIStyleState UnityEngine.GUIStyleState::GetGUIStyleState(UnityEngine.GUIStyle,System.IntPtr)
+extern "C" IL2CPP_METHOD_ATTR GUIStyleState_t1397964415 * GUIStyleState_GetGUIStyleState_m74106824 (RuntimeObject * __this /* static, unused */, GUIStyle_t3956901511 * ___sourceStyle0, intptr_t ___source1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GUIStyleState_GetGUIStyleState_m74106824_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GUIStyleState_t1397964415 * V_0 = NULL;
+	GUIStyleState_t1397964415 * V_1 = NULL;
+	{
+		GUIStyle_t3956901511 * L_0 = ___sourceStyle0;
+		intptr_t L_1 = ___source1;
+		GUIStyleState_t1397964415 * L_2 = (GUIStyleState_t1397964415 *)il2cpp_codegen_object_new(GUIStyleState_t1397964415_il2cpp_TypeInfo_var);
+		GUIStyleState__ctor_m3422479228(L_2, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GUIStyleState_t1397964415 * L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		GUIStyleState_t1397964415 * L_4 = V_1;
+		return L_4;
+	}
 }
 // System.Void UnityEngine.GUIStyleState::Finalize()
 extern "C" IL2CPP_METHOD_ATTR void GUIStyleState_Finalize_m1466589588 (GUIStyleState_t1397964415 * __this, const RuntimeMethod* method)
@@ -14496,6 +14630,15 @@ IL_002b:
 	{
 		return;
 	}
+}
+// System.Void UnityEngine.GUIStyleState::set_textColor_Injected(UnityEngine.Color&)
+extern "C" IL2CPP_METHOD_ATTR void GUIStyleState_set_textColor_Injected_m4151781644 (GUIStyleState_t1397964415 * __this, Color_t2555686324 * ___value0, const RuntimeMethod* method)
+{
+	typedef void (*GUIStyleState_set_textColor_Injected_m4151781644_ftn) (GUIStyleState_t1397964415 *, Color_t2555686324 *);
+	static GUIStyleState_set_textColor_Injected_m4151781644_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (GUIStyleState_set_textColor_Injected_m4151781644_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GUIStyleState::set_textColor_Injected(UnityEngine.Color&)");
+	_il2cpp_icall_func(__this, ___value0);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

@@ -830,6 +830,14 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_GUIStyle_GetRectOffsetPtr();
 		Register_UnityEngine_GUIStyle_GetRectOffsetPtr();
 
+		//System.IntPtr UnityEngine.GUIStyle::GetStyleStatePtr(System.Int32)
+		void Register_UnityEngine_GUIStyle_GetStyleStatePtr();
+		Register_UnityEngine_GUIStyle_GetStyleStatePtr();
+
+		//System.IntPtr UnityEngine.GUIStyle::Internal_Copy(UnityEngine.GUIStyle,UnityEngine.GUIStyle)
+		void Register_UnityEngine_GUIStyle_Internal_Copy();
+		Register_UnityEngine_GUIStyle_Internal_Copy();
+
 		//System.IntPtr UnityEngine.GUIStyle::Internal_Create(UnityEngine.GUIStyle)
 		void Register_UnityEngine_GUIStyle_Internal_Create();
 		Register_UnityEngine_GUIStyle_Internal_Create();
@@ -870,6 +878,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_GUIStyle_SetDefaultFont();
 		Register_UnityEngine_GUIStyle_SetDefaultFont();
 
+		//System.Void UnityEngine.GUIStyle::set_fontSize(System.Int32)
+		void Register_UnityEngine_GUIStyle_set_fontSize();
+		Register_UnityEngine_GUIStyle_set_fontSize();
+
 		//System.Void UnityEngine.GUIStyle::set_stretchWidth(System.Boolean)
 		void Register_UnityEngine_GUIStyle_set_stretchWidth();
 		Register_UnityEngine_GUIStyle_set_stretchWidth();
@@ -889,6 +901,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.GUIStyleState::Cleanup()
 		void Register_UnityEngine_GUIStyleState_Cleanup();
 		Register_UnityEngine_GUIStyleState_Cleanup();
+
+		//System.Void UnityEngine.GUIStyleState::set_textColor_Injected(UnityEngine.Color&)
+		void Register_UnityEngine_GUIStyleState_set_textColor_Injected();
+		Register_UnityEngine_GUIStyleState_set_textColor_Injected();
 
 	//End Registrations for type : UnityEngine.GUIStyleState
 
@@ -1733,6 +1749,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Renderer::SetMaterial(UnityEngine.Material)
 		void Register_UnityEngine_Renderer_SetMaterial();
 		Register_UnityEngine_Renderer_SetMaterial();
+
+		//System.Void UnityEngine.Renderer::set_enabled(System.Boolean)
+		void Register_UnityEngine_Renderer_set_enabled();
+		Register_UnityEngine_Renderer_set_enabled();
 
 		//System.Void UnityEngine.Renderer::set_receiveShadows(System.Boolean)
 		void Register_UnityEngine_Renderer_set_receiveShadows();

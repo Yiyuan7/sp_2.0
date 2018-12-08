@@ -19936,16 +19936,16 @@ static void MeshRenderer_t587009260_CustomAttributesCacheGenerator_MeshRenderer_
 static void RectOffset_t1369453676_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
-		UsedByNativeCodeAttribute_t1703770351 * tmp = (UsedByNativeCodeAttribute_t1703770351 *)cache->attributes[0];
+		NativeHeaderAttribute_t5261382 * tmp = (NativeHeaderAttribute_t5261382 *)cache->attributes[0];
+		NativeHeaderAttribute__ctor_m457462113(tmp, il2cpp_codegen_string_new_wrapper("\x4D\x6F\x64\x75\x6C\x65\x73\x2F\x49\x4D\x47\x55\x49\x2F\x47\x55\x49\x53\x74\x79\x6C\x65\x2E\x68"), NULL);
+	}
+	{
+		UsedByNativeCodeAttribute_t1703770351 * tmp = (UsedByNativeCodeAttribute_t1703770351 *)cache->attributes[1];
 		UsedByNativeCodeAttribute__ctor_m2647015777(tmp, NULL);
 	}
 	{
-		NativeHeaderAttribute_t5261382 * tmp = (NativeHeaderAttribute_t5261382 *)cache->attributes[1];
-		NativeHeaderAttribute__ctor_m457462113(tmp, il2cpp_codegen_string_new_wrapper("\x52\x75\x6E\x74\x69\x6D\x65\x2F\x43\x61\x6D\x65\x72\x61\x2F\x52\x65\x6E\x64\x65\x72\x4C\x61\x79\x65\x72\x73\x2F\x47\x55\x49\x4C\x61\x79\x65\x72\x2E\x68"), NULL);
-	}
-	{
 		NativeHeaderAttribute_t5261382 * tmp = (NativeHeaderAttribute_t5261382 *)cache->attributes[2];
-		NativeHeaderAttribute__ctor_m457462113(tmp, il2cpp_codegen_string_new_wrapper("\x4D\x6F\x64\x75\x6C\x65\x73\x2F\x49\x4D\x47\x55\x49\x2F\x47\x55\x49\x53\x74\x79\x6C\x65\x2E\x68"), NULL);
+		NativeHeaderAttribute__ctor_m457462113(tmp, il2cpp_codegen_string_new_wrapper("\x52\x75\x6E\x74\x69\x6D\x65\x2F\x43\x61\x6D\x65\x72\x61\x2F\x52\x65\x6E\x64\x65\x72\x4C\x61\x79\x65\x72\x73\x2F\x47\x55\x49\x4C\x61\x79\x65\x72\x2E\x68"), NULL);
 	}
 }
 static void RectOffset_t1369453676_CustomAttributesCacheGenerator_m_Ptr(CustomAttributesCache* cache)
@@ -20054,11 +20054,11 @@ static void TouchScreenKeyboard_t731888065_CustomAttributesCacheGenerator(Custom
 {
 	{
 		NativeHeaderAttribute_t5261382 * tmp = (NativeHeaderAttribute_t5261382 *)cache->attributes[0];
-		NativeHeaderAttribute__ctor_m457462113(tmp, il2cpp_codegen_string_new_wrapper("\x52\x75\x6E\x74\x69\x6D\x65\x2F\x45\x78\x70\x6F\x72\x74\x2F\x48\x61\x6E\x64\x68\x65\x6C\x64\x2E\x62\x69\x6E\x64\x69\x6E\x67\x73\x2E\x68"), NULL);
+		NativeHeaderAttribute__ctor_m457462113(tmp, il2cpp_codegen_string_new_wrapper("\x52\x75\x6E\x74\x69\x6D\x65\x2F\x49\x6E\x70\x75\x74\x2F\x4F\x6E\x53\x63\x72\x65\x65\x6E\x4B\x65\x79\x62\x6F\x61\x72\x64\x2E\x68"), NULL);
 	}
 	{
 		NativeHeaderAttribute_t5261382 * tmp = (NativeHeaderAttribute_t5261382 *)cache->attributes[1];
-		NativeHeaderAttribute__ctor_m457462113(tmp, il2cpp_codegen_string_new_wrapper("\x52\x75\x6E\x74\x69\x6D\x65\x2F\x49\x6E\x70\x75\x74\x2F\x4F\x6E\x53\x63\x72\x65\x65\x6E\x4B\x65\x79\x62\x6F\x61\x72\x64\x2E\x68"), NULL);
+		NativeHeaderAttribute__ctor_m457462113(tmp, il2cpp_codegen_string_new_wrapper("\x52\x75\x6E\x74\x69\x6D\x65\x2F\x45\x78\x70\x6F\x72\x74\x2F\x48\x61\x6E\x64\x68\x65\x6C\x64\x2E\x62\x69\x6E\x64\x69\x6E\x67\x73\x2E\x68"), NULL);
 	}
 }
 static void TouchScreenKeyboard_t731888065_CustomAttributesCacheGenerator_U3ChideInputU3Ek__BackingField(CustomAttributesCache* cache)
@@ -20086,23 +20086,23 @@ static void TouchScreenKeyboard_t731888065_CustomAttributesCacheGenerator_U3Ccan
 static void TouchScreenKeyboard_t731888065_CustomAttributesCacheGenerator_U3CcanSetSelectionU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	{
-		CompilerGeneratedAttribute_t23527886 * tmp = (CompilerGeneratedAttribute_t23527886 *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m3151881902(tmp, NULL);
-	}
-	{
-		DebuggerBrowsableAttribute_t1026244177 * tmp = (DebuggerBrowsableAttribute_t1026244177 *)cache->attributes[1];
-		DebuggerBrowsableAttribute__ctor_m28117720(tmp, 0LL, NULL);
-	}
-}
-static void TouchScreenKeyboard_t731888065_CustomAttributesCacheGenerator_U3CtypeU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	{
 		DebuggerBrowsableAttribute_t1026244177 * tmp = (DebuggerBrowsableAttribute_t1026244177 *)cache->attributes[0];
 		DebuggerBrowsableAttribute__ctor_m28117720(tmp, 0LL, NULL);
 	}
 	{
 		CompilerGeneratedAttribute_t23527886 * tmp = (CompilerGeneratedAttribute_t23527886 *)cache->attributes[1];
 		CompilerGeneratedAttribute__ctor_m3151881902(tmp, NULL);
+	}
+}
+static void TouchScreenKeyboard_t731888065_CustomAttributesCacheGenerator_U3CtypeU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	{
+		CompilerGeneratedAttribute_t23527886 * tmp = (CompilerGeneratedAttribute_t23527886 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3151881902(tmp, NULL);
+	}
+	{
+		DebuggerBrowsableAttribute_t1026244177 * tmp = (DebuggerBrowsableAttribute_t1026244177 *)cache->attributes[1];
+		DebuggerBrowsableAttribute__ctor_m28117720(tmp, 0LL, NULL);
 	}
 }
 static void TouchScreenKeyboard_t731888065_CustomAttributesCacheGenerator_TouchScreenKeyboard_Internal_Destroy_m2069062265(CustomAttributesCache* cache)
@@ -20200,12 +20200,12 @@ static void TouchScreenKeyboard_t731888065_CustomAttributesCacheGenerator_TouchS
 static void TouchScreenKeyboard_t731888065_CustomAttributesCacheGenerator_TouchScreenKeyboard_set_hideInput_m1428661361(CustomAttributesCache* cache)
 {
 	{
-		NativeNameAttribute_t3268151526 * tmp = (NativeNameAttribute_t3268151526 *)cache->attributes[0];
-		NativeNameAttribute__ctor_m3296876808(tmp, il2cpp_codegen_string_new_wrapper("\x73\x65\x74\x49\x6E\x70\x75\x74\x48\x69\x64\x64\x65\x6E"), NULL);
+		CompilerGeneratedAttribute_t23527886 * tmp = (CompilerGeneratedAttribute_t23527886 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3151881902(tmp, NULL);
 	}
 	{
-		CompilerGeneratedAttribute_t23527886 * tmp = (CompilerGeneratedAttribute_t23527886 *)cache->attributes[1];
-		CompilerGeneratedAttribute__ctor_m3151881902(tmp, NULL);
+		NativeNameAttribute_t3268151526 * tmp = (NativeNameAttribute_t3268151526 *)cache->attributes[1];
+		NativeNameAttribute__ctor_m3296876808(tmp, il2cpp_codegen_string_new_wrapper("\x73\x65\x74\x49\x6E\x70\x75\x74\x48\x69\x64\x64\x65\x6E"), NULL);
 	}
 }
 static void TouchScreenKeyboard_t731888065_CustomAttributesCacheGenerator_TouchScreenKeyboard_get_active_m4267591905(CustomAttributesCache* cache)
@@ -23595,12 +23595,12 @@ static void RenderPipeline_t957695896_CustomAttributesCacheGenerator_beginFrameR
 static void RenderPipeline_t957695896_CustomAttributesCacheGenerator_U3CdisposedU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	{
-		DebuggerBrowsableAttribute_t1026244177 * tmp = (DebuggerBrowsableAttribute_t1026244177 *)cache->attributes[0];
-		DebuggerBrowsableAttribute__ctor_m28117720(tmp, 0LL, NULL);
+		CompilerGeneratedAttribute_t23527886 * tmp = (CompilerGeneratedAttribute_t23527886 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3151881902(tmp, NULL);
 	}
 	{
-		CompilerGeneratedAttribute_t23527886 * tmp = (CompilerGeneratedAttribute_t23527886 *)cache->attributes[1];
-		CompilerGeneratedAttribute__ctor_m3151881902(tmp, NULL);
+		DebuggerBrowsableAttribute_t1026244177 * tmp = (DebuggerBrowsableAttribute_t1026244177 *)cache->attributes[1];
+		DebuggerBrowsableAttribute__ctor_m28117720(tmp, 0LL, NULL);
 	}
 }
 static void RenderPipeline_t957695896_CustomAttributesCacheGenerator_RenderPipeline_get_disposed_m1298833178(CustomAttributesCache* cache)
@@ -23620,12 +23620,12 @@ static void RenderPipeline_t957695896_CustomAttributesCacheGenerator_RenderPipel
 static void RenderPipelineManager_t4036911426_CustomAttributesCacheGenerator_U3CcurrentPipelineU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	{
-		DebuggerBrowsableAttribute_t1026244177 * tmp = (DebuggerBrowsableAttribute_t1026244177 *)cache->attributes[0];
-		DebuggerBrowsableAttribute__ctor_m28117720(tmp, 0LL, NULL);
+		CompilerGeneratedAttribute_t23527886 * tmp = (CompilerGeneratedAttribute_t23527886 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3151881902(tmp, NULL);
 	}
 	{
-		CompilerGeneratedAttribute_t23527886 * tmp = (CompilerGeneratedAttribute_t23527886 *)cache->attributes[1];
-		CompilerGeneratedAttribute__ctor_m3151881902(tmp, NULL);
+		DebuggerBrowsableAttribute_t1026244177 * tmp = (DebuggerBrowsableAttribute_t1026244177 *)cache->attributes[1];
+		DebuggerBrowsableAttribute__ctor_m28117720(tmp, 0LL, NULL);
 	}
 }
 static void RenderPipelineManager_t4036911426_CustomAttributesCacheGenerator_RenderPipelineManager_get_currentPipeline_m1638613344(CustomAttributesCache* cache)
@@ -23670,12 +23670,12 @@ static void SupportedRenderingFeatures_t353898663_CustomAttributesCacheGenerator
 static void SupportedRenderingFeatures_t353898663_CustomAttributesCacheGenerator_U3CdefaultMixedLightingModeU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	{
-		CompilerGeneratedAttribute_t23527886 * tmp = (CompilerGeneratedAttribute_t23527886 *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m3151881902(tmp, NULL);
+		DebuggerBrowsableAttribute_t1026244177 * tmp = (DebuggerBrowsableAttribute_t1026244177 *)cache->attributes[0];
+		DebuggerBrowsableAttribute__ctor_m28117720(tmp, 0LL, NULL);
 	}
 	{
-		DebuggerBrowsableAttribute_t1026244177 * tmp = (DebuggerBrowsableAttribute_t1026244177 *)cache->attributes[1];
-		DebuggerBrowsableAttribute__ctor_m28117720(tmp, 0LL, NULL);
+		CompilerGeneratedAttribute_t23527886 * tmp = (CompilerGeneratedAttribute_t23527886 *)cache->attributes[1];
+		CompilerGeneratedAttribute__ctor_m3151881902(tmp, NULL);
 	}
 }
 static void SupportedRenderingFeatures_t353898663_CustomAttributesCacheGenerator_U3CsupportedMixedLightingModesU3Ek__BackingField(CustomAttributesCache* cache)
@@ -27478,11 +27478,11 @@ static void GUI_t1624858472_CustomAttributesCacheGenerator(CustomAttributesCache
 {
 	{
 		NativeHeaderAttribute_t5261382 * tmp = (NativeHeaderAttribute_t5261382 *)cache->attributes[0];
-		NativeHeaderAttribute__ctor_m457462113(tmp, il2cpp_codegen_string_new_wrapper("\x4D\x6F\x64\x75\x6C\x65\x73\x2F\x49\x4D\x47\x55\x49\x2F\x47\x55\x49\x2E\x62\x69\x6E\x64\x69\x6E\x67\x73\x2E\x68"), NULL);
+		NativeHeaderAttribute__ctor_m457462113(tmp, il2cpp_codegen_string_new_wrapper("\x4D\x6F\x64\x75\x6C\x65\x73\x2F\x49\x4D\x47\x55\x49\x2F\x47\x55\x49\x53\x6B\x69\x6E\x2E\x62\x69\x6E\x64\x69\x6E\x67\x73\x2E\x68"), NULL);
 	}
 	{
 		NativeHeaderAttribute_t5261382 * tmp = (NativeHeaderAttribute_t5261382 *)cache->attributes[1];
-		NativeHeaderAttribute__ctor_m457462113(tmp, il2cpp_codegen_string_new_wrapper("\x4D\x6F\x64\x75\x6C\x65\x73\x2F\x49\x4D\x47\x55\x49\x2F\x47\x55\x49\x53\x6B\x69\x6E\x2E\x62\x69\x6E\x64\x69\x6E\x67\x73\x2E\x68"), NULL);
+		NativeHeaderAttribute__ctor_m457462113(tmp, il2cpp_codegen_string_new_wrapper("\x4D\x6F\x64\x75\x6C\x65\x73\x2F\x49\x4D\x47\x55\x49\x2F\x47\x55\x49\x2E\x62\x69\x6E\x64\x69\x6E\x67\x73\x2E\x68"), NULL);
 	}
 }
 static void GUI_t1624858472_CustomAttributesCacheGenerator_U3CnextScrollStepTimeU3Ek__BackingField(CustomAttributesCache* cache)
@@ -27906,6 +27906,13 @@ static void GUIStyleState_t1397964415_CustomAttributesCacheGenerator_GUIStyleSta
 		NativeMethodAttribute_set_HasExplicitThis_m2961870915(tmp, true, NULL);
 	}
 }
+static void GUIStyleState_t1397964415_CustomAttributesCacheGenerator_GUIStyleState_t1397964415____textColor_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		NativePropertyAttribute_t1305929258 * tmp = (NativePropertyAttribute_t1305929258 *)cache->attributes[0];
+		NativePropertyAttribute__ctor_m643117247(tmp, il2cpp_codegen_string_new_wrapper("\x74\x65\x78\x74\x43\x6F\x6C\x6F\x72"), false, 1LL, NULL);
+	}
+}
 static void GUIStyle_t3956901511_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
@@ -27926,6 +27933,15 @@ static void GUIStyle_t3956901511_CustomAttributesCacheGenerator_GUIStyle_Interna
 		NativeMethodAttribute_set_IsThreadSafe_m2457033065(tmp, true, NULL);
 	}
 }
+static void GUIStyle_t3956901511_CustomAttributesCacheGenerator_GUIStyle_Internal_Copy_m2771217011(CustomAttributesCache* cache)
+{
+	{
+		FreeFunctionAttribute_t2020741617 * tmp = (FreeFunctionAttribute_t2020741617 *)cache->attributes[0];
+		FreeFunctionAttribute__ctor_m225850777(tmp, NULL);
+		NativeMethodAttribute_set_Name_m1946475768(tmp, il2cpp_codegen_string_new_wrapper("\x47\x55\x49\x53\x74\x79\x6C\x65\x5F\x42\x69\x6E\x64\x69\x6E\x67\x73\x3A\x3A\x49\x6E\x74\x65\x72\x6E\x61\x6C\x5F\x43\x6F\x70\x79"), NULL);
+		NativeMethodAttribute_set_IsThreadSafe_m2457033065(tmp, true, NULL);
+	}
+}
 static void GUIStyle_t3956901511_CustomAttributesCacheGenerator_GUIStyle_Internal_Destroy_m293134876(CustomAttributesCache* cache)
 {
 	{
@@ -27933,6 +27949,16 @@ static void GUIStyle_t3956901511_CustomAttributesCacheGenerator_GUIStyle_Interna
 		FreeFunctionAttribute__ctor_m225850777(tmp, NULL);
 		NativeMethodAttribute_set_Name_m1946475768(tmp, il2cpp_codegen_string_new_wrapper("\x47\x55\x49\x53\x74\x79\x6C\x65\x5F\x42\x69\x6E\x64\x69\x6E\x67\x73\x3A\x3A\x49\x6E\x74\x65\x72\x6E\x61\x6C\x5F\x44\x65\x73\x74\x72\x6F\x79"), NULL);
 		NativeMethodAttribute_set_IsThreadSafe_m2457033065(tmp, true, NULL);
+	}
+}
+static void GUIStyle_t3956901511_CustomAttributesCacheGenerator_GUIStyle_GetStyleStatePtr_m751258175(CustomAttributesCache* cache)
+{
+	{
+		FreeFunctionAttribute_t2020741617 * tmp = (FreeFunctionAttribute_t2020741617 *)cache->attributes[0];
+		FreeFunctionAttribute__ctor_m225850777(tmp, NULL);
+		NativeMethodAttribute_set_Name_m1946475768(tmp, il2cpp_codegen_string_new_wrapper("\x47\x55\x49\x53\x74\x79\x6C\x65\x5F\x42\x69\x6E\x64\x69\x6E\x67\x73\x3A\x3A\x47\x65\x74\x53\x74\x79\x6C\x65\x53\x74\x61\x74\x65\x50\x74\x72"), NULL);
+		NativeMethodAttribute_set_IsThreadSafe_m2457033065(tmp, true, NULL);
+		NativeMethodAttribute_set_HasExplicitThis_m2961870915(tmp, true, NULL);
 	}
 }
 static void GUIStyle_t3956901511_CustomAttributesCacheGenerator_GUIStyle_GetRectOffsetPtr_m2881421249(CustomAttributesCache* cache)
@@ -28044,6 +28070,13 @@ static void GUIStyle_t3956901511_CustomAttributesCacheGenerator_GUIStyle_t395690
 		NativePropertyAttribute__ctor_m643117247(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x5F\x53\x74\x72\x65\x74\x63\x68\x48\x65\x69\x67\x68\x74"), false, 1LL, NULL);
 	}
 }
+static void GUIStyle_t3956901511_CustomAttributesCacheGenerator_GUIStyle_t3956901511____fontSize_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		NativePropertyAttribute_t1305929258 * tmp = (NativePropertyAttribute_t1305929258 *)cache->attributes[0];
+		NativePropertyAttribute__ctor_m643117247(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x5F\x46\x6F\x6E\x74\x53\x69\x7A\x65"), false, 1LL, NULL);
+	}
+}
 static void GUITargetAttribute_t25796337_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
@@ -28062,7 +28095,7 @@ static void GUIUtility_t1868551600_CustomAttributesCacheGenerator(CustomAttribut
 {
 	{
 		NativeHeaderAttribute_t5261382 * tmp = (NativeHeaderAttribute_t5261382 *)cache->attributes[0];
-		NativeHeaderAttribute__ctor_m457462113(tmp, il2cpp_codegen_string_new_wrapper("\x52\x75\x6E\x74\x69\x6D\x65\x2F\x55\x74\x69\x6C\x69\x74\x69\x65\x73\x2F\x43\x6F\x70\x79\x50\x61\x73\x74\x65\x2E\x68"), NULL);
+		NativeHeaderAttribute__ctor_m457462113(tmp, il2cpp_codegen_string_new_wrapper("\x52\x75\x6E\x74\x69\x6D\x65\x2F\x49\x6E\x70\x75\x74\x2F\x49\x6E\x70\x75\x74\x4D\x61\x6E\x61\x67\x65\x72\x2E\x68"), NULL);
 	}
 	{
 		NativeHeaderAttribute_t5261382 * tmp = (NativeHeaderAttribute_t5261382 *)cache->attributes[1];
@@ -28070,7 +28103,7 @@ static void GUIUtility_t1868551600_CustomAttributesCacheGenerator(CustomAttribut
 	}
 	{
 		NativeHeaderAttribute_t5261382 * tmp = (NativeHeaderAttribute_t5261382 *)cache->attributes[2];
-		NativeHeaderAttribute__ctor_m457462113(tmp, il2cpp_codegen_string_new_wrapper("\x52\x75\x6E\x74\x69\x6D\x65\x2F\x49\x6E\x70\x75\x74\x2F\x49\x6E\x70\x75\x74\x4D\x61\x6E\x61\x67\x65\x72\x2E\x68"), NULL);
+		NativeHeaderAttribute__ctor_m457462113(tmp, il2cpp_codegen_string_new_wrapper("\x52\x75\x6E\x74\x69\x6D\x65\x2F\x43\x61\x6D\x65\x72\x61\x2F\x52\x65\x6E\x64\x65\x72\x4C\x61\x79\x65\x72\x73\x2F\x47\x55\x49\x54\x65\x78\x74\x75\x72\x65\x2E\x68"), NULL);
 	}
 	{
 		NativeHeaderAttribute_t5261382 * tmp = (NativeHeaderAttribute_t5261382 *)cache->attributes[3];
@@ -28078,7 +28111,7 @@ static void GUIUtility_t1868551600_CustomAttributesCacheGenerator(CustomAttribut
 	}
 	{
 		NativeHeaderAttribute_t5261382 * tmp = (NativeHeaderAttribute_t5261382 *)cache->attributes[4];
-		NativeHeaderAttribute__ctor_m457462113(tmp, il2cpp_codegen_string_new_wrapper("\x52\x75\x6E\x74\x69\x6D\x65\x2F\x43\x61\x6D\x65\x72\x61\x2F\x52\x65\x6E\x64\x65\x72\x4C\x61\x79\x65\x72\x73\x2F\x47\x55\x49\x54\x65\x78\x74\x75\x72\x65\x2E\x68"), NULL);
+		NativeHeaderAttribute__ctor_m457462113(tmp, il2cpp_codegen_string_new_wrapper("\x52\x75\x6E\x74\x69\x6D\x65\x2F\x55\x74\x69\x6C\x69\x74\x69\x65\x73\x2F\x43\x6F\x70\x79\x50\x61\x73\x74\x65\x2E\x68"), NULL);
 	}
 }
 static void GUIUtility_t1868551600_CustomAttributesCacheGenerator_s_SkinMode(CustomAttributesCache* cache)
@@ -38490,6 +38523,13 @@ static void UnityARHitTestExample_t877209621_CustomAttributesCacheGenerator_m_Di
 		SerializeField__ctor_m808862924(tmp, NULL);
 	}
 }
+static void UnityARHitTestExample_t877209621_CustomAttributesCacheGenerator_showdistanceButton(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t3286833614 * tmp = (SerializeField_t3286833614 *)cache->attributes[0];
+		SerializeField__ctor_m808862924(tmp, NULL);
+	}
+}
 static void UnityAREnvironmentProbeCubemapDataMethods_t3147578470_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
@@ -39443,7 +39483,7 @@ static void UnityARKitPluginSettings_t2201217663_CustomAttributesCacheGenerator_
 		TooltipAttribute__ctor_m534364555(tmp, il2cpp_codegen_string_new_wrapper("\x54\x6F\x67\x67\x6C\x65\x73\x20\x77\x68\x65\x74\x68\x65\x72\x20\x41\x52\x4B\x69\x74\x20\x69\x73\x20\x72\x65\x71\x75\x69\x72\x65\x64\x20\x66\x6F\x72\x20\x74\x68\x69\x73\x20\x61\x70\x70\x3A\x20\x77\x69\x6C\x6C\x20\x6D\x61\x6B\x65\x20\x61\x70\x70\x20\x6F\x6E\x6C\x79\x20\x64\x6F\x77\x6E\x6C\x6F\x61\x64\x61\x62\x6C\x65\x20\x62\x79\x20\x64\x65\x76\x69\x63\x65\x73\x20\x77\x69\x74\x68\x20\x41\x52\x4B\x69\x74\x20\x73\x75\x70\x70\x6F\x72\x74\x20\x69\x66\x20\x65\x6E\x61\x62\x6C\x65\x64\x2E"), NULL);
 	}
 }
-extern const CustomAttributesCacheGenerator g_AttributeGenerators[3583] = 
+extern const CustomAttributesCacheGenerator g_AttributeGenerators[3588] = 
 {
 	NULL,
 	g_mscorlib_Assembly_CustomAttributesCacheGenerator,
@@ -41854,9 +41894,12 @@ extern const CustomAttributesCacheGenerator g_AttributeGenerators[3583] =
 	GUIStyleState_t1397964415_CustomAttributesCacheGenerator,
 	GUIStyleState_t1397964415_CustomAttributesCacheGenerator_GUIStyleState_Init_m1843829800,
 	GUIStyleState_t1397964415_CustomAttributesCacheGenerator_GUIStyleState_Cleanup_m696329069,
+	GUIStyleState_t1397964415_CustomAttributesCacheGenerator_GUIStyleState_t1397964415____textColor_PropertyInfo,
 	GUIStyle_t3956901511_CustomAttributesCacheGenerator,
 	GUIStyle_t3956901511_CustomAttributesCacheGenerator_GUIStyle_Internal_Create_m2274420027,
+	GUIStyle_t3956901511_CustomAttributesCacheGenerator_GUIStyle_Internal_Copy_m2771217011,
 	GUIStyle_t3956901511_CustomAttributesCacheGenerator_GUIStyle_Internal_Destroy_m293134876,
+	GUIStyle_t3956901511_CustomAttributesCacheGenerator_GUIStyle_GetStyleStatePtr_m751258175,
 	GUIStyle_t3956901511_CustomAttributesCacheGenerator_GUIStyle_GetRectOffsetPtr_m2881421249,
 	GUIStyle_t3956901511_CustomAttributesCacheGenerator_GUIStyle_Internal_Draw2_m2453931771,
 	GUIStyle_t3956901511_CustomAttributesCacheGenerator_GUIStyle_Internal_CalcSizeWithConstraints_m2799404746,
@@ -41871,6 +41914,7 @@ extern const CustomAttributesCacheGenerator g_AttributeGenerators[3583] =
 	GUIStyle_t3956901511_CustomAttributesCacheGenerator_GUIStyle_t3956901511____fixedHeight_PropertyInfo,
 	GUIStyle_t3956901511_CustomAttributesCacheGenerator_GUIStyle_t3956901511____stretchWidth_PropertyInfo,
 	GUIStyle_t3956901511_CustomAttributesCacheGenerator_GUIStyle_t3956901511____stretchHeight_PropertyInfo,
+	GUIStyle_t3956901511_CustomAttributesCacheGenerator_GUIStyle_t3956901511____fontSize_PropertyInfo,
 	GUITargetAttribute_t25796337_CustomAttributesCacheGenerator,
 	GUITargetAttribute_t25796337_CustomAttributesCacheGenerator_GUITargetAttribute_GetGUITargetAttrValue_m2954410352,
 	GUIUtility_t1868551600_CustomAttributesCacheGenerator,
@@ -42932,6 +42976,7 @@ extern const CustomAttributesCacheGenerator g_AttributeGenerators[3583] =
 	UnityARHitTestExample_t877209621_CustomAttributesCacheGenerator_SpawnChair,
 	UnityARHitTestExample_t877209621_CustomAttributesCacheGenerator_m_LineRenderer,
 	UnityARHitTestExample_t877209621_CustomAttributesCacheGenerator_m_DistanceTextHldr,
+	UnityARHitTestExample_t877209621_CustomAttributesCacheGenerator_showdistanceButton,
 	UnityAREnvironmentProbeCubemapDataMethods_t3147578470_CustomAttributesCacheGenerator,
 	UnityAREnvironmentProbeCubemapDataMethods_t3147578470_CustomAttributesCacheGenerator_UnityAREnvironmentProbeCubemapDataMethods_GetTextureFormat_m1819816950,
 	UnityARSessionNativeInterface_t3929719369_CustomAttributesCacheGenerator_AREnvironmentProbeAnchorAddedEvent,

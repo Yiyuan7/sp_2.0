@@ -6191,28 +6191,32 @@ public:
 	TextMesh_t1536577757 * ___m_DistanceTextHldr_14;
 	// System.String UnityARHitTestExample::objectChosen
 	String_t* ___objectChosen_15;
+	// System.Boolean UnityARHitTestExample::showline
+	bool ___showline_16;
 	// System.Single UnityARHitTestExample::distance
-	float ___distance_18;
+	float ___distance_19;
 	// System.Boolean UnityARHitTestExample::status
-	bool ___status_19;
+	bool ___status_20;
 	// System.Collections.Generic.List`1<UnityEngine.Vector3> UnityARHitTestExample::deskposition
-	List_1_t899420910 * ___deskposition_20;
+	List_1_t899420910 * ___deskposition_21;
 	// System.Collections.Generic.List`1<UnityEngine.Vector3> UnityARHitTestExample::chairposition
-	List_1_t899420910 * ___chairposition_21;
+	List_1_t899420910 * ___chairposition_22;
 	// System.Collections.Generic.List`1<UnityEngine.Quaternion> UnityARHitTestExample::deskorientation
-	List_1_t3774003073 * ___deskorientation_22;
+	List_1_t3774003073 * ___deskorientation_23;
 	// System.Collections.Generic.List`1<UnityEngine.Quaternion> UnityARHitTestExample::chairorientation
-	List_1_t3774003073 * ___chairorientation_23;
+	List_1_t3774003073 * ___chairorientation_24;
 	// System.Collections.Generic.List`1<UnityEngine.Vector3> UnityARHitTestExample::phoneposition
-	List_1_t899420910 * ___phoneposition_24;
+	List_1_t899420910 * ___phoneposition_25;
 	// System.Collections.Generic.List`1<UnityEngine.Quaternion> UnityARHitTestExample::phoneorientation
-	List_1_t3774003073 * ___phoneorientation_25;
+	List_1_t3774003073 * ___phoneorientation_26;
+	// UnityEngine.UI.Button UnityARHitTestExample::showdistanceButton
+	Button_t4055032469 * ___showdistanceButton_27;
 	// UnityEngine.UI.Button UnityARHitTestExample::phoneButton
-	Button_t4055032469 * ___phoneButton_26;
+	Button_t4055032469 * ___phoneButton_28;
 	// System.Single UnityARHitTestExample::counter
-	float ___counter_27;
+	float ___counter_29;
 	// System.Single UnityARHitTestExample::linedistance
-	float ___linedistance_28;
+	float ___linedistance_30;
 
 public:
 	inline static int32_t get_offset_of_m_HitTransform_4() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621, ___m_HitTransform_4)); }
@@ -6310,99 +6314,116 @@ public:
 		Il2CppCodeGenWriteBarrier((&___objectChosen_15), value);
 	}
 
-	inline static int32_t get_offset_of_distance_18() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621, ___distance_18)); }
-	inline float get_distance_18() const { return ___distance_18; }
-	inline float* get_address_of_distance_18() { return &___distance_18; }
-	inline void set_distance_18(float value)
+	inline static int32_t get_offset_of_showline_16() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621, ___showline_16)); }
+	inline bool get_showline_16() const { return ___showline_16; }
+	inline bool* get_address_of_showline_16() { return &___showline_16; }
+	inline void set_showline_16(bool value)
 	{
-		___distance_18 = value;
+		___showline_16 = value;
 	}
 
-	inline static int32_t get_offset_of_status_19() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621, ___status_19)); }
-	inline bool get_status_19() const { return ___status_19; }
-	inline bool* get_address_of_status_19() { return &___status_19; }
-	inline void set_status_19(bool value)
+	inline static int32_t get_offset_of_distance_19() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621, ___distance_19)); }
+	inline float get_distance_19() const { return ___distance_19; }
+	inline float* get_address_of_distance_19() { return &___distance_19; }
+	inline void set_distance_19(float value)
 	{
-		___status_19 = value;
+		___distance_19 = value;
 	}
 
-	inline static int32_t get_offset_of_deskposition_20() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621, ___deskposition_20)); }
-	inline List_1_t899420910 * get_deskposition_20() const { return ___deskposition_20; }
-	inline List_1_t899420910 ** get_address_of_deskposition_20() { return &___deskposition_20; }
-	inline void set_deskposition_20(List_1_t899420910 * value)
+	inline static int32_t get_offset_of_status_20() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621, ___status_20)); }
+	inline bool get_status_20() const { return ___status_20; }
+	inline bool* get_address_of_status_20() { return &___status_20; }
+	inline void set_status_20(bool value)
 	{
-		___deskposition_20 = value;
-		Il2CppCodeGenWriteBarrier((&___deskposition_20), value);
+		___status_20 = value;
 	}
 
-	inline static int32_t get_offset_of_chairposition_21() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621, ___chairposition_21)); }
-	inline List_1_t899420910 * get_chairposition_21() const { return ___chairposition_21; }
-	inline List_1_t899420910 ** get_address_of_chairposition_21() { return &___chairposition_21; }
-	inline void set_chairposition_21(List_1_t899420910 * value)
+	inline static int32_t get_offset_of_deskposition_21() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621, ___deskposition_21)); }
+	inline List_1_t899420910 * get_deskposition_21() const { return ___deskposition_21; }
+	inline List_1_t899420910 ** get_address_of_deskposition_21() { return &___deskposition_21; }
+	inline void set_deskposition_21(List_1_t899420910 * value)
 	{
-		___chairposition_21 = value;
-		Il2CppCodeGenWriteBarrier((&___chairposition_21), value);
+		___deskposition_21 = value;
+		Il2CppCodeGenWriteBarrier((&___deskposition_21), value);
 	}
 
-	inline static int32_t get_offset_of_deskorientation_22() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621, ___deskorientation_22)); }
-	inline List_1_t3774003073 * get_deskorientation_22() const { return ___deskorientation_22; }
-	inline List_1_t3774003073 ** get_address_of_deskorientation_22() { return &___deskorientation_22; }
-	inline void set_deskorientation_22(List_1_t3774003073 * value)
+	inline static int32_t get_offset_of_chairposition_22() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621, ___chairposition_22)); }
+	inline List_1_t899420910 * get_chairposition_22() const { return ___chairposition_22; }
+	inline List_1_t899420910 ** get_address_of_chairposition_22() { return &___chairposition_22; }
+	inline void set_chairposition_22(List_1_t899420910 * value)
 	{
-		___deskorientation_22 = value;
-		Il2CppCodeGenWriteBarrier((&___deskorientation_22), value);
+		___chairposition_22 = value;
+		Il2CppCodeGenWriteBarrier((&___chairposition_22), value);
 	}
 
-	inline static int32_t get_offset_of_chairorientation_23() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621, ___chairorientation_23)); }
-	inline List_1_t3774003073 * get_chairorientation_23() const { return ___chairorientation_23; }
-	inline List_1_t3774003073 ** get_address_of_chairorientation_23() { return &___chairorientation_23; }
-	inline void set_chairorientation_23(List_1_t3774003073 * value)
+	inline static int32_t get_offset_of_deskorientation_23() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621, ___deskorientation_23)); }
+	inline List_1_t3774003073 * get_deskorientation_23() const { return ___deskorientation_23; }
+	inline List_1_t3774003073 ** get_address_of_deskorientation_23() { return &___deskorientation_23; }
+	inline void set_deskorientation_23(List_1_t3774003073 * value)
 	{
-		___chairorientation_23 = value;
-		Il2CppCodeGenWriteBarrier((&___chairorientation_23), value);
+		___deskorientation_23 = value;
+		Il2CppCodeGenWriteBarrier((&___deskorientation_23), value);
 	}
 
-	inline static int32_t get_offset_of_phoneposition_24() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621, ___phoneposition_24)); }
-	inline List_1_t899420910 * get_phoneposition_24() const { return ___phoneposition_24; }
-	inline List_1_t899420910 ** get_address_of_phoneposition_24() { return &___phoneposition_24; }
-	inline void set_phoneposition_24(List_1_t899420910 * value)
+	inline static int32_t get_offset_of_chairorientation_24() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621, ___chairorientation_24)); }
+	inline List_1_t3774003073 * get_chairorientation_24() const { return ___chairorientation_24; }
+	inline List_1_t3774003073 ** get_address_of_chairorientation_24() { return &___chairorientation_24; }
+	inline void set_chairorientation_24(List_1_t3774003073 * value)
 	{
-		___phoneposition_24 = value;
-		Il2CppCodeGenWriteBarrier((&___phoneposition_24), value);
+		___chairorientation_24 = value;
+		Il2CppCodeGenWriteBarrier((&___chairorientation_24), value);
 	}
 
-	inline static int32_t get_offset_of_phoneorientation_25() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621, ___phoneorientation_25)); }
-	inline List_1_t3774003073 * get_phoneorientation_25() const { return ___phoneorientation_25; }
-	inline List_1_t3774003073 ** get_address_of_phoneorientation_25() { return &___phoneorientation_25; }
-	inline void set_phoneorientation_25(List_1_t3774003073 * value)
+	inline static int32_t get_offset_of_phoneposition_25() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621, ___phoneposition_25)); }
+	inline List_1_t899420910 * get_phoneposition_25() const { return ___phoneposition_25; }
+	inline List_1_t899420910 ** get_address_of_phoneposition_25() { return &___phoneposition_25; }
+	inline void set_phoneposition_25(List_1_t899420910 * value)
 	{
-		___phoneorientation_25 = value;
-		Il2CppCodeGenWriteBarrier((&___phoneorientation_25), value);
+		___phoneposition_25 = value;
+		Il2CppCodeGenWriteBarrier((&___phoneposition_25), value);
 	}
 
-	inline static int32_t get_offset_of_phoneButton_26() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621, ___phoneButton_26)); }
-	inline Button_t4055032469 * get_phoneButton_26() const { return ___phoneButton_26; }
-	inline Button_t4055032469 ** get_address_of_phoneButton_26() { return &___phoneButton_26; }
-	inline void set_phoneButton_26(Button_t4055032469 * value)
+	inline static int32_t get_offset_of_phoneorientation_26() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621, ___phoneorientation_26)); }
+	inline List_1_t3774003073 * get_phoneorientation_26() const { return ___phoneorientation_26; }
+	inline List_1_t3774003073 ** get_address_of_phoneorientation_26() { return &___phoneorientation_26; }
+	inline void set_phoneorientation_26(List_1_t3774003073 * value)
 	{
-		___phoneButton_26 = value;
-		Il2CppCodeGenWriteBarrier((&___phoneButton_26), value);
+		___phoneorientation_26 = value;
+		Il2CppCodeGenWriteBarrier((&___phoneorientation_26), value);
 	}
 
-	inline static int32_t get_offset_of_counter_27() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621, ___counter_27)); }
-	inline float get_counter_27() const { return ___counter_27; }
-	inline float* get_address_of_counter_27() { return &___counter_27; }
-	inline void set_counter_27(float value)
+	inline static int32_t get_offset_of_showdistanceButton_27() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621, ___showdistanceButton_27)); }
+	inline Button_t4055032469 * get_showdistanceButton_27() const { return ___showdistanceButton_27; }
+	inline Button_t4055032469 ** get_address_of_showdistanceButton_27() { return &___showdistanceButton_27; }
+	inline void set_showdistanceButton_27(Button_t4055032469 * value)
 	{
-		___counter_27 = value;
+		___showdistanceButton_27 = value;
+		Il2CppCodeGenWriteBarrier((&___showdistanceButton_27), value);
 	}
 
-	inline static int32_t get_offset_of_linedistance_28() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621, ___linedistance_28)); }
-	inline float get_linedistance_28() const { return ___linedistance_28; }
-	inline float* get_address_of_linedistance_28() { return &___linedistance_28; }
-	inline void set_linedistance_28(float value)
+	inline static int32_t get_offset_of_phoneButton_28() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621, ___phoneButton_28)); }
+	inline Button_t4055032469 * get_phoneButton_28() const { return ___phoneButton_28; }
+	inline Button_t4055032469 ** get_address_of_phoneButton_28() { return &___phoneButton_28; }
+	inline void set_phoneButton_28(Button_t4055032469 * value)
 	{
-		___linedistance_28 = value;
+		___phoneButton_28 = value;
+		Il2CppCodeGenWriteBarrier((&___phoneButton_28), value);
+	}
+
+	inline static int32_t get_offset_of_counter_29() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621, ___counter_29)); }
+	inline float get_counter_29() const { return ___counter_29; }
+	inline float* get_address_of_counter_29() { return &___counter_29; }
+	inline void set_counter_29(float value)
+	{
+		___counter_29 = value;
+	}
+
+	inline static int32_t get_offset_of_linedistance_30() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621, ___linedistance_30)); }
+	inline float get_linedistance_30() const { return ___linedistance_30; }
+	inline float* get_address_of_linedistance_30() { return &___linedistance_30; }
+	inline void set_linedistance_30(float value)
+	{
+		___linedistance_30 = value;
 	}
 };
 
@@ -6412,9 +6433,9 @@ public:
 	// UnityEngine.Quaternion UnityARHitTestExample::transorientation
 	Quaternion_t2301928331  ___transorientation_8;
 	// UnityEngine.Vector3 UnityARHitTestExample::relativeToolPosition
-	Vector3_t3722313464  ___relativeToolPosition_16;
+	Vector3_t3722313464  ___relativeToolPosition_17;
 	// UnityEngine.Vector3 UnityARHitTestExample::camera_linePosition
-	Vector3_t3722313464  ___camera_linePosition_17;
+	Vector3_t3722313464  ___camera_linePosition_18;
 
 public:
 	inline static int32_t get_offset_of_transorientation_8() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621_StaticFields, ___transorientation_8)); }
@@ -6425,20 +6446,20 @@ public:
 		___transorientation_8 = value;
 	}
 
-	inline static int32_t get_offset_of_relativeToolPosition_16() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621_StaticFields, ___relativeToolPosition_16)); }
-	inline Vector3_t3722313464  get_relativeToolPosition_16() const { return ___relativeToolPosition_16; }
-	inline Vector3_t3722313464 * get_address_of_relativeToolPosition_16() { return &___relativeToolPosition_16; }
-	inline void set_relativeToolPosition_16(Vector3_t3722313464  value)
+	inline static int32_t get_offset_of_relativeToolPosition_17() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621_StaticFields, ___relativeToolPosition_17)); }
+	inline Vector3_t3722313464  get_relativeToolPosition_17() const { return ___relativeToolPosition_17; }
+	inline Vector3_t3722313464 * get_address_of_relativeToolPosition_17() { return &___relativeToolPosition_17; }
+	inline void set_relativeToolPosition_17(Vector3_t3722313464  value)
 	{
-		___relativeToolPosition_16 = value;
+		___relativeToolPosition_17 = value;
 	}
 
-	inline static int32_t get_offset_of_camera_linePosition_17() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621_StaticFields, ___camera_linePosition_17)); }
-	inline Vector3_t3722313464  get_camera_linePosition_17() const { return ___camera_linePosition_17; }
-	inline Vector3_t3722313464 * get_address_of_camera_linePosition_17() { return &___camera_linePosition_17; }
-	inline void set_camera_linePosition_17(Vector3_t3722313464  value)
+	inline static int32_t get_offset_of_camera_linePosition_18() { return static_cast<int32_t>(offsetof(UnityARHitTestExample_t877209621_StaticFields, ___camera_linePosition_18)); }
+	inline Vector3_t3722313464  get_camera_linePosition_18() const { return ___camera_linePosition_18; }
+	inline Vector3_t3722313464 * get_address_of_camera_linePosition_18() { return &___camera_linePosition_18; }
+	inline void set_camera_linePosition_18(Vector3_t3722313464  value)
 	{
-		___camera_linePosition_17 = value;
+		___camera_linePosition_18 = value;
 	}
 };
 
@@ -6882,7 +6903,7 @@ extern const int32_t g_FieldOffsetTable2406[2] =
 	UnityARGeneratePlane_t272564669::get_offset_of_unityARAnchorManager_5(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2407 = { sizeof (UnityARHitTestExample_t877209621), -1, sizeof(UnityARHitTestExample_t877209621_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable2407[26] = 
+extern const int32_t g_FieldOffsetTable2407[28] = 
 {
 	UnityARHitTestExample_t877209621::get_offset_of_m_HitTransform_4(),
 	UnityARHitTestExample_t877209621::get_offset_of_maxRayDistance_5(),
@@ -6896,19 +6917,21 @@ extern const int32_t g_FieldOffsetTable2407[26] =
 	UnityARHitTestExample_t877209621::get_offset_of_m_LineRenderer_13(),
 	UnityARHitTestExample_t877209621::get_offset_of_m_DistanceTextHldr_14(),
 	UnityARHitTestExample_t877209621::get_offset_of_objectChosen_15(),
-	UnityARHitTestExample_t877209621_StaticFields::get_offset_of_relativeToolPosition_16(),
-	UnityARHitTestExample_t877209621_StaticFields::get_offset_of_camera_linePosition_17(),
-	UnityARHitTestExample_t877209621::get_offset_of_distance_18(),
-	UnityARHitTestExample_t877209621::get_offset_of_status_19(),
-	UnityARHitTestExample_t877209621::get_offset_of_deskposition_20(),
-	UnityARHitTestExample_t877209621::get_offset_of_chairposition_21(),
-	UnityARHitTestExample_t877209621::get_offset_of_deskorientation_22(),
-	UnityARHitTestExample_t877209621::get_offset_of_chairorientation_23(),
-	UnityARHitTestExample_t877209621::get_offset_of_phoneposition_24(),
-	UnityARHitTestExample_t877209621::get_offset_of_phoneorientation_25(),
-	UnityARHitTestExample_t877209621::get_offset_of_phoneButton_26(),
-	UnityARHitTestExample_t877209621::get_offset_of_counter_27(),
-	UnityARHitTestExample_t877209621::get_offset_of_linedistance_28(),
+	UnityARHitTestExample_t877209621::get_offset_of_showline_16(),
+	UnityARHitTestExample_t877209621_StaticFields::get_offset_of_relativeToolPosition_17(),
+	UnityARHitTestExample_t877209621_StaticFields::get_offset_of_camera_linePosition_18(),
+	UnityARHitTestExample_t877209621::get_offset_of_distance_19(),
+	UnityARHitTestExample_t877209621::get_offset_of_status_20(),
+	UnityARHitTestExample_t877209621::get_offset_of_deskposition_21(),
+	UnityARHitTestExample_t877209621::get_offset_of_chairposition_22(),
+	UnityARHitTestExample_t877209621::get_offset_of_deskorientation_23(),
+	UnityARHitTestExample_t877209621::get_offset_of_chairorientation_24(),
+	UnityARHitTestExample_t877209621::get_offset_of_phoneposition_25(),
+	UnityARHitTestExample_t877209621::get_offset_of_phoneorientation_26(),
+	UnityARHitTestExample_t877209621::get_offset_of_showdistanceButton_27(),
+	UnityARHitTestExample_t877209621::get_offset_of_phoneButton_28(),
+	UnityARHitTestExample_t877209621::get_offset_of_counter_29(),
+	UnityARHitTestExample_t877209621::get_offset_of_linedistance_30(),
 	0,
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2408 = { sizeof (UnityARKitControl_t1358211756), -1, 0, 0 };

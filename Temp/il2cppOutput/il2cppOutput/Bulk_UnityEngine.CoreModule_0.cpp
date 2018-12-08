@@ -44417,6 +44417,15 @@ extern "C" IL2CPP_METHOD_ATTR void Renderer_SetPropertyBlock_m2471545580 (Render
 		return;
 	}
 }
+// System.Void UnityEngine.Renderer::set_enabled(System.Boolean)
+extern "C" IL2CPP_METHOD_ATTR void Renderer_set_enabled_m1727253150 (Renderer_t2627027031 * __this, bool ___value0, const RuntimeMethod* method)
+{
+	typedef void (*Renderer_set_enabled_m1727253150_ftn) (Renderer_t2627027031 *, bool);
+	static Renderer_set_enabled_m1727253150_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Renderer_set_enabled_m1727253150_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Renderer::set_enabled(System.Boolean)");
+	_il2cpp_icall_func(__this, ___value0);
+}
 // System.Void UnityEngine.Renderer::set_shadowCastingMode(UnityEngine.Rendering.ShadowCastingMode)
 extern "C" IL2CPP_METHOD_ATTR void Renderer_set_shadowCastingMode_m987547713 (Renderer_t2627027031 * __this, int32_t ___value0, const RuntimeMethod* method)
 {

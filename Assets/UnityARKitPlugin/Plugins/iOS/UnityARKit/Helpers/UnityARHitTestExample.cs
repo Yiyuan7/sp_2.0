@@ -33,6 +33,8 @@ public class UnityARHitTestExample : MonoBehaviour
 
     public string objectChosen = "112233";
 
+    public bool showline = true;
+
     public static Vector3 relativeToolPosition;
     public static Vector3 camera_linePosition;
     public float distance = 0.2f;
@@ -47,14 +49,17 @@ public class UnityARHitTestExample : MonoBehaviour
     public List<Vector3> phoneposition = new List<Vector3>();
     public List<Quaternion> phoneorientation = new List<Quaternion>();
 
+    [SerializeField]
+    protected Button showdistanceButton;
+
 
     private Button phoneButton;
 
-    private float counter;
+    private float counter = 0f;
 
-    private float linedistance;
+    private float linedistance = 0f;
 
-    public const float r_LineDrawSpeed = 0.05f;
+    public const float r_LineDrawSpeed = 0.005f;
 
 
     private void Start()
@@ -65,7 +70,11 @@ public class UnityARHitTestExample : MonoBehaviour
         Dbtn.onClick.AddListener(spawndesk);
         Button Cbtn = SpawnChair.GetComponent<Button>();
         Cbtn.onClick.AddListener(spawnchair);
-    }
+
+        Button linebutton = showdistanceButton.GetComponent<Button>();
+        linebutton.onClick.AddListener(ChangeState);
+    
+}
 
    
     bool HitTestWithResultType (ARPoint point, ARHitTestResultType resultTypes)
@@ -149,7 +158,7 @@ public class UnityARHitTestExample : MonoBehaviour
 			}
 		}
 #endif
-        if (status){
+        if (status == true){
             linerender();
         }
     }
@@ -217,31 +226,39 @@ public class UnityARHitTestExample : MonoBehaviour
     void linerender()
     {
         int lenth = phoneposition.Count;
-        Debug.Log("come in");
+
 
         if (phoneposition.Count>=2){
-
-            if (counter < linedistance)
+            float dis = linedistance;
+            if (counter < dis)
             {
                 counter += r_LineDrawSpeed;
                 Vector3 currentdistance = counter * Vector3.Normalize(phoneposition[lenth - 2] - phoneposition[lenth-1]) + phoneposition[lenth-1];
                 m_LineRenderer.GetComponent<LineRenderer>().SetPosition(1, currentdistance);
-                Debug.Log("come in if ");
+
             }
             else
             {
                 m_DistanceTextHldr.transform.position = (phoneposition[lenth-1] - phoneposition[lenth-2]) * 0.5f + phoneposition[lenth - 2];
                 m_DistanceTextHldr.transform.localScale = new Vector3(0.05f, 0.05f, 0.05f);
-                m_DistanceTextHldr.text = linedistance.ToString("0.00") + "m";
-                Debug.Log("come in elif");
+                m_DistanceTextHldr.text = dis.ToString("0.00") + "m";
+
                 status = false;
+
                 counter = 0;
             }
+
         }
 
     }
 
+    void ChangeState()
+    {
 
+        showline = !showline;
+        m_LineRenderer.GetComponent<Renderer>().enabled = showline;
+        m_DistanceTextHldr.gameObject.SetActive(showline);
+    }
 }
 
 

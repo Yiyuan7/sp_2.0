@@ -37,19 +37,18 @@ public class MyLog : MonoBehaviour
 
     void HandleLog(string logString, string stackTrace, LogType type)
     {
+        if (type == LogType.Exception)
+            return;
+
+
         myLog = logString;
         string newString = "\n [" + type + "] : " + myLog;
         myLogQueue.Enqueue(newString);
-        while (myLogQueue.Count > 16)
+        while (myLogQueue.Count > 12)
         {
             myLogQueue.Dequeue();
         }
 
-            if (type == LogType.Exception)
-        {
-            newString = "\n" + stackTrace;
-            myLogQueue.Enqueue(newString);
-        }
         myLog = string.Empty;
         foreach (string mylog in myLogQueue)
         {
@@ -60,8 +59,13 @@ public class MyLog : MonoBehaviour
     void OnGUI()
     {
         //GUILayout.Label(myLog);
+
         if (state){
-            GUI.Label(new Rect(10, 10, 300, 300), myLog);
+            GUIStyle mystyle = new GUIStyle(GUI.skin.label);
+            mystyle.fontSize = 30;
+            mystyle.normal.textColor = Color.red;
+
+            GUI.Label(new Rect(10, 10, 500,1000), myLog, mystyle);
         }
 
     }

@@ -1259,7 +1259,7 @@
 					"-weak-lSystem",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = .com.spec.fyy;
-				PRODUCT_NAME = irisz;
+				PRODUCT_NAME = fyy;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -1324,7 +1324,7 @@
 					"-weak-lSystem",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = .com.spec.fyy;
-				PRODUCT_NAME = irisz;
+				PRODUCT_NAME = fyy;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -1369,7 +1369,7 @@
 				INFOPLIST_FILE = "Unity-iPhone Tests/Unity-iPhone Tests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_GENERATE_MAP_FILE = YES;
-				PRODUCT_NAME = irisz;
+				PRODUCT_NAME = fyy;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
@@ -1423,7 +1423,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_GENERATE_MAP_FILE = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = irisz;
+				PRODUCT_NAME = fyy;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
@@ -1509,7 +1509,7 @@
 					"-weak-lSystem",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = .com.spec.fyy;
-				PRODUCT_NAME = irisz;
+				PRODUCT_NAME = fyy;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -1554,7 +1554,7 @@
 				INFOPLIST_FILE = "Unity-iPhone Tests/Unity-iPhone Tests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_GENERATE_MAP_FILE = YES;
-				PRODUCT_NAME = irisz;
+				PRODUCT_NAME = fyy;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
@@ -1640,7 +1640,7 @@
 					"-weak-lSystem",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = .com.spec.fyy;
-				PRODUCT_NAME = irisz;
+				PRODUCT_NAME = fyy;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -1685,7 +1685,7 @@
 				INFOPLIST_FILE = "Unity-iPhone Tests/Unity-iPhone Tests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_GENERATE_MAP_FILE = YES;
-				PRODUCT_NAME = irisz;
+				PRODUCT_NAME = fyy;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
