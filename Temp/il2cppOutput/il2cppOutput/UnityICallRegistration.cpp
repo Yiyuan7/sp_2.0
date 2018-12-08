@@ -1078,13 +1078,25 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.LineRenderer
 
+		//System.Void UnityEngine.LineRenderer::SetPosition_Injected(System.Int32,UnityEngine.Vector3&)
+		void Register_UnityEngine_LineRenderer_SetPosition_Injected();
+		Register_UnityEngine_LineRenderer_SetPosition_Injected();
+
 		//System.Void UnityEngine.LineRenderer::SetPositions(UnityEngine.Vector3[])
 		void Register_UnityEngine_LineRenderer_SetPositions();
 		Register_UnityEngine_LineRenderer_SetPositions();
 
+		//System.Void UnityEngine.LineRenderer::set_endWidth(System.Single)
+		void Register_UnityEngine_LineRenderer_set_endWidth();
+		Register_UnityEngine_LineRenderer_set_endWidth();
+
 		//System.Void UnityEngine.LineRenderer::set_positionCount(System.Int32)
 		void Register_UnityEngine_LineRenderer_set_positionCount();
 		Register_UnityEngine_LineRenderer_set_positionCount();
+
+		//System.Void UnityEngine.LineRenderer::set_startWidth(System.Single)
+		void Register_UnityEngine_LineRenderer_set_startWidth();
+		Register_UnityEngine_LineRenderer_set_startWidth();
 
 	//End Registrations for type : UnityEngine.LineRenderer
 

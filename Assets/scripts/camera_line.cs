@@ -39,4 +39,6 @@ public class camera_line : MonoBehaviour {
         //Debug.Log("cy" + line.transform.position);
 
     }
+
+
 }

@@ -25,11 +25,20 @@ public class UnityARHitTestExample : MonoBehaviour
     [SerializeField]
     protected Button SpawnChair;
 
+    [SerializeField]
+    public LineRenderer m_LineRenderer;
+
+    [SerializeField]
+    public TextMesh m_DistanceTextHldr;
+
     public string objectChosen = "112233";
 
     public static Vector3 relativeToolPosition;
     public static Vector3 camera_linePosition;
     public float distance = 0.2f;
+
+    public bool status = false;
+
     // for recording the position
     public List<Vector3> deskposition = new List<Vector3>();
     public List<Vector3> chairposition = new List<Vector3>();
@@ -40,7 +49,13 @@ public class UnityARHitTestExample : MonoBehaviour
 
 
     private Button phoneButton;
-   
+
+    private float counter;
+
+    private float linedistance;
+
+    public const float r_LineDrawSpeed = 0.05f;
+
 
     private void Start()
     {
@@ -134,7 +149,9 @@ public class UnityARHitTestExample : MonoBehaviour
 			}
 		}
 #endif
-
+        if (status){
+            linerender();
+        }
     }
 
     public void spawnchair()
@@ -180,14 +197,47 @@ public class UnityARHitTestExample : MonoBehaviour
 
         camera_linePosition = camera_line.cubeposition;
         Vector3 relativePhonePosition = GenerateImageAnchor.markerPosition - Camera.main.gameObject.transform.position;
-        phoneposition.Add(camera_linePosition);
+        phoneposition.Add(Camera.main.transform.position + Camera.main.transform.forward * distance);
         phoneorientation.Add(Input.gyro.attitude);
         Debug.Log("Blue Cube position" + Camera.main.transform.position + Camera.main.transform.forward * distance);
         Debug.Log("Blue cube rotation" + Camera.main.transform.rotation);
         GameObject bluecube = Resources.Load("blue") as GameObject;
         bluecube.transform.localScale = new Vector3(.1f, .1f, .1f);
         Instantiate(bluecube, Camera.main.transform.position + Camera.main.transform.forward * distance, Camera.main.transform.rotation);
+        status = true;
+        int lenth = phoneposition.Count;
+        m_LineRenderer.GetComponent<LineRenderer>().SetPosition(0, phoneposition[lenth-1]);
+        m_LineRenderer.GetComponent<LineRenderer>().startWidth = .01f;
+        m_LineRenderer.GetComponent<LineRenderer>().endWidth = .01f;
+        linedistance = Vector3.Distance(phoneposition[lenth-1], phoneposition[lenth - 2]);
+        Debug.Log("distance is " + linedistance);
 
+    }
+
+    void linerender()
+    {
+        int lenth = phoneposition.Count;
+        Debug.Log("come in");
+
+        if (phoneposition.Count>=2){
+
+            if (counter < linedistance)
+            {
+                counter += r_LineDrawSpeed;
+                Vector3 currentdistance = counter * Vector3.Normalize(phoneposition[lenth - 2] - phoneposition[lenth-1]) + phoneposition[lenth-1];
+                m_LineRenderer.GetComponent<LineRenderer>().SetPosition(1, currentdistance);
+                Debug.Log("come in if ");
+            }
+            else
+            {
+                m_DistanceTextHldr.transform.position = (phoneposition[lenth-1] - phoneposition[lenth-2]) * 0.5f + phoneposition[lenth - 2];
+                m_DistanceTextHldr.transform.localScale = new Vector3(0.05f, 0.05f, 0.05f);
+                m_DistanceTextHldr.text = linedistance.ToString("0.00") + "m";
+                Debug.Log("come in elif");
+                status = false;
+                counter = 0;
+            }
+        }
 
     }
 

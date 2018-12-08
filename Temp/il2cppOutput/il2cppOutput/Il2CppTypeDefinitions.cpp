@@ -13683,6 +13683,11 @@ extern const RuntimeType TextContainer_t97923372_0_0_0 = { (void*)2113, 0, IL2CP
 extern const RuntimeType TextContainer_t97923372_1_0_0 = { (void*)2113, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 extern const RuntimeType TextContainer_t97923372_0_0_1 = { (void*)2113, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
+extern const RuntimeType LineRenderer_t3154350270_0_0_0 = { (void*)1408, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType LineRenderer_t3154350270_1_0_0 = { (void*)1408, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType LineRenderer_t3154350270_0_0_1 = { (void*)1408, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType LineRenderer_t3154350270_0_0_6 = { (void*)1408, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+
 extern const RuntimeType UnityARUserAnchorComponent_t969893952_0_0_0 = { (void*)2411, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType UnityARUserAnchorComponent_t969893952_1_0_0 = { (void*)2411, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
@@ -19581,10 +19586,6 @@ extern const RuntimeType ColorSpace_t3453996949_0_0_0 = { (void*)1418, 0, IL2CPP
 extern const RuntimeType ColorSpace_t3453996949_1_0_0 = { (void*)1418, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 extern const RuntimeType ColorSpace_t3453996949_0_0_32854 = { (void*)1418, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType LineRenderer_t3154350270_0_0_0 = { (void*)1408, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType LineRenderer_t3154350270_1_0_0 = { (void*)1408, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType LineRenderer_t3154350270_0_0_1 = { (void*)1408, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-
 extern const RuntimeType MaterialPropertyBlock_t3213117958_0_0_0 = { (void*)1409, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType MaterialPropertyBlock_t3213117958_1_0_0 = { (void*)1409, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 extern const RuntimeType MaterialPropertyBlock_t3213117958_0_0_1 = { (void*)1409, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
@@ -23133,7 +23134,7 @@ extern const RuntimeType TextAlignmentOptionsU5BU5D_t3552942253_0_0_0 = { (void*
 extern const RuntimeType TMP_ColorGradientU5BU5D_t2496920137_0_0_0 = { (void*)&TMP_ColorGradient_t3678055768_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
 extern const RuntimeType ITrackingHandlerU5BU5D_t3758023570_0_0_0 = { (void*)&ITrackingHandler_t1244553475_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
-extern const RuntimeType* const  g_Il2CppTypeTable[11643] = 
+extern const RuntimeType* const  g_Il2CppTypeTable[11644] = 
 {
 	&IEnumerator_1_t3512676632_0_0_0,
 	&RuntimeObject_0_0_0,
@@ -27028,6 +27029,7 @@ extern const RuntimeType* const  g_Il2CppTypeTable[11643] =
 	&TextMesh_t1536577757_0_0_0,
 	&TextMeshProFloatingText_t845872552_0_0_0,
 	&TextContainer_t97923372_0_0_0,
+	&LineRenderer_t3154350270_0_0_0,
 	&UnityARUserAnchorComponent_t969893952_0_0_0,
 	&serializableFromEditorMessage_t2731251371_0_0_0,
 	&DontDestroyOnLoad_t1456007215_0_0_0,
@@ -31400,7 +31402,6 @@ extern const RuntimeType* const  g_Il2CppTypeTable[11643] =
 	&QualitySettings_t3101090599_0_0_0,
 	&QualitySettings_t3101090599_1_0_0,
 	&ColorSpace_t3453996949_0_0_0,
-	&LineRenderer_t3154350270_0_0_0,
 	&LineRenderer_t3154350270_1_0_0,
 	&MaterialPropertyBlock_t3213117958_0_0_0,
 	&MaterialPropertyBlock_t3213117958_1_0_0,
@@ -34376,6 +34377,7 @@ extern const RuntimeType* const  g_Il2CppTypeTable[11643] =
 	&UnityARAnchorManager_t1557554123_0_0_1,
 	&UnityARHitTestExample_t877209621_0_0_0,
 	&UnityARHitTestExample_t877209621_1_0_0,
+	&LineRenderer_t3154350270_0_0_6,
 	&List_1_t899420910_0_0_6,
 	&List_1_t3774003073_0_0_6,
 	&Button_t4055032469_0_0_1,

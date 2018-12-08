@@ -60,7 +60,7 @@ a44114bd4fa541174f78b4bb92bacb48 UnityEngine.UI.dll:UnityEngine.EventSystems.Sta
 e90403eeda069970e0b9de1533de13a6 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 2d58ca16854b99daea8c45e9c0f367b7 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 16da51d1b62ef6d4ee1849350434023b UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
-b749d7b09458f6db8bd2e3deb874e9df Assembly-CSharp.dll:.UnityARHitTestExample
+a30819c06839dd9bf269ab4139a06200 Assembly-CSharp.dll:.UnityARHitTestExample
 50b0b141074b216c8b53b1bd467f73c9 Unity.TextMeshPro.dll:TMPro.TMP_InputField
 a8101e11a9ce803fe286598dca688665 Assembly-CSharp.dll:.ColorLabel
 53cefe5d98cadefbab750835e70b89c0 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
@@ -240,6 +240,7 @@ e513b22ebb6d87c44b5f2c81bd48048a Assembly-CSharp.dll:.ParticlePainter
 eaf0bcdb10d442a4029d615f41d09957 Unity.TextMeshPro.dll:TMPro.TextContainer
 e5930b3f3763871ca43745d91dd968d4 Assembly-CSharp.dll:.ChatController
 c6ef40410a3b1bcc6b5fb3228fef4fc4 Assembly-CSharp.dll:.ColorPicker
+41a1ccd25f5007176a13245236d7c32b Assembly-CSharp.dll:.MyLog
 34686a26469eb0603b37b4f9589c7a1a Assembly-CSharp.dll:.UnityARKitPluginSettings
 bdbfa8690e723f47af48679cd0c8a59d Assembly-CSharp.dll:.ObjectScanManager
 d3985f23b121be7ae04a7237d84c9372 Assembly-CSharp.dll:TMPro.Examples.TMP_ExampleScript_01
@@ -400,4 +401,3 @@ c31ff9acb65f7a15b5c6fd77c3314d83 Vuforia.UnityExtensions.dll:Vuforia.WireframeBe
 486cd95c82d8305219c352c06b776e1f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.UnityARCameraNearFar
 eef2019620cebfbf579d06d7d4b0dff8 Assembly-CSharp.dll:.chooselogo
-41a1ccd25f5007176a13245236d7c32b Assembly-CSharp.dll:.MyLog

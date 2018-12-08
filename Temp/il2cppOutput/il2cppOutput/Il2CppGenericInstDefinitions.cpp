@@ -534,6 +534,7 @@ extern const Il2CppType BoxSlider_t2380464200_0_0_0;
 extern const Il2CppType TextMesh_t1536577757_0_0_0;
 extern const Il2CppType TextMeshProFloatingText_t845872552_0_0_0;
 extern const Il2CppType TextContainer_t97923372_0_0_0;
+extern const Il2CppType LineRenderer_t3154350270_0_0_0;
 extern const Il2CppType UnityARUserAnchorComponent_t969893952_0_0_0;
 extern const Il2CppType serializableFromEditorMessage_t2731251371_0_0_0;
 extern const Il2CppType DontDestroyOnLoad_t1456007215_0_0_0;
@@ -2082,6 +2083,8 @@ static const RuntimeType* GenInst_TextMeshProFloatingText_t845872552_0_0_0_Types
 extern const Il2CppGenericInst GenInst_TextMeshProFloatingText_t845872552_0_0_0 = { 1, GenInst_TextMeshProFloatingText_t845872552_0_0_0_Types };
 static const RuntimeType* GenInst_TextContainer_t97923372_0_0_0_Types[] = { (&TextContainer_t97923372_0_0_0) };
 extern const Il2CppGenericInst GenInst_TextContainer_t97923372_0_0_0 = { 1, GenInst_TextContainer_t97923372_0_0_0_Types };
+static const RuntimeType* GenInst_LineRenderer_t3154350270_0_0_0_Types[] = { (&LineRenderer_t3154350270_0_0_0) };
+extern const Il2CppGenericInst GenInst_LineRenderer_t3154350270_0_0_0 = { 1, GenInst_LineRenderer_t3154350270_0_0_0_Types };
 static const RuntimeType* GenInst_UnityARUserAnchorComponent_t969893952_0_0_0_Types[] = { (&UnityARUserAnchorComponent_t969893952_0_0_0) };
 extern const Il2CppGenericInst GenInst_UnityARUserAnchorComponent_t969893952_0_0_0 = { 1, GenInst_UnityARUserAnchorComponent_t969893952_0_0_0_Types };
 static const RuntimeType* GenInst_serializableFromEditorMessage_t2731251371_0_0_0_Types[] = { (&serializableFromEditorMessage_t2731251371_0_0_0) };
@@ -2614,7 +2617,7 @@ static const RuntimeType* GenInst_LinkedListDictionary_2_t983847087_gp_0_0_0_0_L
 extern const Il2CppGenericInst GenInst_LinkedListDictionary_2_t983847087_gp_0_0_0_0_LinkedListDictionary_2_t983847087_gp_1_0_0_0 = { 2, GenInst_LinkedListDictionary_2_t983847087_gp_0_0_0_0_LinkedListDictionary_2_t983847087_gp_1_0_0_0_Types };
 static const RuntimeType* GenInst_LLEntry_t3405167986_gp_1_0_0_0_Types[] = { (&LLEntry_t3405167986_gp_1_0_0_0) };
 extern const Il2CppGenericInst GenInst_LLEntry_t3405167986_gp_1_0_0_0 = { 1, GenInst_LLEntry_t3405167986_gp_1_0_0_0_Types };
-extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[932] = 
+extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[933] = 
 {
 	&GenInst_RuntimeObject_0_0_0,
 	&GenInst_Int32_t2950945753_0_0_0,
@@ -3282,6 +3285,7 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[932] =
 	&GenInst_TextMesh_t1536577757_0_0_0,
 	&GenInst_TextMeshProFloatingText_t845872552_0_0_0,
 	&GenInst_TextContainer_t97923372_0_0_0,
+	&GenInst_LineRenderer_t3154350270_0_0_0,
 	&GenInst_UnityARUserAnchorComponent_t969893952_0_0_0,
 	&GenInst_serializableFromEditorMessage_t2731251371_0_0_0,
 	&GenInst_DontDestroyOnLoad_t1456007215_0_0_0,

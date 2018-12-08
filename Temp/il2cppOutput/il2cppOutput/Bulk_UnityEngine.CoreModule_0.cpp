@@ -17998,6 +17998,8 @@ extern "C" IL2CPP_METHOD_ATTR void Keyframe__ctor_m391431887 (Keyframe_t42064102
 extern "C" IL2CPP_METHOD_ATTR float Keyframe_get_value_m3427894467 (Keyframe_t4206410242 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.Light::get_color_Injected(UnityEngine.Color&)
 extern "C" IL2CPP_METHOD_ATTR void Light_get_color_Injected_m1214570263 (Light_t3756812086 * __this, Color_t2555686324 * ___ret0, const RuntimeMethod* method);
+// System.Void UnityEngine.LineRenderer::SetPosition_Injected(System.Int32,UnityEngine.Vector3&)
+extern "C" IL2CPP_METHOD_ATTR void LineRenderer_SetPosition_Injected_m293725056 (LineRenderer_t3154350270 * __this, int32_t ___index0, Vector3_t3722313464 * ___position1, const RuntimeMethod* method);
 // System.Void UnityEngine.Logger::set_logHandler(UnityEngine.ILogHandler)
 extern "C" IL2CPP_METHOD_ATTR void Logger_set_logHandler_m4059005946 (Logger_t274032455 * __this, RuntimeObject* ___value0, const RuntimeMethod* method);
 // System.Void UnityEngine.Logger::set_logEnabled(System.Boolean)
@@ -30912,6 +30914,24 @@ extern "C" IL2CPP_METHOD_ATTR LightProbes_t649210852 * LightmapSettings_get_ligh
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void UnityEngine.LineRenderer::set_startWidth(System.Single)
+extern "C" IL2CPP_METHOD_ATTR void LineRenderer_set_startWidth_m1093267133 (LineRenderer_t3154350270 * __this, float ___value0, const RuntimeMethod* method)
+{
+	typedef void (*LineRenderer_set_startWidth_m1093267133_ftn) (LineRenderer_t3154350270 *, float);
+	static LineRenderer_set_startWidth_m1093267133_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LineRenderer_set_startWidth_m1093267133_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.LineRenderer::set_startWidth(System.Single)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Void UnityEngine.LineRenderer::set_endWidth(System.Single)
+extern "C" IL2CPP_METHOD_ATTR void LineRenderer_set_endWidth_m4252049505 (LineRenderer_t3154350270 * __this, float ___value0, const RuntimeMethod* method)
+{
+	typedef void (*LineRenderer_set_endWidth_m4252049505_ftn) (LineRenderer_t3154350270 *, float);
+	static LineRenderer_set_endWidth_m4252049505_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LineRenderer_set_endWidth_m4252049505_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.LineRenderer::set_endWidth(System.Single)");
+	_il2cpp_icall_func(__this, ___value0);
+}
 // System.Void UnityEngine.LineRenderer::set_positionCount(System.Int32)
 extern "C" IL2CPP_METHOD_ATTR void LineRenderer_set_positionCount_m2226639690 (LineRenderer_t3154350270 * __this, int32_t ___value0, const RuntimeMethod* method)
 {
@@ -30921,6 +30941,15 @@ extern "C" IL2CPP_METHOD_ATTR void LineRenderer_set_positionCount_m2226639690 (L
 	_il2cpp_icall_func = (LineRenderer_set_positionCount_m2226639690_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.LineRenderer::set_positionCount(System.Int32)");
 	_il2cpp_icall_func(__this, ___value0);
 }
+// System.Void UnityEngine.LineRenderer::SetPosition(System.Int32,UnityEngine.Vector3)
+extern "C" IL2CPP_METHOD_ATTR void LineRenderer_SetPosition_m2111131184 (LineRenderer_t3154350270 * __this, int32_t ___index0, Vector3_t3722313464  ___position1, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = ___index0;
+		LineRenderer_SetPosition_Injected_m293725056(__this, L_0, (Vector3_t3722313464 *)(&___position1), /*hidden argument*/NULL);
+		return;
+	}
+}
 // System.Void UnityEngine.LineRenderer::SetPositions(UnityEngine.Vector3[])
 extern "C" IL2CPP_METHOD_ATTR void LineRenderer_SetPositions_m1969530996 (LineRenderer_t3154350270 * __this, Vector3U5BU5D_t1718750761* ___positions0, const RuntimeMethod* method)
 {
@@ -30929,6 +30958,15 @@ extern "C" IL2CPP_METHOD_ATTR void LineRenderer_SetPositions_m1969530996 (LineRe
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (LineRenderer_SetPositions_m1969530996_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.LineRenderer::SetPositions(UnityEngine.Vector3[])");
 	_il2cpp_icall_func(__this, ___positions0);
+}
+// System.Void UnityEngine.LineRenderer::SetPosition_Injected(System.Int32,UnityEngine.Vector3&)
+extern "C" IL2CPP_METHOD_ATTR void LineRenderer_SetPosition_Injected_m293725056 (LineRenderer_t3154350270 * __this, int32_t ___index0, Vector3_t3722313464 * ___position1, const RuntimeMethod* method)
+{
+	typedef void (*LineRenderer_SetPosition_Injected_m293725056_ftn) (LineRenderer_t3154350270 *, int32_t, Vector3_t3722313464 *);
+	static LineRenderer_SetPosition_Injected_m293725056_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LineRenderer_SetPosition_Injected_m293725056_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.LineRenderer::SetPosition_Injected(System.Int32,UnityEngine.Vector3&)");
+	_il2cpp_icall_func(__this, ___index0, ___position1);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

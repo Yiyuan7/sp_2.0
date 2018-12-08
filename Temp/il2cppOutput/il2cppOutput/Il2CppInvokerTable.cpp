@@ -32995,6 +32995,20 @@ void* RuntimeInvoker_ColorSpace_t3453996949 (Il2CppMethodPointer methodPointer, 
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
+void* RuntimeInvoker_Void_t1185182177_Int32_t2950945753_Vector3_t3722313464 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, int32_t p1, Vector3_t3722313464  p2, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, *((int32_t*)args[0]), *((Vector3_t3722313464 *)args[1]), methodMetadata);
+	return NULL;
+}
+
+void* RuntimeInvoker_Void_t1185182177_Int32_t2950945753_Vector3U26_t3464235976 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, int32_t p1, Vector3_t3722313464 * p2, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, *((int32_t*)args[0]), (Vector3_t3722313464 *)args[1], methodMetadata);
+	return NULL;
+}
+
 void* RuntimeInvoker_Void_t1185182177_SphericalHarmonicsL2_t3220866195 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, SphericalHarmonicsL2_t3220866195  p1, const RuntimeMethod* method);
@@ -37790,13 +37804,6 @@ void* RuntimeInvoker_Color32_t2600501292_Int32_t2950945753 (Il2CppMethodPointer 
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
-void* RuntimeInvoker_Void_t1185182177_Int32_t2950945753_Vector3_t3722313464 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
-{
-	typedef void (*Func)(void* obj, int32_t p1, Vector3_t3722313464  p2, const RuntimeMethod* method);
-	((Func)methodPointer)(obj, *((int32_t*)args[0]), *((Vector3_t3722313464 *)args[1]), methodMetadata);
-	return NULL;
-}
-
 void* RuntimeInvoker_Void_t1185182177_Int32_t2950945753_Color32_t2600501292 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, int32_t p1, Color32_t2600501292  p2, const RuntimeMethod* method);
@@ -42459,7 +42466,7 @@ void* RuntimeInvoker_RuntimeObject_FloatTween_t1274330004 (Il2CppMethodPointer m
 	return ret;
 }
 
-extern const InvokerMethod g_Il2CppInvokerPointers[2269] = 
+extern const InvokerMethod g_Il2CppInvokerPointers[2270] = 
 {
 	RuntimeInvoker_Void_t1185182177,
 	RuntimeInvoker_Boolean_t97287965_RuntimeObject,
@@ -43378,6 +43385,8 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2269] =
 	RuntimeInvoker_Resolution_t2487619763,
 	RuntimeInvoker_Void_t1185182177_ResolutionU26_t2155851717,
 	RuntimeInvoker_ColorSpace_t3453996949,
+	RuntimeInvoker_Void_t1185182177_Int32_t2950945753_Vector3_t3722313464,
+	RuntimeInvoker_Void_t1185182177_Int32_t2950945753_Vector3U26_t3464235976,
 	RuntimeInvoker_Void_t1185182177_SphericalHarmonicsL2_t3220866195,
 	RuntimeInvoker_Void_t1185182177_SphericalHarmonicsL2U26_t1645881061,
 	RuntimeInvoker_RenderTargetIdentifier_t2079184500_Int32_t2950945753,
@@ -44063,7 +44072,6 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2269] =
 	RuntimeInvoker_Boolean_t97287965_DirectionU26_t3865336965_Int32_t2950945753,
 	RuntimeInvoker_Vector3_t3722313464_Int32_t2950945753,
 	RuntimeInvoker_Color32_t2600501292_Int32_t2950945753,
-	RuntimeInvoker_Void_t1185182177_Int32_t2950945753_Vector3_t3722313464,
 	RuntimeInvoker_Void_t1185182177_Int32_t2950945753_Color32_t2600501292,
 	RuntimeInvoker_Void_t1185182177_Int32_t2950945753_Vector2_t2156229523,
 	RuntimeInvoker_Boolean_t97287965_Int32_t2950945753_Int32U26_t1369213839,
