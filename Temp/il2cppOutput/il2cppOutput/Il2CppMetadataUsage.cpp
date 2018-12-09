@@ -1689,9 +1689,6 @@ RuntimeClass* SpriteSelectionEvent_t2798445241_il2cpp_TypeInfo_var;
 RuntimeClass* WordSelectionEvent_t1841909953_il2cpp_TypeInfo_var;
 RuntimeClass* LineSelectionEvent_t2868010532_il2cpp_TypeInfo_var;
 RuntimeClass* LinkSelectionEvent_t1590929858_il2cpp_TypeInfo_var;
-RuntimeClass* List_1_t3774003073_il2cpp_TypeInfo_var;
-RuntimeClass* UnityARHitTestExample_t877209621_il2cpp_TypeInfo_var;
-RuntimeClass* camera_line_t391305395_il2cpp_TypeInfo_var;
 RuntimeClass* ARUserAnchorAdded_t1851120876_il2cpp_TypeInfo_var;
 RuntimeClass* ARUserAnchorRemoved_t23344545_il2cpp_TypeInfo_var;
 RuntimeClass* HashSet_1_t412400163_il2cpp_TypeInfo_var;
@@ -1714,6 +1711,9 @@ RuntimeClass* ARPlaneAnchorGameObject_t1947719815_il2cpp_TypeInfo_var;
 RuntimeClass* UnityARAnchorManager_t1557554123_il2cpp_TypeInfo_var;
 RuntimeClass* IEnumerable_1_t927572704_il2cpp_TypeInfo_var;
 RuntimeClass* IEnumerator_1_t2380290283_il2cpp_TypeInfo_var;
+RuntimeClass* List_1_t3774003073_il2cpp_TypeInfo_var;
+RuntimeClass* UnityARHitTestExample_t457226377_il2cpp_TypeInfo_var;
+RuntimeClass* camera_line_t391305395_il2cpp_TypeInfo_var;
 RuntimeClass* UnityARSessionRunOptionU5BU5D_t4225291891_il2cpp_TypeInfo_var;
 RuntimeClass* UnityARAlignmentU5BU5D_t3682394155_il2cpp_TypeInfo_var;
 RuntimeClass* UnityARPlaneDetectionU5BU5D_t3458580926_il2cpp_TypeInfo_var;
@@ -1995,23 +1995,23 @@ const RuntimeMethod* Func_2_Invoke_m2401667781_RuntimeMethod_var;
 const RuntimeMethod* Func_2_Invoke_m488571475_RuntimeMethod_var;
 const RuntimeMethod* Func_3_Invoke_m4134091626_RuntimeMethod_var;
 const RuntimeMethod* SimpleCollator_GetTailContraction_m2107754083_RuntimeMethod_var;
-const RuntimeMethod* Kernel_LeftShift_m3302851050_RuntimeMethod_var;
 const RuntimeMethod* Kernel_LeftShift_m4140742987_RuntimeMethod_var;
-const RuntimeMethod* Kernel_RightShift_m2207393597_RuntimeMethod_var;
+const RuntimeMethod* Kernel_LeftShift_m3302851050_RuntimeMethod_var;
 const RuntimeMethod* Kernel_RightShift_m3246168448_RuntimeMethod_var;
+const RuntimeMethod* Kernel_RightShift_m2207393597_RuntimeMethod_var;
 const RuntimeMethod* Kernel_modInverse_m3523342258_RuntimeMethod_var;
 const RuntimeMethod* Kernel_modInverse_m652700340_RuntimeMethod_var;
-const RuntimeMethod* ModulusRing_Difference_m3686091506_RuntimeMethod_var;
 const RuntimeMethod* ModulusRing_Difference_m1345688434_RuntimeMethod_var;
+const RuntimeMethod* ModulusRing_Difference_m3686091506_RuntimeMethod_var;
 const RuntimeMethod* BigInteger_op_Implicit_m2547142909_RuntimeMethod_var;
 const RuntimeMethod* BigInteger_op_Implicit_m2847009755_RuntimeMethod_var;
 const RuntimeMethod* BigInteger_op_Multiply_m3801644593_RuntimeMethod_var;
 const RuntimeMethod* BigInteger_op_Multiply_m3683746602_RuntimeMethod_var;
 const RuntimeMethod* BigInteger_op_Multiply_m3854773313_RuntimeMethod_var;
-const RuntimeMethod* BigInteger_op_Subtraction_m4245834512_RuntimeMethod_var;
 const RuntimeMethod* BigInteger_op_Subtraction_m1575155386_RuntimeMethod_var;
-const RuntimeMethod* ASN1Convert_FromOid_m3740816339_RuntimeMethod_var;
+const RuntimeMethod* BigInteger_op_Subtraction_m4245834512_RuntimeMethod_var;
 const RuntimeMethod* ASN1Convert_FromOid_m3844102704_RuntimeMethod_var;
+const RuntimeMethod* ASN1Convert_FromOid_m3740816339_RuntimeMethod_var;
 const RuntimeMethod* CipherSuiteCollection_Add_m2046232751_RuntimeMethod_var;
 const RuntimeMethod* CipherSuiteFactory_GetSupportedCiphers_m3260014148_RuntimeMethod_var;
 const RuntimeMethod* ClientRecordProtocol_createClientHandshakeMessage_m3325677558_RuntimeMethod_var;
@@ -2799,11 +2799,11 @@ const RuntimeMethod* SimpleCollator_IndexOf_m2273655786_RuntimeMethod_var;
 const RuntimeMethod* SimpleCollator_LastIndexOf_m3026739976_RuntimeMethod_var;
 const RuntimeMethod* PrimalityTests_GetSPPRounds_m2558073743_RuntimeMethod_var;
 const RuntimeMethod* PrimalityTests_GetSPPRounds_m228447904_RuntimeMethod_var;
-const RuntimeMethod* ASN1Convert_ToInt32_m254930636_RuntimeMethod_var;
 const RuntimeMethod* ASN1Convert_ToInt32_m2228176117_RuntimeMethod_var;
+const RuntimeMethod* ASN1Convert_ToInt32_m254930636_RuntimeMethod_var;
 const RuntimeMethod* ARC4Managed_TransformBlock_m1687647868_RuntimeMethod_var;
-const RuntimeMethod* SymmetricTransform_InternalTransformBlock_m1743612142_RuntimeMethod_var;
 const RuntimeMethod* SymmetricTransform_InternalTransformBlock_m946892271_RuntimeMethod_var;
+const RuntimeMethod* SymmetricTransform_InternalTransformBlock_m1743612142_RuntimeMethod_var;
 const RuntimeMethod* SymmetricTransform_TransformBlock_m851059707_RuntimeMethod_var;
 const RuntimeMethod* SymmetricTransform_TransformBlock_m2339552481_RuntimeMethod_var;
 const RuntimeMethod* SslStreamBase_EndRead_m495357226_RuntimeMethod_var;
@@ -3570,8 +3570,8 @@ const RuntimeMethod* PublicKey_get_Key_m3077215602_RuntimeMethod_var;
 const RuntimeMethod* X509Certificate2_get_PrivateKey_m3900779210_RuntimeMethod_var;
 const RuntimeMethod* PrivateKeyInfo_DecodeDSA_m2335813142_RuntimeMethod_var;
 const RuntimeMethod* PrivateKeyInfo_DecodeDSA_m771724585_RuntimeMethod_var;
-const RuntimeMethod* X509Certificate_get_DSA_m565099499_RuntimeMethod_var;
 const RuntimeMethod* X509Certificate_get_DSA_m1760272844_RuntimeMethod_var;
+const RuntimeMethod* X509Certificate_get_DSA_m565099499_RuntimeMethod_var;
 const RuntimeMethod* PublicKey_DecodeDSA_m3490622362_RuntimeMethod_var;
 const RuntimeMethod* DSAManaged_ExportParameters_m1426347745_RuntimeMethod_var;
 const RuntimeMethod* DSACryptoServiceProvider_ExportParameters_m591135777_RuntimeMethod_var;
@@ -3579,11 +3579,11 @@ const RuntimeMethod* X509Certificate2_get_SignatureAlgorithm_m2810155907_Runtime
 const RuntimeMethod* CryptoConvert_FromCapiKeyBlob_m1201868338_RuntimeMethod_var;
 const RuntimeMethod* CryptoConvert_FromCapiPrivateKeyBlob_m73613828_RuntimeMethod_var;
 const RuntimeMethod* CryptoConvert_FromCapiPublicKeyBlob_m4073029974_RuntimeMethod_var;
-const RuntimeMethod* PrivateKeyInfo_DecodeRSA_m4129124827_RuntimeMethod_var;
 const RuntimeMethod* PrivateKeyInfo_DecodeRSA_m2889346634_RuntimeMethod_var;
+const RuntimeMethod* PrivateKeyInfo_DecodeRSA_m4129124827_RuntimeMethod_var;
 const RuntimeMethod* PublicKey_DecodeRSA_m1824703659_RuntimeMethod_var;
-const RuntimeMethod* RSAManaged_ExportParameters_m280454101_RuntimeMethod_var;
 const RuntimeMethod* RSAManaged_ExportParameters_m1754454264_RuntimeMethod_var;
+const RuntimeMethod* RSAManaged_ExportParameters_m280454101_RuntimeMethod_var;
 const RuntimeMethod* RSACryptoServiceProvider_ExportParameters_m3871179960_RuntimeMethod_var;
 const RuntimeMethod* PKCS12_GetSymmetricAlgorithm_m3480654844_RuntimeMethod_var;
 const RuntimeMethod* PKCS12_GetSymmetricAlgorithm_m1390440284_RuntimeMethod_var;
@@ -3851,26 +3851,26 @@ const RuntimeMethod* ARC4Managed_CheckInput_m1562172012_RuntimeMethod_var;
 const RuntimeMethod* DSAManaged_ImportParameters_m2247591247_RuntimeMethod_var;
 const RuntimeMethod* HMAC_set_Key_m3535779141_RuntimeMethod_var;
 const RuntimeMethod* KeyPairPersistence__ctor_m252166830_RuntimeMethod_var;
-const RuntimeMethod* EncryptedPrivateKeyInfo_Decode_m3008916518_RuntimeMethod_var;
 const RuntimeMethod* EncryptedPrivateKeyInfo_Decode_m2516465782_RuntimeMethod_var;
+const RuntimeMethod* EncryptedPrivateKeyInfo_Decode_m3008916518_RuntimeMethod_var;
 const RuntimeMethod* PrivateKeyInfo_Decode_m986145117_RuntimeMethod_var;
 const RuntimeMethod* PrivateKeyInfo_Decode_m682813286_RuntimeMethod_var;
 const RuntimeMethod* RSAManaged_ImportParameters_m1844641996_RuntimeMethod_var;
 const RuntimeMethod* RSAManaged_ImportParameters_m1117427048_RuntimeMethod_var;
-const RuntimeMethod* SymmetricTransform__ctor_m2693628991_RuntimeMethod_var;
 const RuntimeMethod* SymmetricTransform__ctor_m25459519_RuntimeMethod_var;
-const RuntimeMethod* SymmetricTransform_CTS_m764800021_RuntimeMethod_var;
+const RuntimeMethod* SymmetricTransform__ctor_m2693628991_RuntimeMethod_var;
 const RuntimeMethod* SymmetricTransform_CTS_m2571643614_RuntimeMethod_var;
-const RuntimeMethod* SymmetricTransform_CheckInput_m1829858759_RuntimeMethod_var;
+const RuntimeMethod* SymmetricTransform_CTS_m764800021_RuntimeMethod_var;
 const RuntimeMethod* SymmetricTransform_CheckInput_m2092289040_RuntimeMethod_var;
-const RuntimeMethod* SymmetricTransform_OFB_m3690147804_RuntimeMethod_var;
+const RuntimeMethod* SymmetricTransform_CheckInput_m1829858759_RuntimeMethod_var;
 const RuntimeMethod* SymmetricTransform_OFB_m3842617151_RuntimeMethod_var;
-const RuntimeMethod* SymmetricTransform_ThrowBadPaddingException_m2926778011_RuntimeMethod_var;
+const RuntimeMethod* SymmetricTransform_OFB_m3690147804_RuntimeMethod_var;
 const RuntimeMethod* SymmetricTransform_ThrowBadPaddingException_m2898061954_RuntimeMethod_var;
+const RuntimeMethod* SymmetricTransform_ThrowBadPaddingException_m2926778011_RuntimeMethod_var;
 const RuntimeMethod* SymmetricTransform_Transform_m1683494363_RuntimeMethod_var;
 const RuntimeMethod* SymmetricTransform_Transform_m3073016850_RuntimeMethod_var;
-const RuntimeMethod* ContentInfo__ctor_m3397951412_RuntimeMethod_var;
 const RuntimeMethod* ContentInfo__ctor_m2639021892_RuntimeMethod_var;
+const RuntimeMethod* ContentInfo__ctor_m3397951412_RuntimeMethod_var;
 const RuntimeMethod* EncryptedData__ctor_m4001546383_RuntimeMethod_var;
 const RuntimeMethod* EncryptedData__ctor_m2497911783_RuntimeMethod_var;
 const RuntimeMethod* CipherSuite_Write_m1172814058_RuntimeMethod_var;
@@ -3920,12 +3920,12 @@ const RuntimeMethod* PKCS12_AddPrivateKey_m1877554254_RuntimeMethod_var;
 const RuntimeMethod* PKCS12_AddPrivateKey_m1542850936_RuntimeMethod_var;
 const RuntimeMethod* PKCS12_Decode_m163534693_RuntimeMethod_var;
 const RuntimeMethod* PKCS12_Decode_m1913457787_RuntimeMethod_var;
-const RuntimeMethod* PKCS12_ReadSafeBag_m3435973087_RuntimeMethod_var;
 const RuntimeMethod* PKCS12_ReadSafeBag_m1585166574_RuntimeMethod_var;
-const RuntimeMethod* X509Certificate__ctor_m3656389950_RuntimeMethod_var;
+const RuntimeMethod* PKCS12_ReadSafeBag_m3435973087_RuntimeMethod_var;
 const RuntimeMethod* X509Certificate__ctor_m2595927506_RuntimeMethod_var;
-const RuntimeMethod* X509Certificate_Parse_m1106379228_RuntimeMethod_var;
+const RuntimeMethod* X509Certificate__ctor_m3656389950_RuntimeMethod_var;
 const RuntimeMethod* X509Certificate_Parse_m54358579_RuntimeMethod_var;
+const RuntimeMethod* X509Certificate_Parse_m1106379228_RuntimeMethod_var;
 const RuntimeMethod* X509CertificateCollection_AddRange_m2165814476_RuntimeMethod_var;
 const RuntimeMethod* X509Crl__ctor_m1817187405_RuntimeMethod_var;
 const RuntimeMethod* X509Crl_Parse_m3164013387_RuntimeMethod_var;
@@ -5830,10 +5830,6 @@ const RuntimeMethod* UnityARFaceAnchorManager_FaceUpdated_m293765591_RuntimeMeth
 const RuntimeMethod* UnityARFaceMeshManager_FaceAdded_m224468745_RuntimeMethod_var;
 const RuntimeMethod* UnityARFaceMeshManager_FaceRemoved_m1934205709_RuntimeMethod_var;
 const RuntimeMethod* UnityARFaceMeshManager_FaceUpdated_m4075819658_RuntimeMethod_var;
-const RuntimeMethod* UnityARHitTestExample_ChangeState_m3757517999_RuntimeMethod_var;
-const RuntimeMethod* UnityARHitTestExample_UpdateDeviceLocation_m572624733_RuntimeMethod_var;
-const RuntimeMethod* UnityARHitTestExample_spawnchair_m2058542550_RuntimeMethod_var;
-const RuntimeMethod* UnityARHitTestExample_spawndesk_m61322527_RuntimeMethod_var;
 const RuntimeMethod* UnityARKitLightManager_UpdateLightEstimations_m3658331493_RuntimeMethod_var;
 const RuntimeMethod* UnityARUserAnchorExample_AnchorRemoved_m3317304988_RuntimeMethod_var;
 const RuntimeMethod* UnityARUserAnchorExample_ExampleAddAnchor_m1751472899_RuntimeMethod_var;
@@ -6111,6 +6107,10 @@ const RuntimeMethod* UnityARAmbient_UpdateLightEstimation_m2713847691_RuntimeMet
 const RuntimeMethod* UnityARAnchorManager_AddAnchor_m66833497_RuntimeMethod_var;
 const RuntimeMethod* UnityARAnchorManager_RemoveAnchor_m1214922587_RuntimeMethod_var;
 const RuntimeMethod* UnityARAnchorManager_UpdateAnchor_m2247086537_RuntimeMethod_var;
+const RuntimeMethod* UnityARHitTestExample_ChangeState_m4030905288_RuntimeMethod_var;
+const RuntimeMethod* UnityARHitTestExample_UpdateDeviceLocation_m3415946804_RuntimeMethod_var;
+const RuntimeMethod* UnityARHitTestExample_spawnchair_m3739467836_RuntimeMethod_var;
+const RuntimeMethod* UnityARHitTestExample_spawndesk_m1627313978_RuntimeMethod_var;
 const RuntimeMethod* UnityARSessionNativeInterface__anchor_added_m2468825111_RuntimeMethod_var;
 const RuntimeMethod* UnityARSessionNativeInterface__anchor_removed_m124050222_RuntimeMethod_var;
 const RuntimeMethod* UnityARSessionNativeInterface__anchor_updated_m1758166972_RuntimeMethod_var;
@@ -9747,25 +9747,6 @@ String_t* _stringLiteral2581697294;
 String_t* _stringLiteral3549878295;
 String_t* _stringLiteral3450517383;
 String_t* _stringLiteral178670189;
-String_t* _stringLiteral3795776328;
-String_t* _stringLiteral3507922790;
-String_t* _stringLiteral455118439;
-String_t* _stringLiteral3265678532;
-String_t* _stringLiteral2210853439;
-String_t* _stringLiteral302903591;
-String_t* _stringLiteral4875282;
-String_t* _stringLiteral2854238205;
-String_t* _stringLiteral227963916;
-String_t* _stringLiteral1367976365;
-String_t* _stringLiteral3609532427;
-String_t* _stringLiteral4001789855;
-String_t* _stringLiteral3330932953;
-String_t* _stringLiteral4061142656;
-String_t* _stringLiteral1199543733;
-String_t* _stringLiteral15030058;
-String_t* _stringLiteral3452614595;
-String_t* _stringLiteral3410856028;
-String_t* _stringLiteral3875954633;
 String_t* _stringLiteral950926069;
 String_t* _stringLiteral1671116060;
 String_t* _stringLiteral3574200477;
@@ -9791,6 +9772,22 @@ String_t* _stringLiteral3160071178;
 String_t* _stringLiteral1299728257;
 String_t* _stringLiteral837077870;
 String_t* _stringLiteral2795293866;
+String_t* _stringLiteral3795776328;
+String_t* _stringLiteral3507922790;
+String_t* _stringLiteral455118439;
+String_t* _stringLiteral3265678532;
+String_t* _stringLiteral2210853439;
+String_t* _stringLiteral302903591;
+String_t* _stringLiteral4875282;
+String_t* _stringLiteral2854238205;
+String_t* _stringLiteral227963916;
+String_t* _stringLiteral1779643077;
+String_t* _stringLiteral1367976365;
+String_t* _stringLiteral3609532427;
+String_t* _stringLiteral4001789855;
+String_t* _stringLiteral3330932953;
+String_t* _stringLiteral15030058;
+String_t* _stringLiteral3452614595;
 String_t* _stringLiteral3093431772;
 String_t* _stringLiteral2707270972;
 String_t* _stringLiteral3279158741;
@@ -9861,7 +9858,7 @@ String_t* _stringLiteral46997234;
 String_t* _stringLiteral1132744560;
 String_t* _stringLiteral1864861238;
 String_t* _stringLiteral3926843441;
-extern void** const g_MetadataUsages[9842] = 
+extern void** const g_MetadataUsages[9839] = 
 {
 	(void**)(&Contraction_t1589275354_0_0_0_var),
 	(void**)(&Level2Map_t3640798870_0_0_0_var),
@@ -11533,9 +11530,6 @@ extern void** const g_MetadataUsages[9842] =
 	(void**)(&WordSelectionEvent_t1841909953_il2cpp_TypeInfo_var),
 	(void**)(&LineSelectionEvent_t2868010532_il2cpp_TypeInfo_var),
 	(void**)(&LinkSelectionEvent_t1590929858_il2cpp_TypeInfo_var),
-	(void**)(&List_1_t3774003073_il2cpp_TypeInfo_var),
-	(void**)(&UnityARHitTestExample_t877209621_il2cpp_TypeInfo_var),
-	(void**)(&camera_line_t391305395_il2cpp_TypeInfo_var),
 	(void**)(&ARUserAnchorAdded_t1851120876_il2cpp_TypeInfo_var),
 	(void**)(&ARUserAnchorRemoved_t23344545_il2cpp_TypeInfo_var),
 	(void**)(&HashSet_1_t412400163_il2cpp_TypeInfo_var),
@@ -11558,6 +11552,9 @@ extern void** const g_MetadataUsages[9842] =
 	(void**)(&UnityARAnchorManager_t1557554123_il2cpp_TypeInfo_var),
 	(void**)(&IEnumerable_1_t927572704_il2cpp_TypeInfo_var),
 	(void**)(&IEnumerator_1_t2380290283_il2cpp_TypeInfo_var),
+	(void**)(&List_1_t3774003073_il2cpp_TypeInfo_var),
+	(void**)(&UnityARHitTestExample_t457226377_il2cpp_TypeInfo_var),
+	(void**)(&camera_line_t391305395_il2cpp_TypeInfo_var),
 	(void**)(&UnityARSessionRunOptionU5BU5D_t4225291891_il2cpp_TypeInfo_var),
 	(void**)(&UnityARAlignmentU5BU5D_t3682394155_il2cpp_TypeInfo_var),
 	(void**)(&UnityARPlaneDetectionU5BU5D_t3458580926_il2cpp_TypeInfo_var),
@@ -11839,23 +11836,23 @@ extern void** const g_MetadataUsages[9842] =
 	(void**)(&Func_2_Invoke_m488571475_RuntimeMethod_var),
 	(void**)(&Func_3_Invoke_m4134091626_RuntimeMethod_var),
 	(void**)(&SimpleCollator_GetTailContraction_m2107754083_RuntimeMethod_var),
-	(void**)(&Kernel_LeftShift_m3302851050_RuntimeMethod_var),
 	(void**)(&Kernel_LeftShift_m4140742987_RuntimeMethod_var),
-	(void**)(&Kernel_RightShift_m2207393597_RuntimeMethod_var),
+	(void**)(&Kernel_LeftShift_m3302851050_RuntimeMethod_var),
 	(void**)(&Kernel_RightShift_m3246168448_RuntimeMethod_var),
+	(void**)(&Kernel_RightShift_m2207393597_RuntimeMethod_var),
 	(void**)(&Kernel_modInverse_m3523342258_RuntimeMethod_var),
 	(void**)(&Kernel_modInverse_m652700340_RuntimeMethod_var),
-	(void**)(&ModulusRing_Difference_m3686091506_RuntimeMethod_var),
 	(void**)(&ModulusRing_Difference_m1345688434_RuntimeMethod_var),
+	(void**)(&ModulusRing_Difference_m3686091506_RuntimeMethod_var),
 	(void**)(&BigInteger_op_Implicit_m2547142909_RuntimeMethod_var),
 	(void**)(&BigInteger_op_Implicit_m2847009755_RuntimeMethod_var),
 	(void**)(&BigInteger_op_Multiply_m3801644593_RuntimeMethod_var),
 	(void**)(&BigInteger_op_Multiply_m3683746602_RuntimeMethod_var),
 	(void**)(&BigInteger_op_Multiply_m3854773313_RuntimeMethod_var),
-	(void**)(&BigInteger_op_Subtraction_m4245834512_RuntimeMethod_var),
 	(void**)(&BigInteger_op_Subtraction_m1575155386_RuntimeMethod_var),
-	(void**)(&ASN1Convert_FromOid_m3740816339_RuntimeMethod_var),
+	(void**)(&BigInteger_op_Subtraction_m4245834512_RuntimeMethod_var),
 	(void**)(&ASN1Convert_FromOid_m3844102704_RuntimeMethod_var),
+	(void**)(&ASN1Convert_FromOid_m3740816339_RuntimeMethod_var),
 	(void**)(&CipherSuiteCollection_Add_m2046232751_RuntimeMethod_var),
 	(void**)(&CipherSuiteFactory_GetSupportedCiphers_m3260014148_RuntimeMethod_var),
 	(void**)(&ClientRecordProtocol_createClientHandshakeMessage_m3325677558_RuntimeMethod_var),
@@ -12643,11 +12640,11 @@ extern void** const g_MetadataUsages[9842] =
 	(void**)(&SimpleCollator_LastIndexOf_m3026739976_RuntimeMethod_var),
 	(void**)(&PrimalityTests_GetSPPRounds_m2558073743_RuntimeMethod_var),
 	(void**)(&PrimalityTests_GetSPPRounds_m228447904_RuntimeMethod_var),
-	(void**)(&ASN1Convert_ToInt32_m254930636_RuntimeMethod_var),
 	(void**)(&ASN1Convert_ToInt32_m2228176117_RuntimeMethod_var),
+	(void**)(&ASN1Convert_ToInt32_m254930636_RuntimeMethod_var),
 	(void**)(&ARC4Managed_TransformBlock_m1687647868_RuntimeMethod_var),
-	(void**)(&SymmetricTransform_InternalTransformBlock_m1743612142_RuntimeMethod_var),
 	(void**)(&SymmetricTransform_InternalTransformBlock_m946892271_RuntimeMethod_var),
+	(void**)(&SymmetricTransform_InternalTransformBlock_m1743612142_RuntimeMethod_var),
 	(void**)(&SymmetricTransform_TransformBlock_m851059707_RuntimeMethod_var),
 	(void**)(&SymmetricTransform_TransformBlock_m2339552481_RuntimeMethod_var),
 	(void**)(&SslStreamBase_EndRead_m495357226_RuntimeMethod_var),
@@ -13414,8 +13411,8 @@ extern void** const g_MetadataUsages[9842] =
 	(void**)(&X509Certificate2_get_PrivateKey_m3900779210_RuntimeMethod_var),
 	(void**)(&PrivateKeyInfo_DecodeDSA_m2335813142_RuntimeMethod_var),
 	(void**)(&PrivateKeyInfo_DecodeDSA_m771724585_RuntimeMethod_var),
-	(void**)(&X509Certificate_get_DSA_m565099499_RuntimeMethod_var),
 	(void**)(&X509Certificate_get_DSA_m1760272844_RuntimeMethod_var),
+	(void**)(&X509Certificate_get_DSA_m565099499_RuntimeMethod_var),
 	(void**)(&PublicKey_DecodeDSA_m3490622362_RuntimeMethod_var),
 	(void**)(&DSAManaged_ExportParameters_m1426347745_RuntimeMethod_var),
 	(void**)(&DSACryptoServiceProvider_ExportParameters_m591135777_RuntimeMethod_var),
@@ -13423,11 +13420,11 @@ extern void** const g_MetadataUsages[9842] =
 	(void**)(&CryptoConvert_FromCapiKeyBlob_m1201868338_RuntimeMethod_var),
 	(void**)(&CryptoConvert_FromCapiPrivateKeyBlob_m73613828_RuntimeMethod_var),
 	(void**)(&CryptoConvert_FromCapiPublicKeyBlob_m4073029974_RuntimeMethod_var),
-	(void**)(&PrivateKeyInfo_DecodeRSA_m4129124827_RuntimeMethod_var),
 	(void**)(&PrivateKeyInfo_DecodeRSA_m2889346634_RuntimeMethod_var),
+	(void**)(&PrivateKeyInfo_DecodeRSA_m4129124827_RuntimeMethod_var),
 	(void**)(&PublicKey_DecodeRSA_m1824703659_RuntimeMethod_var),
-	(void**)(&RSAManaged_ExportParameters_m280454101_RuntimeMethod_var),
 	(void**)(&RSAManaged_ExportParameters_m1754454264_RuntimeMethod_var),
+	(void**)(&RSAManaged_ExportParameters_m280454101_RuntimeMethod_var),
 	(void**)(&RSACryptoServiceProvider_ExportParameters_m3871179960_RuntimeMethod_var),
 	(void**)(&PKCS12_GetSymmetricAlgorithm_m3480654844_RuntimeMethod_var),
 	(void**)(&PKCS12_GetSymmetricAlgorithm_m1390440284_RuntimeMethod_var),
@@ -13695,26 +13692,26 @@ extern void** const g_MetadataUsages[9842] =
 	(void**)(&DSAManaged_ImportParameters_m2247591247_RuntimeMethod_var),
 	(void**)(&HMAC_set_Key_m3535779141_RuntimeMethod_var),
 	(void**)(&KeyPairPersistence__ctor_m252166830_RuntimeMethod_var),
-	(void**)(&EncryptedPrivateKeyInfo_Decode_m3008916518_RuntimeMethod_var),
 	(void**)(&EncryptedPrivateKeyInfo_Decode_m2516465782_RuntimeMethod_var),
+	(void**)(&EncryptedPrivateKeyInfo_Decode_m3008916518_RuntimeMethod_var),
 	(void**)(&PrivateKeyInfo_Decode_m986145117_RuntimeMethod_var),
 	(void**)(&PrivateKeyInfo_Decode_m682813286_RuntimeMethod_var),
 	(void**)(&RSAManaged_ImportParameters_m1844641996_RuntimeMethod_var),
 	(void**)(&RSAManaged_ImportParameters_m1117427048_RuntimeMethod_var),
-	(void**)(&SymmetricTransform__ctor_m2693628991_RuntimeMethod_var),
 	(void**)(&SymmetricTransform__ctor_m25459519_RuntimeMethod_var),
-	(void**)(&SymmetricTransform_CTS_m764800021_RuntimeMethod_var),
+	(void**)(&SymmetricTransform__ctor_m2693628991_RuntimeMethod_var),
 	(void**)(&SymmetricTransform_CTS_m2571643614_RuntimeMethod_var),
-	(void**)(&SymmetricTransform_CheckInput_m1829858759_RuntimeMethod_var),
+	(void**)(&SymmetricTransform_CTS_m764800021_RuntimeMethod_var),
 	(void**)(&SymmetricTransform_CheckInput_m2092289040_RuntimeMethod_var),
-	(void**)(&SymmetricTransform_OFB_m3690147804_RuntimeMethod_var),
+	(void**)(&SymmetricTransform_CheckInput_m1829858759_RuntimeMethod_var),
 	(void**)(&SymmetricTransform_OFB_m3842617151_RuntimeMethod_var),
-	(void**)(&SymmetricTransform_ThrowBadPaddingException_m2926778011_RuntimeMethod_var),
+	(void**)(&SymmetricTransform_OFB_m3690147804_RuntimeMethod_var),
 	(void**)(&SymmetricTransform_ThrowBadPaddingException_m2898061954_RuntimeMethod_var),
+	(void**)(&SymmetricTransform_ThrowBadPaddingException_m2926778011_RuntimeMethod_var),
 	(void**)(&SymmetricTransform_Transform_m1683494363_RuntimeMethod_var),
 	(void**)(&SymmetricTransform_Transform_m3073016850_RuntimeMethod_var),
-	(void**)(&ContentInfo__ctor_m3397951412_RuntimeMethod_var),
 	(void**)(&ContentInfo__ctor_m2639021892_RuntimeMethod_var),
+	(void**)(&ContentInfo__ctor_m3397951412_RuntimeMethod_var),
 	(void**)(&EncryptedData__ctor_m4001546383_RuntimeMethod_var),
 	(void**)(&EncryptedData__ctor_m2497911783_RuntimeMethod_var),
 	(void**)(&CipherSuite_Write_m1172814058_RuntimeMethod_var),
@@ -13764,12 +13761,12 @@ extern void** const g_MetadataUsages[9842] =
 	(void**)(&PKCS12_AddPrivateKey_m1542850936_RuntimeMethod_var),
 	(void**)(&PKCS12_Decode_m163534693_RuntimeMethod_var),
 	(void**)(&PKCS12_Decode_m1913457787_RuntimeMethod_var),
-	(void**)(&PKCS12_ReadSafeBag_m3435973087_RuntimeMethod_var),
 	(void**)(&PKCS12_ReadSafeBag_m1585166574_RuntimeMethod_var),
-	(void**)(&X509Certificate__ctor_m3656389950_RuntimeMethod_var),
+	(void**)(&PKCS12_ReadSafeBag_m3435973087_RuntimeMethod_var),
 	(void**)(&X509Certificate__ctor_m2595927506_RuntimeMethod_var),
-	(void**)(&X509Certificate_Parse_m1106379228_RuntimeMethod_var),
+	(void**)(&X509Certificate__ctor_m3656389950_RuntimeMethod_var),
 	(void**)(&X509Certificate_Parse_m54358579_RuntimeMethod_var),
+	(void**)(&X509Certificate_Parse_m1106379228_RuntimeMethod_var),
 	(void**)(&X509CertificateCollection_AddRange_m2165814476_RuntimeMethod_var),
 	(void**)(&X509Crl__ctor_m1817187405_RuntimeMethod_var),
 	(void**)(&X509Crl_Parse_m3164013387_RuntimeMethod_var),
@@ -15674,10 +15671,6 @@ extern void** const g_MetadataUsages[9842] =
 	(void**)(&UnityARFaceMeshManager_FaceAdded_m224468745_RuntimeMethod_var),
 	(void**)(&UnityARFaceMeshManager_FaceRemoved_m1934205709_RuntimeMethod_var),
 	(void**)(&UnityARFaceMeshManager_FaceUpdated_m4075819658_RuntimeMethod_var),
-	(void**)(&UnityARHitTestExample_ChangeState_m3757517999_RuntimeMethod_var),
-	(void**)(&UnityARHitTestExample_UpdateDeviceLocation_m572624733_RuntimeMethod_var),
-	(void**)(&UnityARHitTestExample_spawnchair_m2058542550_RuntimeMethod_var),
-	(void**)(&UnityARHitTestExample_spawndesk_m61322527_RuntimeMethod_var),
 	(void**)(&UnityARKitLightManager_UpdateLightEstimations_m3658331493_RuntimeMethod_var),
 	(void**)(&UnityARUserAnchorExample_AnchorRemoved_m3317304988_RuntimeMethod_var),
 	(void**)(&UnityARUserAnchorExample_ExampleAddAnchor_m1751472899_RuntimeMethod_var),
@@ -15955,6 +15948,10 @@ extern void** const g_MetadataUsages[9842] =
 	(void**)(&UnityARAnchorManager_AddAnchor_m66833497_RuntimeMethod_var),
 	(void**)(&UnityARAnchorManager_RemoveAnchor_m1214922587_RuntimeMethod_var),
 	(void**)(&UnityARAnchorManager_UpdateAnchor_m2247086537_RuntimeMethod_var),
+	(void**)(&UnityARHitTestExample_ChangeState_m4030905288_RuntimeMethod_var),
+	(void**)(&UnityARHitTestExample_UpdateDeviceLocation_m3415946804_RuntimeMethod_var),
+	(void**)(&UnityARHitTestExample_spawnchair_m3739467836_RuntimeMethod_var),
+	(void**)(&UnityARHitTestExample_spawndesk_m1627313978_RuntimeMethod_var),
 	(void**)(&UnityARSessionNativeInterface__anchor_added_m2468825111_RuntimeMethod_var),
 	(void**)(&UnityARSessionNativeInterface__anchor_removed_m124050222_RuntimeMethod_var),
 	(void**)(&UnityARSessionNativeInterface__anchor_updated_m1758166972_RuntimeMethod_var),
@@ -19591,25 +19588,6 @@ extern void** const g_MetadataUsages[9842] =
 	(void**)(&_stringLiteral3549878295),
 	(void**)(&_stringLiteral3450517383),
 	(void**)(&_stringLiteral178670189),
-	(void**)(&_stringLiteral3795776328),
-	(void**)(&_stringLiteral3507922790),
-	(void**)(&_stringLiteral455118439),
-	(void**)(&_stringLiteral3265678532),
-	(void**)(&_stringLiteral2210853439),
-	(void**)(&_stringLiteral302903591),
-	(void**)(&_stringLiteral4875282),
-	(void**)(&_stringLiteral2854238205),
-	(void**)(&_stringLiteral227963916),
-	(void**)(&_stringLiteral1367976365),
-	(void**)(&_stringLiteral3609532427),
-	(void**)(&_stringLiteral4001789855),
-	(void**)(&_stringLiteral3330932953),
-	(void**)(&_stringLiteral4061142656),
-	(void**)(&_stringLiteral1199543733),
-	(void**)(&_stringLiteral15030058),
-	(void**)(&_stringLiteral3452614595),
-	(void**)(&_stringLiteral3410856028),
-	(void**)(&_stringLiteral3875954633),
 	(void**)(&_stringLiteral950926069),
 	(void**)(&_stringLiteral1671116060),
 	(void**)(&_stringLiteral3574200477),
@@ -19635,6 +19613,22 @@ extern void** const g_MetadataUsages[9842] =
 	(void**)(&_stringLiteral1299728257),
 	(void**)(&_stringLiteral837077870),
 	(void**)(&_stringLiteral2795293866),
+	(void**)(&_stringLiteral3795776328),
+	(void**)(&_stringLiteral3507922790),
+	(void**)(&_stringLiteral455118439),
+	(void**)(&_stringLiteral3265678532),
+	(void**)(&_stringLiteral2210853439),
+	(void**)(&_stringLiteral302903591),
+	(void**)(&_stringLiteral4875282),
+	(void**)(&_stringLiteral2854238205),
+	(void**)(&_stringLiteral227963916),
+	(void**)(&_stringLiteral1779643077),
+	(void**)(&_stringLiteral1367976365),
+	(void**)(&_stringLiteral3609532427),
+	(void**)(&_stringLiteral4001789855),
+	(void**)(&_stringLiteral3330932953),
+	(void**)(&_stringLiteral15030058),
+	(void**)(&_stringLiteral3452614595),
 	(void**)(&_stringLiteral3093431772),
 	(void**)(&_stringLiteral2707270972),
 	(void**)(&_stringLiteral3279158741),
@@ -28265,17 +28259,17 @@ extern const uint32_t UnityARFaceMeshManager_FaceUpdated_m4075819658_MetadataUsa
 extern const uint32_t UnityARFaceMeshManager_Start_m3997530909_MetadataUsageId = 8556;
 extern const uint32_t UnityARGeneratePlane_OnGUI_m324062377_MetadataUsageId = 8557;
 extern const uint32_t UnityARGeneratePlane_Start_m819352378_MetadataUsageId = 8558;
-extern const uint32_t UnityARHitTestExample_ChangeState_m3757517999_MetadataUsageId = 8559;
-extern const uint32_t UnityARHitTestExample_HitTestWithResultType_m1854248352_MetadataUsageId = 8560;
-extern const uint32_t UnityARHitTestExample_IsPointerOverUIObject_m1521326849_MetadataUsageId = 8561;
-extern const uint32_t UnityARHitTestExample_Start_m3785796641_MetadataUsageId = 8562;
-extern const uint32_t UnityARHitTestExample_UpdateDeviceLocation_m572624733_MetadataUsageId = 8563;
-extern const uint32_t UnityARHitTestExample_Update_m3543408047_MetadataUsageId = 8564;
-extern const uint32_t UnityARHitTestExample__ctor_m4180169851_MetadataUsageId = 8565;
-extern const uint32_t UnityARHitTestExample_linerender_m2214949402_MetadataUsageId = 8566;
-extern const uint32_t UnityARHitTestExample_spawnchair_m2058542550_MetadataUsageId = 8567;
-extern const uint32_t UnityARHitTestExample_spawndesk_m61322527_MetadataUsageId = 8568;
-extern const uint32_t UnityARHitTestExample_spawnlogo_m2459712707_MetadataUsageId = 8569;
+extern const uint32_t UnityARHitTestExample_ChangeState_m4030905288_MetadataUsageId = 8559;
+extern const uint32_t UnityARHitTestExample_HitTestWithResultType_m1112373859_MetadataUsageId = 8560;
+extern const uint32_t UnityARHitTestExample_IsPointerOverUIObject_m844048271_MetadataUsageId = 8561;
+extern const uint32_t UnityARHitTestExample_Start_m1216169914_MetadataUsageId = 8562;
+extern const uint32_t UnityARHitTestExample_UpdateDeviceLocation_m3415946804_MetadataUsageId = 8563;
+extern const uint32_t UnityARHitTestExample_Update_m3374199410_MetadataUsageId = 8564;
+extern const uint32_t UnityARHitTestExample__ctor_m3724217776_MetadataUsageId = 8565;
+extern const uint32_t UnityARHitTestExample_linerender_m2244842352_MetadataUsageId = 8566;
+extern const uint32_t UnityARHitTestExample_spawnchair_m3739467836_MetadataUsageId = 8567;
+extern const uint32_t UnityARHitTestExample_spawndesk_m1627313978_MetadataUsageId = 8568;
+extern const uint32_t UnityARHitTestExample_spawnlogo_m3787785076_MetadataUsageId = 8569;
 extern const uint32_t UnityARKitControl_OnGUI_m1112791986_MetadataUsageId = 8570;
 extern const uint32_t UnityARKitControl__ctor_m1406012851_MetadataUsageId = 8571;
 extern const uint32_t UnityARKitLightManager_FindAllLights_m1476623144_MetadataUsageId = 8572;

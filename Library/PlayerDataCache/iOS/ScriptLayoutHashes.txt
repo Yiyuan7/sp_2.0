@@ -60,7 +60,7 @@ a44114bd4fa541174f78b4bb92bacb48 UnityEngine.UI.dll:UnityEngine.EventSystems.Sta
 e90403eeda069970e0b9de1533de13a6 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 2d58ca16854b99daea8c45e9c0f367b7 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 16da51d1b62ef6d4ee1849350434023b UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
-76212ccb189b1ee5fd8da7cae664ef93 Assembly-CSharp.dll:.UnityARHitTestExample
+76212ccb189b1ee5fd8da7cae664ef93 Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityARHitTestExample
 50b0b141074b216c8b53b1bd467f73c9 Unity.TextMeshPro.dll:TMPro.TMP_InputField
 a8101e11a9ce803fe286598dca688665 Assembly-CSharp.dll:.ColorLabel
 53cefe5d98cadefbab750835e70b89c0 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter

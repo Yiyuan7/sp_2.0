@@ -38488,42 +38488,42 @@ static void UnityARCameraNearFar_t982368306_CustomAttributesCacheGenerator(Custo
 		RequireComponent__ctor_m886241599(tmp, il2cpp_codegen_type_get_object(Camera_t4157153871_0_0_0_var), NULL);
 	}
 }
-static void UnityARHitTestExample_t877209621_CustomAttributesCacheGenerator_GetDeviceLocationButton(CustomAttributesCache* cache)
+static void UnityARHitTestExample_t457226377_CustomAttributesCacheGenerator_GetDeviceLocationButton(CustomAttributesCache* cache)
 {
 	{
 		SerializeField_t3286833614 * tmp = (SerializeField_t3286833614 *)cache->attributes[0];
 		SerializeField__ctor_m808862924(tmp, NULL);
 	}
 }
-static void UnityARHitTestExample_t877209621_CustomAttributesCacheGenerator_SpawnDesk(CustomAttributesCache* cache)
+static void UnityARHitTestExample_t457226377_CustomAttributesCacheGenerator_SpawnDesk(CustomAttributesCache* cache)
 {
 	{
 		SerializeField_t3286833614 * tmp = (SerializeField_t3286833614 *)cache->attributes[0];
 		SerializeField__ctor_m808862924(tmp, NULL);
 	}
 }
-static void UnityARHitTestExample_t877209621_CustomAttributesCacheGenerator_SpawnChair(CustomAttributesCache* cache)
+static void UnityARHitTestExample_t457226377_CustomAttributesCacheGenerator_SpawnChair(CustomAttributesCache* cache)
 {
 	{
 		SerializeField_t3286833614 * tmp = (SerializeField_t3286833614 *)cache->attributes[0];
 		SerializeField__ctor_m808862924(tmp, NULL);
 	}
 }
-static void UnityARHitTestExample_t877209621_CustomAttributesCacheGenerator_m_LineRenderer(CustomAttributesCache* cache)
+static void UnityARHitTestExample_t457226377_CustomAttributesCacheGenerator_m_LineRenderer(CustomAttributesCache* cache)
 {
 	{
 		SerializeField_t3286833614 * tmp = (SerializeField_t3286833614 *)cache->attributes[0];
 		SerializeField__ctor_m808862924(tmp, NULL);
 	}
 }
-static void UnityARHitTestExample_t877209621_CustomAttributesCacheGenerator_m_DistanceTextHldr(CustomAttributesCache* cache)
+static void UnityARHitTestExample_t457226377_CustomAttributesCacheGenerator_m_DistanceTextHldr(CustomAttributesCache* cache)
 {
 	{
 		SerializeField_t3286833614 * tmp = (SerializeField_t3286833614 *)cache->attributes[0];
 		SerializeField__ctor_m808862924(tmp, NULL);
 	}
 }
-static void UnityARHitTestExample_t877209621_CustomAttributesCacheGenerator_showdistanceButton(CustomAttributesCache* cache)
+static void UnityARHitTestExample_t457226377_CustomAttributesCacheGenerator_showdistanceButton(CustomAttributesCache* cache)
 {
 	{
 		SerializeField_t3286833614 * tmp = (SerializeField_t3286833614 *)cache->attributes[0];
@@ -42971,12 +42971,12 @@ extern const CustomAttributesCacheGenerator g_AttributeGenerators[3588] =
 	UnityARCameraManager_t4002280589_CustomAttributesCacheGenerator_detectionImages,
 	UnityARCameraManager_t4002280589_CustomAttributesCacheGenerator_detectionObjects,
 	UnityARCameraNearFar_t982368306_CustomAttributesCacheGenerator,
-	UnityARHitTestExample_t877209621_CustomAttributesCacheGenerator_GetDeviceLocationButton,
-	UnityARHitTestExample_t877209621_CustomAttributesCacheGenerator_SpawnDesk,
-	UnityARHitTestExample_t877209621_CustomAttributesCacheGenerator_SpawnChair,
-	UnityARHitTestExample_t877209621_CustomAttributesCacheGenerator_m_LineRenderer,
-	UnityARHitTestExample_t877209621_CustomAttributesCacheGenerator_m_DistanceTextHldr,
-	UnityARHitTestExample_t877209621_CustomAttributesCacheGenerator_showdistanceButton,
+	UnityARHitTestExample_t457226377_CustomAttributesCacheGenerator_GetDeviceLocationButton,
+	UnityARHitTestExample_t457226377_CustomAttributesCacheGenerator_SpawnDesk,
+	UnityARHitTestExample_t457226377_CustomAttributesCacheGenerator_SpawnChair,
+	UnityARHitTestExample_t457226377_CustomAttributesCacheGenerator_m_LineRenderer,
+	UnityARHitTestExample_t457226377_CustomAttributesCacheGenerator_m_DistanceTextHldr,
+	UnityARHitTestExample_t457226377_CustomAttributesCacheGenerator_showdistanceButton,
 	UnityAREnvironmentProbeCubemapDataMethods_t3147578470_CustomAttributesCacheGenerator,
 	UnityAREnvironmentProbeCubemapDataMethods_t3147578470_CustomAttributesCacheGenerator_UnityAREnvironmentProbeCubemapDataMethods_GetTextureFormat_m1819816950,
 	UnityARSessionNativeInterface_t3929719369_CustomAttributesCacheGenerator_AREnvironmentProbeAnchorAddedEvent,

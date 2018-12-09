@@ -534,10 +534,10 @@ extern const Il2CppType BoxSlider_t2380464200_0_0_0;
 extern const Il2CppType TextMesh_t1536577757_0_0_0;
 extern const Il2CppType TextMeshProFloatingText_t845872552_0_0_0;
 extern const Il2CppType TextContainer_t97923372_0_0_0;
-extern const Il2CppType LineRenderer_t3154350270_0_0_0;
 extern const Il2CppType UnityARUserAnchorComponent_t969893952_0_0_0;
 extern const Il2CppType serializableFromEditorMessage_t2731251371_0_0_0;
 extern const Il2CppType DontDestroyOnLoad_t1456007215_0_0_0;
+extern const Il2CppType LineRenderer_t3154350270_0_0_0;
 extern const Il2CppType ARKitPlaneMeshRender_t1298532386_0_0_0;
 extern const Il2CppType Int32U5BU5D_t385246372_0_0_0;
 extern const Il2CppType VideoFormatButton_t1937817916_0_0_0;
@@ -2083,14 +2083,14 @@ static const RuntimeType* GenInst_TextMeshProFloatingText_t845872552_0_0_0_Types
 extern const Il2CppGenericInst GenInst_TextMeshProFloatingText_t845872552_0_0_0 = { 1, GenInst_TextMeshProFloatingText_t845872552_0_0_0_Types };
 static const RuntimeType* GenInst_TextContainer_t97923372_0_0_0_Types[] = { (&TextContainer_t97923372_0_0_0) };
 extern const Il2CppGenericInst GenInst_TextContainer_t97923372_0_0_0 = { 1, GenInst_TextContainer_t97923372_0_0_0_Types };
-static const RuntimeType* GenInst_LineRenderer_t3154350270_0_0_0_Types[] = { (&LineRenderer_t3154350270_0_0_0) };
-extern const Il2CppGenericInst GenInst_LineRenderer_t3154350270_0_0_0 = { 1, GenInst_LineRenderer_t3154350270_0_0_0_Types };
 static const RuntimeType* GenInst_UnityARUserAnchorComponent_t969893952_0_0_0_Types[] = { (&UnityARUserAnchorComponent_t969893952_0_0_0) };
 extern const Il2CppGenericInst GenInst_UnityARUserAnchorComponent_t969893952_0_0_0 = { 1, GenInst_UnityARUserAnchorComponent_t969893952_0_0_0_Types };
 static const RuntimeType* GenInst_serializableFromEditorMessage_t2731251371_0_0_0_Types[] = { (&serializableFromEditorMessage_t2731251371_0_0_0) };
 extern const Il2CppGenericInst GenInst_serializableFromEditorMessage_t2731251371_0_0_0 = { 1, GenInst_serializableFromEditorMessage_t2731251371_0_0_0_Types };
 static const RuntimeType* GenInst_DontDestroyOnLoad_t1456007215_0_0_0_Types[] = { (&DontDestroyOnLoad_t1456007215_0_0_0) };
 extern const Il2CppGenericInst GenInst_DontDestroyOnLoad_t1456007215_0_0_0 = { 1, GenInst_DontDestroyOnLoad_t1456007215_0_0_0_Types };
+static const RuntimeType* GenInst_LineRenderer_t3154350270_0_0_0_Types[] = { (&LineRenderer_t3154350270_0_0_0) };
+extern const Il2CppGenericInst GenInst_LineRenderer_t3154350270_0_0_0 = { 1, GenInst_LineRenderer_t3154350270_0_0_0_Types };
 static const RuntimeType* GenInst_ARKitPlaneMeshRender_t1298532386_0_0_0_Types[] = { (&ARKitPlaneMeshRender_t1298532386_0_0_0) };
 extern const Il2CppGenericInst GenInst_ARKitPlaneMeshRender_t1298532386_0_0_0 = { 1, GenInst_ARKitPlaneMeshRender_t1298532386_0_0_0_Types };
 static const RuntimeType* GenInst_Int32U5BU5D_t385246372_0_0_0_Types[] = { (&Int32U5BU5D_t385246372_0_0_0) };
@@ -3285,10 +3285,10 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[933] =
 	&GenInst_TextMesh_t1536577757_0_0_0,
 	&GenInst_TextMeshProFloatingText_t845872552_0_0_0,
 	&GenInst_TextContainer_t97923372_0_0_0,
-	&GenInst_LineRenderer_t3154350270_0_0_0,
 	&GenInst_UnityARUserAnchorComponent_t969893952_0_0_0,
 	&GenInst_serializableFromEditorMessage_t2731251371_0_0_0,
 	&GenInst_DontDestroyOnLoad_t1456007215_0_0_0,
+	&GenInst_LineRenderer_t3154350270_0_0_0,
 	&GenInst_ARKitPlaneMeshRender_t1298532386_0_0_0,
 	&GenInst_Int32U5BU5D_t385246372_0_0_0,
 	&GenInst_VideoFormatButton_t1937817916_0_0_0,

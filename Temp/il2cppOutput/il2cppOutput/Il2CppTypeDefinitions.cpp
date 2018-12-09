@@ -13683,11 +13683,6 @@ extern const RuntimeType TextContainer_t97923372_0_0_0 = { (void*)2113, 0, IL2CP
 extern const RuntimeType TextContainer_t97923372_1_0_0 = { (void*)2113, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 extern const RuntimeType TextContainer_t97923372_0_0_1 = { (void*)2113, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType LineRenderer_t3154350270_0_0_0 = { (void*)1408, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType LineRenderer_t3154350270_1_0_0 = { (void*)1408, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType LineRenderer_t3154350270_0_0_1 = { (void*)1408, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType LineRenderer_t3154350270_0_0_6 = { (void*)1408, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-
 extern const RuntimeType UnityARUserAnchorComponent_t969893952_0_0_0 = { (void*)2411, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType UnityARUserAnchorComponent_t969893952_1_0_0 = { (void*)2411, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
@@ -13696,6 +13691,11 @@ extern const RuntimeType serializableFromEditorMessage_t2731251371_1_0_0 = { (vo
 
 extern const RuntimeType DontDestroyOnLoad_t1456007215_0_0_0 = { (void*)2398, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType DontDestroyOnLoad_t1456007215_1_0_0 = { (void*)2398, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+extern const RuntimeType LineRenderer_t3154350270_0_0_0 = { (void*)1408, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType LineRenderer_t3154350270_1_0_0 = { (void*)1408, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType LineRenderer_t3154350270_0_0_1 = { (void*)1408, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType LineRenderer_t3154350270_0_0_6 = { (void*)1408, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 extern const RuntimeType ARKitPlaneMeshRender_t1298532386_0_0_0 = { (void*)2396, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType ARKitPlaneMeshRender_t1298532386_1_0_0 = { (void*)2396, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
@@ -22763,8 +22763,8 @@ extern const RuntimeType UnityARCameraNearFar_t982368306_1_0_0 = { (void*)2405, 
 extern const RuntimeType UnityARGeneratePlane_t272564669_0_0_0 = { (void*)2406, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType UnityARGeneratePlane_t272564669_1_0_0 = { (void*)2406, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType UnityARHitTestExample_t877209621_0_0_0 = { (void*)2407, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType UnityARHitTestExample_t877209621_1_0_0 = { (void*)2407, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType UnityARHitTestExample_t457226377_0_0_0 = { (void*)2407, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType UnityARHitTestExample_t457226377_1_0_0 = { (void*)2407, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType UnityARKitControl_t1358211756_0_0_0 = { (void*)2408, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType UnityARKitControl_t1358211756_1_0_0 = { (void*)2408, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
@@ -27029,10 +27029,10 @@ extern const RuntimeType* const  g_Il2CppTypeTable[11644] =
 	&TextMesh_t1536577757_0_0_0,
 	&TextMeshProFloatingText_t845872552_0_0_0,
 	&TextContainer_t97923372_0_0_0,
-	&LineRenderer_t3154350270_0_0_0,
 	&UnityARUserAnchorComponent_t969893952_0_0_0,
 	&serializableFromEditorMessage_t2731251371_0_0_0,
 	&DontDestroyOnLoad_t1456007215_0_0_0,
+	&LineRenderer_t3154350270_0_0_0,
 	&ARKitPlaneMeshRender_t1298532386_0_0_0,
 	&Int32U5BU5D_t385246372_0_0_0,
 	&VideoFormatButton_t1937817916_0_0_0,
@@ -34375,8 +34375,8 @@ extern const RuntimeType* const  g_Il2CppTypeTable[11644] =
 	&UnityARGeneratePlane_t272564669_0_0_0,
 	&UnityARGeneratePlane_t272564669_1_0_0,
 	&UnityARAnchorManager_t1557554123_0_0_1,
-	&UnityARHitTestExample_t877209621_0_0_0,
-	&UnityARHitTestExample_t877209621_1_0_0,
+	&UnityARHitTestExample_t457226377_0_0_0,
+	&UnityARHitTestExample_t457226377_1_0_0,
 	&LineRenderer_t3154350270_0_0_6,
 	&List_1_t899420910_0_0_6,
 	&List_1_t3774003073_0_0_6,

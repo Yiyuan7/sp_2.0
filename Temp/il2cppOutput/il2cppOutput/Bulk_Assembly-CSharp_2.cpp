@@ -136,8 +136,6 @@ struct Assembly_t;
 struct MethodInfo_t;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t950877179;
-// System.Security.Cryptography.RandomNumberGenerator
-struct RandomNumberGenerator_t386037858;
 // System.Single[]
 struct SingleU5BU5D_t1444911251;
 // System.String
@@ -310,12 +308,8 @@ struct internal_ARUserAnchorUpdated_t3964727538;
 struct UnityARVideoFormatU5BU5D_t3086264048;
 // UnityEngine.XR.iOS.Utils.SerializableVector4
 struct SerializableVector4_t2739337940;
-// UnityEngine.XR.iOS.Utils.serializableARKitInit
-struct serializableARKitInit_t3839227232;
 // UnityEngine.XR.iOS.Utils.serializableFaceGeometry
 struct serializableFaceGeometry_t1893768467;
-// UnityEngine.XR.iOS.Utils.serializableFromEditorMessage
-struct serializableFromEditorMessage_t2731251371;
 // UnityEngine.XR.iOS.Utils.serializablePlaneGeometry
 struct serializablePlaneGeometry_t3471745378;
 // UnityEngine.XR.iOS.Utils.serializablePointCloud
@@ -381,7 +375,6 @@ extern RuntimeClass* String_t_il2cpp_TypeInfo_var;
 extern RuntimeClass* UnityARDirectionalLightEstimate_t2924556994_il2cpp_TypeInfo_var;
 extern RuntimeClass* UnityARSessionNativeInterface_t3929719369_il2cpp_TypeInfo_var;
 extern RuntimeClass* UnityARVideoFormat_t1944454781_il2cpp_TypeInfo_var;
-extern RuntimeClass* Vector2U5BU5D_t1457185986_il2cpp_TypeInfo_var;
 extern RuntimeClass* Vector3U5BU5D_t1718750761_il2cpp_TypeInfo_var;
 extern RuntimeClass* Vector3_t3722313464_il2cpp_TypeInfo_var;
 extern RuntimeClass* Vector4_t3319028937_il2cpp_TypeInfo_var;
@@ -391,7 +384,6 @@ extern RuntimeClass* camera_line_t391305395_il2cpp_TypeInfo_var;
 extern RuntimeClass* chooselogo_t2052742453_il2cpp_TypeInfo_var;
 extern RuntimeClass* serializableARReferenceObject_t2711648110_il2cpp_TypeInfo_var;
 extern RuntimeClass* serializableARWorldMap_t2514323794_il2cpp_TypeInfo_var;
-extern RuntimeClass* serializablePlaneGeometry_t3471745378_il2cpp_TypeInfo_var;
 extern RuntimeClass* serializablePointCloud_t4241265545_il2cpp_TypeInfo_var;
 extern RuntimeClass* serializableSHC_t226029808_il2cpp_TypeInfo_var;
 extern RuntimeClass* serializableUnityARCamera_t1848993995_il2cpp_TypeInfo_var;
@@ -423,7 +415,6 @@ extern const RuntimeMethod* List_1_Add_m2765963565_RuntimeMethod_var;
 extern const RuntimeMethod* List_1_GetEnumerator_m3413760873_RuntimeMethod_var;
 extern const RuntimeMethod* List_1__ctor_m1424466557_RuntimeMethod_var;
 extern const RuntimeMethod* List_1_get_Item_m3743125852_RuntimeMethod_var;
-extern const RuntimeMethod* ObjectSerializationExtension_Deserialize_TisInt32U5BU5D_t385246372_m1366516915_RuntimeMethod_var;
 extern const RuntimeMethod* Object_Instantiate_TisGameObject_t1113636619_m3215236302_RuntimeMethod_var;
 extern const RuntimeMethod* Object_Instantiate_TisGameObject_t1113636619_m4070250708_RuntimeMethod_var;
 extern const RuntimeMethod* UnityEyeManager_FaceAdded_m743662964_RuntimeMethod_var;
@@ -465,11 +456,6 @@ extern const uint32_t camera_line_Update_m3286351441_MetadataUsageId;
 extern const uint32_t chooselogo__cctor_m1718404111_MetadataUsageId;
 extern const uint32_t serializableARReferenceObject_op_Implicit_m2151343210_MetadataUsageId;
 extern const uint32_t serializableARWorldMap_op_Implicit_m1798102707_MetadataUsageId;
-extern const uint32_t serializablePlaneGeometry_get_BoundaryVertices_m2706946419_MetadataUsageId;
-extern const uint32_t serializablePlaneGeometry_get_TexCoords_m2833194137_MetadataUsageId;
-extern const uint32_t serializablePlaneGeometry_get_TriangleIndices_m1206890056_MetadataUsageId;
-extern const uint32_t serializablePlaneGeometry_get_Vertices_m372421006_MetadataUsageId;
-extern const uint32_t serializablePlaneGeometry_op_Implicit_m2849839976_MetadataUsageId;
 extern const uint32_t serializablePointCloud_op_Implicit_m1868975265_MetadataUsageId;
 extern const uint32_t serializablePointCloud_op_Implicit_m3100839470_MetadataUsageId;
 extern const uint32_t serializableSHC_op_Implicit_m142774640_MetadataUsageId;
@@ -485,10 +471,8 @@ extern const uint32_t serializableUnityARPlaneAnchor_op_Implicit_m1833342500_Met
 struct Vector3_t3722313464 ;
 
 struct ByteU5BU5D_t4116647657;
-struct Int32U5BU5D_t385246372;
 struct ObjectU5BU5D_t2843939325;
 struct SingleU5BU5D_t1444911251;
-struct Vector2U5BU5D_t1457185986;
 struct Vector3U5BU5D_t1718750761;
 
 
@@ -1788,184 +1772,6 @@ struct Enum_t4135868527_marshaled_com
 {
 };
 #endif // ENUM_T4135868527_H
-#ifndef GUID_T_H
-#define GUID_T_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Guid
-struct  Guid_t 
-{
-public:
-	// System.Int32 System.Guid::_a
-	int32_t ____a_0;
-	// System.Int16 System.Guid::_b
-	int16_t ____b_1;
-	// System.Int16 System.Guid::_c
-	int16_t ____c_2;
-	// System.Byte System.Guid::_d
-	uint8_t ____d_3;
-	// System.Byte System.Guid::_e
-	uint8_t ____e_4;
-	// System.Byte System.Guid::_f
-	uint8_t ____f_5;
-	// System.Byte System.Guid::_g
-	uint8_t ____g_6;
-	// System.Byte System.Guid::_h
-	uint8_t ____h_7;
-	// System.Byte System.Guid::_i
-	uint8_t ____i_8;
-	// System.Byte System.Guid::_j
-	uint8_t ____j_9;
-	// System.Byte System.Guid::_k
-	uint8_t ____k_10;
-
-public:
-	inline static int32_t get_offset_of__a_0() { return static_cast<int32_t>(offsetof(Guid_t, ____a_0)); }
-	inline int32_t get__a_0() const { return ____a_0; }
-	inline int32_t* get_address_of__a_0() { return &____a_0; }
-	inline void set__a_0(int32_t value)
-	{
-		____a_0 = value;
-	}
-
-	inline static int32_t get_offset_of__b_1() { return static_cast<int32_t>(offsetof(Guid_t, ____b_1)); }
-	inline int16_t get__b_1() const { return ____b_1; }
-	inline int16_t* get_address_of__b_1() { return &____b_1; }
-	inline void set__b_1(int16_t value)
-	{
-		____b_1 = value;
-	}
-
-	inline static int32_t get_offset_of__c_2() { return static_cast<int32_t>(offsetof(Guid_t, ____c_2)); }
-	inline int16_t get__c_2() const { return ____c_2; }
-	inline int16_t* get_address_of__c_2() { return &____c_2; }
-	inline void set__c_2(int16_t value)
-	{
-		____c_2 = value;
-	}
-
-	inline static int32_t get_offset_of__d_3() { return static_cast<int32_t>(offsetof(Guid_t, ____d_3)); }
-	inline uint8_t get__d_3() const { return ____d_3; }
-	inline uint8_t* get_address_of__d_3() { return &____d_3; }
-	inline void set__d_3(uint8_t value)
-	{
-		____d_3 = value;
-	}
-
-	inline static int32_t get_offset_of__e_4() { return static_cast<int32_t>(offsetof(Guid_t, ____e_4)); }
-	inline uint8_t get__e_4() const { return ____e_4; }
-	inline uint8_t* get_address_of__e_4() { return &____e_4; }
-	inline void set__e_4(uint8_t value)
-	{
-		____e_4 = value;
-	}
-
-	inline static int32_t get_offset_of__f_5() { return static_cast<int32_t>(offsetof(Guid_t, ____f_5)); }
-	inline uint8_t get__f_5() const { return ____f_5; }
-	inline uint8_t* get_address_of__f_5() { return &____f_5; }
-	inline void set__f_5(uint8_t value)
-	{
-		____f_5 = value;
-	}
-
-	inline static int32_t get_offset_of__g_6() { return static_cast<int32_t>(offsetof(Guid_t, ____g_6)); }
-	inline uint8_t get__g_6() const { return ____g_6; }
-	inline uint8_t* get_address_of__g_6() { return &____g_6; }
-	inline void set__g_6(uint8_t value)
-	{
-		____g_6 = value;
-	}
-
-	inline static int32_t get_offset_of__h_7() { return static_cast<int32_t>(offsetof(Guid_t, ____h_7)); }
-	inline uint8_t get__h_7() const { return ____h_7; }
-	inline uint8_t* get_address_of__h_7() { return &____h_7; }
-	inline void set__h_7(uint8_t value)
-	{
-		____h_7 = value;
-	}
-
-	inline static int32_t get_offset_of__i_8() { return static_cast<int32_t>(offsetof(Guid_t, ____i_8)); }
-	inline uint8_t get__i_8() const { return ____i_8; }
-	inline uint8_t* get_address_of__i_8() { return &____i_8; }
-	inline void set__i_8(uint8_t value)
-	{
-		____i_8 = value;
-	}
-
-	inline static int32_t get_offset_of__j_9() { return static_cast<int32_t>(offsetof(Guid_t, ____j_9)); }
-	inline uint8_t get__j_9() const { return ____j_9; }
-	inline uint8_t* get_address_of__j_9() { return &____j_9; }
-	inline void set__j_9(uint8_t value)
-	{
-		____j_9 = value;
-	}
-
-	inline static int32_t get_offset_of__k_10() { return static_cast<int32_t>(offsetof(Guid_t, ____k_10)); }
-	inline uint8_t get__k_10() const { return ____k_10; }
-	inline uint8_t* get_address_of__k_10() { return &____k_10; }
-	inline void set__k_10(uint8_t value)
-	{
-		____k_10 = value;
-	}
-};
-
-struct Guid_t_StaticFields
-{
-public:
-	// System.Guid System.Guid::Empty
-	Guid_t  ___Empty_11;
-	// System.Object System.Guid::_rngAccess
-	RuntimeObject * ____rngAccess_12;
-	// System.Security.Cryptography.RandomNumberGenerator System.Guid::_rng
-	RandomNumberGenerator_t386037858 * ____rng_13;
-	// System.Security.Cryptography.RandomNumberGenerator System.Guid::_fastRng
-	RandomNumberGenerator_t386037858 * ____fastRng_14;
-
-public:
-	inline static int32_t get_offset_of_Empty_11() { return static_cast<int32_t>(offsetof(Guid_t_StaticFields, ___Empty_11)); }
-	inline Guid_t  get_Empty_11() const { return ___Empty_11; }
-	inline Guid_t * get_address_of_Empty_11() { return &___Empty_11; }
-	inline void set_Empty_11(Guid_t  value)
-	{
-		___Empty_11 = value;
-	}
-
-	inline static int32_t get_offset_of__rngAccess_12() { return static_cast<int32_t>(offsetof(Guid_t_StaticFields, ____rngAccess_12)); }
-	inline RuntimeObject * get__rngAccess_12() const { return ____rngAccess_12; }
-	inline RuntimeObject ** get_address_of__rngAccess_12() { return &____rngAccess_12; }
-	inline void set__rngAccess_12(RuntimeObject * value)
-	{
-		____rngAccess_12 = value;
-		Il2CppCodeGenWriteBarrier((&____rngAccess_12), value);
-	}
-
-	inline static int32_t get_offset_of__rng_13() { return static_cast<int32_t>(offsetof(Guid_t_StaticFields, ____rng_13)); }
-	inline RandomNumberGenerator_t386037858 * get__rng_13() const { return ____rng_13; }
-	inline RandomNumberGenerator_t386037858 ** get_address_of__rng_13() { return &____rng_13; }
-	inline void set__rng_13(RandomNumberGenerator_t386037858 * value)
-	{
-		____rng_13 = value;
-		Il2CppCodeGenWriteBarrier((&____rng_13), value);
-	}
-
-	inline static int32_t get_offset_of__fastRng_14() { return static_cast<int32_t>(offsetof(Guid_t_StaticFields, ____fastRng_14)); }
-	inline RandomNumberGenerator_t386037858 * get__fastRng_14() const { return ____fastRng_14; }
-	inline RandomNumberGenerator_t386037858 ** get_address_of__fastRng_14() { return &____fastRng_14; }
-	inline void set__fastRng_14(RandomNumberGenerator_t386037858 * value)
-	{
-		____fastRng_14 = value;
-		Il2CppCodeGenWriteBarrier((&____fastRng_14), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // GUID_T_H
 #ifndef INT32_T2950945753_H
 #define INT32_T2950945753_H
 #ifdef __clang__
@@ -2486,131 +2292,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // QUATERNION_T2301928331_H
-#ifndef VECTOR2_T2156229523_H
-#define VECTOR2_T2156229523_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Vector2
-struct  Vector2_t2156229523 
-{
-public:
-	// System.Single UnityEngine.Vector2::x
-	float ___x_0;
-	// System.Single UnityEngine.Vector2::y
-	float ___y_1;
-
-public:
-	inline static int32_t get_offset_of_x_0() { return static_cast<int32_t>(offsetof(Vector2_t2156229523, ___x_0)); }
-	inline float get_x_0() const { return ___x_0; }
-	inline float* get_address_of_x_0() { return &___x_0; }
-	inline void set_x_0(float value)
-	{
-		___x_0 = value;
-	}
-
-	inline static int32_t get_offset_of_y_1() { return static_cast<int32_t>(offsetof(Vector2_t2156229523, ___y_1)); }
-	inline float get_y_1() const { return ___y_1; }
-	inline float* get_address_of_y_1() { return &___y_1; }
-	inline void set_y_1(float value)
-	{
-		___y_1 = value;
-	}
-};
-
-struct Vector2_t2156229523_StaticFields
-{
-public:
-	// UnityEngine.Vector2 UnityEngine.Vector2::zeroVector
-	Vector2_t2156229523  ___zeroVector_2;
-	// UnityEngine.Vector2 UnityEngine.Vector2::oneVector
-	Vector2_t2156229523  ___oneVector_3;
-	// UnityEngine.Vector2 UnityEngine.Vector2::upVector
-	Vector2_t2156229523  ___upVector_4;
-	// UnityEngine.Vector2 UnityEngine.Vector2::downVector
-	Vector2_t2156229523  ___downVector_5;
-	// UnityEngine.Vector2 UnityEngine.Vector2::leftVector
-	Vector2_t2156229523  ___leftVector_6;
-	// UnityEngine.Vector2 UnityEngine.Vector2::rightVector
-	Vector2_t2156229523  ___rightVector_7;
-	// UnityEngine.Vector2 UnityEngine.Vector2::positiveInfinityVector
-	Vector2_t2156229523  ___positiveInfinityVector_8;
-	// UnityEngine.Vector2 UnityEngine.Vector2::negativeInfinityVector
-	Vector2_t2156229523  ___negativeInfinityVector_9;
-
-public:
-	inline static int32_t get_offset_of_zeroVector_2() { return static_cast<int32_t>(offsetof(Vector2_t2156229523_StaticFields, ___zeroVector_2)); }
-	inline Vector2_t2156229523  get_zeroVector_2() const { return ___zeroVector_2; }
-	inline Vector2_t2156229523 * get_address_of_zeroVector_2() { return &___zeroVector_2; }
-	inline void set_zeroVector_2(Vector2_t2156229523  value)
-	{
-		___zeroVector_2 = value;
-	}
-
-	inline static int32_t get_offset_of_oneVector_3() { return static_cast<int32_t>(offsetof(Vector2_t2156229523_StaticFields, ___oneVector_3)); }
-	inline Vector2_t2156229523  get_oneVector_3() const { return ___oneVector_3; }
-	inline Vector2_t2156229523 * get_address_of_oneVector_3() { return &___oneVector_3; }
-	inline void set_oneVector_3(Vector2_t2156229523  value)
-	{
-		___oneVector_3 = value;
-	}
-
-	inline static int32_t get_offset_of_upVector_4() { return static_cast<int32_t>(offsetof(Vector2_t2156229523_StaticFields, ___upVector_4)); }
-	inline Vector2_t2156229523  get_upVector_4() const { return ___upVector_4; }
-	inline Vector2_t2156229523 * get_address_of_upVector_4() { return &___upVector_4; }
-	inline void set_upVector_4(Vector2_t2156229523  value)
-	{
-		___upVector_4 = value;
-	}
-
-	inline static int32_t get_offset_of_downVector_5() { return static_cast<int32_t>(offsetof(Vector2_t2156229523_StaticFields, ___downVector_5)); }
-	inline Vector2_t2156229523  get_downVector_5() const { return ___downVector_5; }
-	inline Vector2_t2156229523 * get_address_of_downVector_5() { return &___downVector_5; }
-	inline void set_downVector_5(Vector2_t2156229523  value)
-	{
-		___downVector_5 = value;
-	}
-
-	inline static int32_t get_offset_of_leftVector_6() { return static_cast<int32_t>(offsetof(Vector2_t2156229523_StaticFields, ___leftVector_6)); }
-	inline Vector2_t2156229523  get_leftVector_6() const { return ___leftVector_6; }
-	inline Vector2_t2156229523 * get_address_of_leftVector_6() { return &___leftVector_6; }
-	inline void set_leftVector_6(Vector2_t2156229523  value)
-	{
-		___leftVector_6 = value;
-	}
-
-	inline static int32_t get_offset_of_rightVector_7() { return static_cast<int32_t>(offsetof(Vector2_t2156229523_StaticFields, ___rightVector_7)); }
-	inline Vector2_t2156229523  get_rightVector_7() const { return ___rightVector_7; }
-	inline Vector2_t2156229523 * get_address_of_rightVector_7() { return &___rightVector_7; }
-	inline void set_rightVector_7(Vector2_t2156229523  value)
-	{
-		___rightVector_7 = value;
-	}
-
-	inline static int32_t get_offset_of_positiveInfinityVector_8() { return static_cast<int32_t>(offsetof(Vector2_t2156229523_StaticFields, ___positiveInfinityVector_8)); }
-	inline Vector2_t2156229523  get_positiveInfinityVector_8() const { return ___positiveInfinityVector_8; }
-	inline Vector2_t2156229523 * get_address_of_positiveInfinityVector_8() { return &___positiveInfinityVector_8; }
-	inline void set_positiveInfinityVector_8(Vector2_t2156229523  value)
-	{
-		___positiveInfinityVector_8 = value;
-	}
-
-	inline static int32_t get_offset_of_negativeInfinityVector_9() { return static_cast<int32_t>(offsetof(Vector2_t2156229523_StaticFields, ___negativeInfinityVector_9)); }
-	inline Vector2_t2156229523  get_negativeInfinityVector_9() const { return ___negativeInfinityVector_9; }
-	inline Vector2_t2156229523 * get_address_of_negativeInfinityVector_9() { return &___negativeInfinityVector_9; }
-	inline void set_negativeInfinityVector_9(Vector2_t2156229523  value)
-	{
-		___negativeInfinityVector_9 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // VECTOR2_T2156229523_H
 #ifndef VECTOR3_T3722313464_H
 #define VECTOR3_T3722313464_H
 #ifdef __clang__
@@ -4031,46 +3712,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // UNITYVIDEOPARAMS_T4155354995_H
-#ifndef SERIALIZABLEFROMEDITORMESSAGE_T2731251371_H
-#define SERIALIZABLEFROMEDITORMESSAGE_T2731251371_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.XR.iOS.Utils.serializableFromEditorMessage
-struct  serializableFromEditorMessage_t2731251371  : public RuntimeObject
-{
-public:
-	// System.Guid UnityEngine.XR.iOS.Utils.serializableFromEditorMessage::subMessageId
-	Guid_t  ___subMessageId_0;
-	// UnityEngine.XR.iOS.Utils.serializableARKitInit UnityEngine.XR.iOS.Utils.serializableFromEditorMessage::arkitConfigMsg
-	serializableARKitInit_t3839227232 * ___arkitConfigMsg_1;
-
-public:
-	inline static int32_t get_offset_of_subMessageId_0() { return static_cast<int32_t>(offsetof(serializableFromEditorMessage_t2731251371, ___subMessageId_0)); }
-	inline Guid_t  get_subMessageId_0() const { return ___subMessageId_0; }
-	inline Guid_t * get_address_of_subMessageId_0() { return &___subMessageId_0; }
-	inline void set_subMessageId_0(Guid_t  value)
-	{
-		___subMessageId_0 = value;
-	}
-
-	inline static int32_t get_offset_of_arkitConfigMsg_1() { return static_cast<int32_t>(offsetof(serializableFromEditorMessage_t2731251371, ___arkitConfigMsg_1)); }
-	inline serializableARKitInit_t3839227232 * get_arkitConfigMsg_1() const { return ___arkitConfigMsg_1; }
-	inline serializableARKitInit_t3839227232 ** get_address_of_arkitConfigMsg_1() { return &___arkitConfigMsg_1; }
-	inline void set_arkitConfigMsg_1(serializableARKitInit_t3839227232 * value)
-	{
-		___arkitConfigMsg_1 = value;
-		Il2CppCodeGenWriteBarrier((&___arkitConfigMsg_1), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // SERIALIZABLEFROMEDITORMESSAGE_T2731251371_H
 #ifndef ENUMERATOR_T1010806104_H
 #define ENUMERATOR_T1010806104_H
 #ifdef __clang__
@@ -7578,76 +7219,6 @@ public:
 		m_Items[index] = value;
 	}
 };
-// UnityEngine.Vector2[]
-struct Vector2U5BU5D_t1457185986  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) Vector2_t2156229523  m_Items[1];
-
-public:
-	inline Vector2_t2156229523  GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline Vector2_t2156229523 * GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, Vector2_t2156229523  value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline Vector2_t2156229523  GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline Vector2_t2156229523 * GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector2_t2156229523  value)
-	{
-		m_Items[index] = value;
-	}
-};
-// System.Int32[]
-struct Int32U5BU5D_t385246372  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) int32_t m_Items[1];
-
-public:
-	inline int32_t GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, int32_t value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
-	{
-		m_Items[index] = value;
-	}
-};
 // System.Single[]
 struct SingleU5BU5D_t1444911251  : public RuntimeArray
 {
@@ -7722,8 +7293,6 @@ public:
 };
 
 
-// T UnityEngine.XR.iOS.Utils.ObjectSerializationExtension::Deserialize<System.Object>(System.Byte[])
-extern "C" IL2CPP_METHOD_ATTR RuntimeObject * ObjectSerializationExtension_Deserialize_TisRuntimeObject_m3752543098_gshared (RuntimeObject * __this /* static, unused */, ByteU5BU5D_t4116647657* ___byteArray0, const RuntimeMethod* method);
 // !!0 UnityEngine.Object::Instantiate<System.Object>(!!0)
 extern "C" IL2CPP_METHOD_ATTR RuntimeObject * Object_Instantiate_TisRuntimeObject_m2446893047_gshared (RuntimeObject * __this /* static, unused */, RuntimeObject * p0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
@@ -7749,39 +7318,14 @@ extern "C" IL2CPP_METHOD_ATTR void Action_1__ctor_m118522912_gshared (Action_1_t
 
 // System.Void System.Object::.ctor()
 extern "C" IL2CPP_METHOD_ATTR void Object__ctor_m297566312 (RuntimeObject * __this, const RuntimeMethod* method);
-// System.Int32 UnityEngine.XR.iOS.ARPlaneGeometry::get_vertexCount()
-extern "C" IL2CPP_METHOD_ATTR int32_t ARPlaneGeometry_get_vertexCount_m2299852998 (ARPlaneGeometry_t1169415986 * __this, const RuntimeMethod* method);
-// System.Int32 UnityEngine.XR.iOS.ARPlaneGeometry::get_textureCoordinateCount()
-extern "C" IL2CPP_METHOD_ATTR int32_t ARPlaneGeometry_get_textureCoordinateCount_m4191571174 (ARPlaneGeometry_t1169415986 * __this, const RuntimeMethod* method);
-// System.Int32 UnityEngine.XR.iOS.ARPlaneGeometry::get_triangleCount()
-extern "C" IL2CPP_METHOD_ATTR int32_t ARPlaneGeometry_get_triangleCount_m846416585 (ARPlaneGeometry_t1169415986 * __this, const RuntimeMethod* method);
-// UnityEngine.Vector3[] UnityEngine.XR.iOS.ARPlaneGeometry::get_vertices()
-extern "C" IL2CPP_METHOD_ATTR Vector3U5BU5D_t1718750761* ARPlaneGeometry_get_vertices_m3949474048 (ARPlaneGeometry_t1169415986 * __this, const RuntimeMethod* method);
-// System.Void System.Buffer::BlockCopy(System.Array,System.Int32,System.Array,System.Int32,System.Int32)
-extern "C" IL2CPP_METHOD_ATTR void Buffer_BlockCopy_m2884209081 (RuntimeObject * __this /* static, unused */, RuntimeArray * p0, int32_t p1, RuntimeArray * p2, int32_t p3, int32_t p4, const RuntimeMethod* method);
-// UnityEngine.Vector3[] UnityEngine.XR.iOS.ARPlaneGeometry::get_boundaryVertices()
-extern "C" IL2CPP_METHOD_ATTR Vector3U5BU5D_t1718750761* ARPlaneGeometry_get_boundaryVertices_m1646330886 (ARPlaneGeometry_t1169415986 * __this, const RuntimeMethod* method);
-// System.Int32 UnityEngine.XR.iOS.ARPlaneGeometry::get_boundaryVertexCount()
-extern "C" IL2CPP_METHOD_ATTR int32_t ARPlaneGeometry_get_boundaryVertexCount_m3107326718 (ARPlaneGeometry_t1169415986 * __this, const RuntimeMethod* method);
-// UnityEngine.Vector2[] UnityEngine.XR.iOS.ARPlaneGeometry::get_textureCoordinates()
-extern "C" IL2CPP_METHOD_ATTR Vector2U5BU5D_t1457185986* ARPlaneGeometry_get_textureCoordinates_m1206112685 (ARPlaneGeometry_t1169415986 * __this, const RuntimeMethod* method);
-// System.Int32[] UnityEngine.XR.iOS.ARPlaneGeometry::get_triangleIndices()
-extern "C" IL2CPP_METHOD_ATTR Int32U5BU5D_t385246372* ARPlaneGeometry_get_triangleIndices_m3110323458 (ARPlaneGeometry_t1169415986 * __this, const RuntimeMethod* method);
-// System.Byte[] UnityEngine.XR.iOS.Utils.ObjectSerializationExtension::SerializeToByteArray(System.Object)
-extern "C" IL2CPP_METHOD_ATTR ByteU5BU5D_t4116647657* ObjectSerializationExtension_SerializeToByteArray_m28764994 (RuntimeObject * __this /* static, unused */, RuntimeObject * ___obj0, const RuntimeMethod* method);
-// System.Void UnityEngine.XR.iOS.Utils.serializablePlaneGeometry::.ctor(System.Byte[],System.Byte[],System.Byte[],System.Byte[])
-extern "C" IL2CPP_METHOD_ATTR void serializablePlaneGeometry__ctor_m2543286638 (serializablePlaneGeometry_t3471745378 * __this, ByteU5BU5D_t4116647657* ___inputVertices0, ByteU5BU5D_t4116647657* ___inputTexCoords1, ByteU5BU5D_t4116647657* ___inputTriIndices2, ByteU5BU5D_t4116647657* ___boundaryVerts3, const RuntimeMethod* method);
-// System.Single System.BitConverter::ToSingle(System.Byte[],System.Int32)
-extern "C" IL2CPP_METHOD_ATTR float BitConverter_ToSingle_m2597008633 (RuntimeObject * __this /* static, unused */, ByteU5BU5D_t4116647657* p0, int32_t p1, const RuntimeMethod* method);
-// T UnityEngine.XR.iOS.Utils.ObjectSerializationExtension::Deserialize<System.Int32[]>(System.Byte[])
-inline Int32U5BU5D_t385246372* ObjectSerializationExtension_Deserialize_TisInt32U5BU5D_t385246372_m1366516915 (RuntimeObject * __this /* static, unused */, ByteU5BU5D_t4116647657* ___byteArray0, const RuntimeMethod* method)
-{
-	return ((  Int32U5BU5D_t385246372* (*) (RuntimeObject * /* static, unused */, ByteU5BU5D_t4116647657*, const RuntimeMethod*))ObjectSerializationExtension_Deserialize_TisRuntimeObject_m3752543098_gshared)(__this /* static, unused */, ___byteArray0, method);
-}
 // System.Byte[] System.BitConverter::GetBytes(System.Single)
 extern "C" IL2CPP_METHOD_ATTR ByteU5BU5D_t4116647657* BitConverter_GetBytes_m692533364 (RuntimeObject * __this /* static, unused */, float p0, const RuntimeMethod* method);
+// System.Void System.Buffer::BlockCopy(System.Array,System.Int32,System.Array,System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Buffer_BlockCopy_m2884209081 (RuntimeObject * __this /* static, unused */, RuntimeArray * p0, int32_t p1, RuntimeArray * p2, int32_t p3, int32_t p4, const RuntimeMethod* method);
 // System.Void UnityEngine.XR.iOS.Utils.serializablePointCloud::.ctor(System.Byte[])
 extern "C" IL2CPP_METHOD_ATTR void serializablePointCloud__ctor_m1387577147 (serializablePointCloud_t4241265545 * __this, ByteU5BU5D_t4116647657* ___inputPoints0, const RuntimeMethod* method);
+// System.Single System.BitConverter::ToSingle(System.Byte[],System.Int32)
+extern "C" IL2CPP_METHOD_ATTR float BitConverter_ToSingle_m2597008633 (RuntimeObject * __this /* static, unused */, ByteU5BU5D_t4116647657* p0, int32_t p1, const RuntimeMethod* method);
 // System.Void UnityEngine.XR.iOS.Utils.serializableSHC::.ctor(System.Byte[])
 extern "C" IL2CPP_METHOD_ATTR void serializableSHC__ctor_m1264141150 (serializableSHC_t226029808 * __this, ByteU5BU5D_t4116647657* ___inputSHCData0, const RuntimeMethod* method);
 // UnityEngine.XR.iOS.Utils.serializableUnityARLightData UnityEngine.XR.iOS.Utils.serializableUnityARLightData::op_Implicit(UnityEngine.XR.iOS.UnityARLightData)
@@ -8052,422 +7596,6 @@ extern "C" IL2CPP_METHOD_ATTR Bounds_t2266837910  Mesh_get_bounds_m2004960313 (M
 extern "C" IL2CPP_METHOD_ATTR Vector3_t3722313464  Bounds_get_size_m1178783246 (Bounds_t2266837910 * __this, const RuntimeMethod* method);
 // UnityEngine.Vector3 UnityEngine.Transform::get_localScale()
 extern "C" IL2CPP_METHOD_ATTR Vector3_t3722313464  Transform_get_localScale_m129152068 (Transform_t3600365921 * __this, const RuntimeMethod* method);
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void UnityEngine.XR.iOS.Utils.serializableFromEditorMessage::.ctor()
-extern "C" IL2CPP_METHOD_ATTR void serializableFromEditorMessage__ctor_m2463776463 (serializableFromEditorMessage_t2731251371 * __this, const RuntimeMethod* method)
-{
-	{
-		Object__ctor_m297566312(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void UnityEngine.XR.iOS.Utils.serializablePlaneGeometry::.ctor(System.Byte[],System.Byte[],System.Byte[],System.Byte[])
-extern "C" IL2CPP_METHOD_ATTR void serializablePlaneGeometry__ctor_m2543286638 (serializablePlaneGeometry_t3471745378 * __this, ByteU5BU5D_t4116647657* ___inputVertices0, ByteU5BU5D_t4116647657* ___inputTexCoords1, ByteU5BU5D_t4116647657* ___inputTriIndices2, ByteU5BU5D_t4116647657* ___boundaryVerts3, const RuntimeMethod* method)
-{
-	{
-		Object__ctor_m297566312(__this, /*hidden argument*/NULL);
-		ByteU5BU5D_t4116647657* L_0 = ___inputVertices0;
-		__this->set_vertices_0(L_0);
-		ByteU5BU5D_t4116647657* L_1 = ___inputTexCoords1;
-		__this->set_texCoords_1(L_1);
-		ByteU5BU5D_t4116647657* L_2 = ___inputTriIndices2;
-		__this->set_triIndices_2(L_2);
-		ByteU5BU5D_t4116647657* L_3 = ___boundaryVerts3;
-		__this->set_boundaryVertices_3(L_3);
-		return;
-	}
-}
-// UnityEngine.XR.iOS.Utils.serializablePlaneGeometry UnityEngine.XR.iOS.Utils.serializablePlaneGeometry::op_Implicit(UnityEngine.XR.iOS.ARPlaneGeometry)
-extern "C" IL2CPP_METHOD_ATTR serializablePlaneGeometry_t3471745378 * serializablePlaneGeometry_op_Implicit_m2849839976 (RuntimeObject * __this /* static, unused */, ARPlaneGeometry_t1169415986 * ___planeGeom0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (serializablePlaneGeometry_op_Implicit_m2849839976_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Vector3U5BU5D_t1718750761* V_0 = NULL;
-	ByteU5BU5D_t4116647657* V_1 = NULL;
-	Vector3U5BU5D_t1718750761* V_2 = NULL;
-	ByteU5BU5D_t4116647657* V_3 = NULL;
-	Vector2U5BU5D_t1457185986* V_4 = NULL;
-	ByteU5BU5D_t4116647657* V_5 = NULL;
-	Int32U5BU5D_t385246372* V_6 = NULL;
-	ByteU5BU5D_t4116647657* V_7 = NULL;
-	{
-		ARPlaneGeometry_t1169415986 * L_0 = ___planeGeom0;
-		NullCheck(L_0);
-		int32_t L_1 = ARPlaneGeometry_get_vertexCount_m2299852998(L_0, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_00c0;
-		}
-	}
-	{
-		ARPlaneGeometry_t1169415986 * L_2 = ___planeGeom0;
-		NullCheck(L_2);
-		int32_t L_3 = ARPlaneGeometry_get_textureCoordinateCount_m4191571174(L_2, /*hidden argument*/NULL);
-		if (!L_3)
-		{
-			goto IL_00c0;
-		}
-	}
-	{
-		ARPlaneGeometry_t1169415986 * L_4 = ___planeGeom0;
-		NullCheck(L_4);
-		int32_t L_5 = ARPlaneGeometry_get_triangleCount_m846416585(L_4, /*hidden argument*/NULL);
-		if (!L_5)
-		{
-			goto IL_00c0;
-		}
-	}
-	{
-		ARPlaneGeometry_t1169415986 * L_6 = ___planeGeom0;
-		NullCheck(L_6);
-		Vector3U5BU5D_t1718750761* L_7 = ARPlaneGeometry_get_vertices_m3949474048(L_6, /*hidden argument*/NULL);
-		V_0 = L_7;
-		ARPlaneGeometry_t1169415986 * L_8 = ___planeGeom0;
-		NullCheck(L_8);
-		int32_t L_9 = ARPlaneGeometry_get_vertexCount_m2299852998(L_8, /*hidden argument*/NULL);
-		ByteU5BU5D_t4116647657* L_10 = (ByteU5BU5D_t4116647657*)SZArrayNew(ByteU5BU5D_t4116647657_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply((int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_9, (int32_t)4)), (int32_t)3)));
-		V_1 = L_10;
-		Vector3U5BU5D_t1718750761* L_11 = V_0;
-		ByteU5BU5D_t4116647657* L_12 = V_1;
-		ARPlaneGeometry_t1169415986 * L_13 = ___planeGeom0;
-		NullCheck(L_13);
-		int32_t L_14 = ARPlaneGeometry_get_vertexCount_m2299852998(L_13, /*hidden argument*/NULL);
-		Buffer_BlockCopy_m2884209081(NULL /*static, unused*/, (RuntimeArray *)(RuntimeArray *)L_11, 0, (RuntimeArray *)(RuntimeArray *)L_12, 0, ((int32_t)il2cpp_codegen_multiply((int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_14, (int32_t)4)), (int32_t)3)), /*hidden argument*/NULL);
-		ARPlaneGeometry_t1169415986 * L_15 = ___planeGeom0;
-		NullCheck(L_15);
-		Vector3U5BU5D_t1718750761* L_16 = ARPlaneGeometry_get_boundaryVertices_m1646330886(L_15, /*hidden argument*/NULL);
-		V_2 = L_16;
-		ARPlaneGeometry_t1169415986 * L_17 = ___planeGeom0;
-		NullCheck(L_17);
-		int32_t L_18 = ARPlaneGeometry_get_boundaryVertexCount_m3107326718(L_17, /*hidden argument*/NULL);
-		ByteU5BU5D_t4116647657* L_19 = (ByteU5BU5D_t4116647657*)SZArrayNew(ByteU5BU5D_t4116647657_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply((int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_18, (int32_t)4)), (int32_t)3)));
-		V_3 = L_19;
-		Vector3U5BU5D_t1718750761* L_20 = V_2;
-		ByteU5BU5D_t4116647657* L_21 = V_3;
-		ARPlaneGeometry_t1169415986 * L_22 = ___planeGeom0;
-		NullCheck(L_22);
-		int32_t L_23 = ARPlaneGeometry_get_boundaryVertexCount_m3107326718(L_22, /*hidden argument*/NULL);
-		Buffer_BlockCopy_m2884209081(NULL /*static, unused*/, (RuntimeArray *)(RuntimeArray *)L_20, 0, (RuntimeArray *)(RuntimeArray *)L_21, 0, ((int32_t)il2cpp_codegen_multiply((int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_23, (int32_t)4)), (int32_t)3)), /*hidden argument*/NULL);
-		ARPlaneGeometry_t1169415986 * L_24 = ___planeGeom0;
-		NullCheck(L_24);
-		Vector2U5BU5D_t1457185986* L_25 = ARPlaneGeometry_get_textureCoordinates_m1206112685(L_24, /*hidden argument*/NULL);
-		V_4 = L_25;
-		ARPlaneGeometry_t1169415986 * L_26 = ___planeGeom0;
-		NullCheck(L_26);
-		int32_t L_27 = ARPlaneGeometry_get_textureCoordinateCount_m4191571174(L_26, /*hidden argument*/NULL);
-		ByteU5BU5D_t4116647657* L_28 = (ByteU5BU5D_t4116647657*)SZArrayNew(ByteU5BU5D_t4116647657_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply((int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_27, (int32_t)4)), (int32_t)2)));
-		V_5 = L_28;
-		Vector2U5BU5D_t1457185986* L_29 = V_4;
-		ByteU5BU5D_t4116647657* L_30 = V_5;
-		ARPlaneGeometry_t1169415986 * L_31 = ___planeGeom0;
-		NullCheck(L_31);
-		int32_t L_32 = ARPlaneGeometry_get_textureCoordinateCount_m4191571174(L_31, /*hidden argument*/NULL);
-		Buffer_BlockCopy_m2884209081(NULL /*static, unused*/, (RuntimeArray *)(RuntimeArray *)L_29, 0, (RuntimeArray *)(RuntimeArray *)L_30, 0, ((int32_t)il2cpp_codegen_multiply((int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_32, (int32_t)4)), (int32_t)2)), /*hidden argument*/NULL);
-		ARPlaneGeometry_t1169415986 * L_33 = ___planeGeom0;
-		NullCheck(L_33);
-		Int32U5BU5D_t385246372* L_34 = ARPlaneGeometry_get_triangleIndices_m3110323458(L_33, /*hidden argument*/NULL);
-		V_6 = L_34;
-		Int32U5BU5D_t385246372* L_35 = V_6;
-		ByteU5BU5D_t4116647657* L_36 = ObjectSerializationExtension_SerializeToByteArray_m28764994(NULL /*static, unused*/, (RuntimeObject *)(RuntimeObject *)L_35, /*hidden argument*/NULL);
-		V_7 = L_36;
-		ByteU5BU5D_t4116647657* L_37 = V_1;
-		ByteU5BU5D_t4116647657* L_38 = V_5;
-		ByteU5BU5D_t4116647657* L_39 = V_7;
-		ByteU5BU5D_t4116647657* L_40 = V_3;
-		serializablePlaneGeometry_t3471745378 * L_41 = (serializablePlaneGeometry_t3471745378 *)il2cpp_codegen_object_new(serializablePlaneGeometry_t3471745378_il2cpp_TypeInfo_var);
-		serializablePlaneGeometry__ctor_m2543286638(L_41, L_37, L_38, L_39, L_40, /*hidden argument*/NULL);
-		return L_41;
-	}
-
-IL_00c0:
-	{
-		serializablePlaneGeometry_t3471745378 * L_42 = (serializablePlaneGeometry_t3471745378 *)il2cpp_codegen_object_new(serializablePlaneGeometry_t3471745378_il2cpp_TypeInfo_var);
-		serializablePlaneGeometry__ctor_m2543286638(L_42, (ByteU5BU5D_t4116647657*)(ByteU5BU5D_t4116647657*)NULL, (ByteU5BU5D_t4116647657*)(ByteU5BU5D_t4116647657*)NULL, (ByteU5BU5D_t4116647657*)(ByteU5BU5D_t4116647657*)NULL, (ByteU5BU5D_t4116647657*)(ByteU5BU5D_t4116647657*)NULL, /*hidden argument*/NULL);
-		return L_42;
-	}
-}
-// UnityEngine.Vector3[] UnityEngine.XR.iOS.Utils.serializablePlaneGeometry::get_Vertices()
-extern "C" IL2CPP_METHOD_ATTR Vector3U5BU5D_t1718750761* serializablePlaneGeometry_get_Vertices_m372421006 (serializablePlaneGeometry_t3471745378 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (serializablePlaneGeometry_get_Vertices_m372421006_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	Vector3U5BU5D_t1718750761* V_1 = NULL;
-	int32_t V_2 = 0;
-	int32_t V_3 = 0;
-	{
-		ByteU5BU5D_t4116647657* L_0 = __this->get_vertices_0();
-		if (!L_0)
-		{
-			goto IL_0088;
-		}
-	}
-	{
-		ByteU5BU5D_t4116647657* L_1 = __this->get_vertices_0();
-		NullCheck(L_1);
-		V_0 = ((int32_t)((int32_t)(((int32_t)((int32_t)(((RuntimeArray *)L_1)->max_length))))/(int32_t)((int32_t)12)));
-		int32_t L_2 = V_0;
-		Vector3U5BU5D_t1718750761* L_3 = (Vector3U5BU5D_t1718750761*)SZArrayNew(Vector3U5BU5D_t1718750761_il2cpp_TypeInfo_var, (uint32_t)L_2);
-		V_1 = L_3;
-		V_2 = 0;
-		goto IL_007f;
-	}
-
-IL_0025:
-	{
-		int32_t L_4 = V_2;
-		V_3 = ((int32_t)il2cpp_codegen_multiply((int32_t)L_4, (int32_t)3));
-		Vector3U5BU5D_t1718750761* L_5 = V_1;
-		int32_t L_6 = V_2;
-		NullCheck(L_5);
-		ByteU5BU5D_t4116647657* L_7 = __this->get_vertices_0();
-		int32_t L_8 = V_3;
-		IL2CPP_RUNTIME_CLASS_INIT(BitConverter_t3118986983_il2cpp_TypeInfo_var);
-		float L_9 = BitConverter_ToSingle_m2597008633(NULL /*static, unused*/, L_7, ((int32_t)il2cpp_codegen_multiply((int32_t)L_8, (int32_t)4)), /*hidden argument*/NULL);
-		((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_6)))->set_x_2(L_9);
-		Vector3U5BU5D_t1718750761* L_10 = V_1;
-		int32_t L_11 = V_2;
-		NullCheck(L_10);
-		ByteU5BU5D_t4116647657* L_12 = __this->get_vertices_0();
-		int32_t L_13 = V_3;
-		float L_14 = BitConverter_ToSingle_m2597008633(NULL /*static, unused*/, L_12, ((int32_t)il2cpp_codegen_multiply((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_13, (int32_t)1)), (int32_t)4)), /*hidden argument*/NULL);
-		((L_10)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_11)))->set_y_3(L_14);
-		Vector3U5BU5D_t1718750761* L_15 = V_1;
-		int32_t L_16 = V_2;
-		NullCheck(L_15);
-		ByteU5BU5D_t4116647657* L_17 = __this->get_vertices_0();
-		int32_t L_18 = V_3;
-		float L_19 = BitConverter_ToSingle_m2597008633(NULL /*static, unused*/, L_17, ((int32_t)il2cpp_codegen_multiply((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_18, (int32_t)2)), (int32_t)4)), /*hidden argument*/NULL);
-		((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_16)))->set_z_4(L_19);
-		int32_t L_20 = V_2;
-		V_2 = ((int32_t)il2cpp_codegen_add((int32_t)L_20, (int32_t)1));
-	}
-
-IL_007f:
-	{
-		int32_t L_21 = V_2;
-		int32_t L_22 = V_0;
-		if ((((int32_t)L_21) < ((int32_t)L_22)))
-		{
-			goto IL_0025;
-		}
-	}
-	{
-		Vector3U5BU5D_t1718750761* L_23 = V_1;
-		return L_23;
-	}
-
-IL_0088:
-	{
-		return (Vector3U5BU5D_t1718750761*)NULL;
-	}
-}
-// UnityEngine.Vector3[] UnityEngine.XR.iOS.Utils.serializablePlaneGeometry::get_BoundaryVertices()
-extern "C" IL2CPP_METHOD_ATTR Vector3U5BU5D_t1718750761* serializablePlaneGeometry_get_BoundaryVertices_m2706946419 (serializablePlaneGeometry_t3471745378 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (serializablePlaneGeometry_get_BoundaryVertices_m2706946419_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	Vector3U5BU5D_t1718750761* V_1 = NULL;
-	int32_t V_2 = 0;
-	int32_t V_3 = 0;
-	{
-		ByteU5BU5D_t4116647657* L_0 = __this->get_boundaryVertices_3();
-		if (!L_0)
-		{
-			goto IL_0088;
-		}
-	}
-	{
-		ByteU5BU5D_t4116647657* L_1 = __this->get_boundaryVertices_3();
-		NullCheck(L_1);
-		V_0 = ((int32_t)((int32_t)(((int32_t)((int32_t)(((RuntimeArray *)L_1)->max_length))))/(int32_t)((int32_t)12)));
-		int32_t L_2 = V_0;
-		Vector3U5BU5D_t1718750761* L_3 = (Vector3U5BU5D_t1718750761*)SZArrayNew(Vector3U5BU5D_t1718750761_il2cpp_TypeInfo_var, (uint32_t)L_2);
-		V_1 = L_3;
-		V_2 = 0;
-		goto IL_007f;
-	}
-
-IL_0025:
-	{
-		int32_t L_4 = V_2;
-		V_3 = ((int32_t)il2cpp_codegen_multiply((int32_t)L_4, (int32_t)3));
-		Vector3U5BU5D_t1718750761* L_5 = V_1;
-		int32_t L_6 = V_2;
-		NullCheck(L_5);
-		ByteU5BU5D_t4116647657* L_7 = __this->get_boundaryVertices_3();
-		int32_t L_8 = V_3;
-		IL2CPP_RUNTIME_CLASS_INIT(BitConverter_t3118986983_il2cpp_TypeInfo_var);
-		float L_9 = BitConverter_ToSingle_m2597008633(NULL /*static, unused*/, L_7, ((int32_t)il2cpp_codegen_multiply((int32_t)L_8, (int32_t)4)), /*hidden argument*/NULL);
-		((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_6)))->set_x_2(L_9);
-		Vector3U5BU5D_t1718750761* L_10 = V_1;
-		int32_t L_11 = V_2;
-		NullCheck(L_10);
-		ByteU5BU5D_t4116647657* L_12 = __this->get_boundaryVertices_3();
-		int32_t L_13 = V_3;
-		float L_14 = BitConverter_ToSingle_m2597008633(NULL /*static, unused*/, L_12, ((int32_t)il2cpp_codegen_multiply((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_13, (int32_t)1)), (int32_t)4)), /*hidden argument*/NULL);
-		((L_10)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_11)))->set_y_3(L_14);
-		Vector3U5BU5D_t1718750761* L_15 = V_1;
-		int32_t L_16 = V_2;
-		NullCheck(L_15);
-		ByteU5BU5D_t4116647657* L_17 = __this->get_boundaryVertices_3();
-		int32_t L_18 = V_3;
-		float L_19 = BitConverter_ToSingle_m2597008633(NULL /*static, unused*/, L_17, ((int32_t)il2cpp_codegen_multiply((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_18, (int32_t)2)), (int32_t)4)), /*hidden argument*/NULL);
-		((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_16)))->set_z_4(L_19);
-		int32_t L_20 = V_2;
-		V_2 = ((int32_t)il2cpp_codegen_add((int32_t)L_20, (int32_t)1));
-	}
-
-IL_007f:
-	{
-		int32_t L_21 = V_2;
-		int32_t L_22 = V_0;
-		if ((((int32_t)L_21) < ((int32_t)L_22)))
-		{
-			goto IL_0025;
-		}
-	}
-	{
-		Vector3U5BU5D_t1718750761* L_23 = V_1;
-		return L_23;
-	}
-
-IL_0088:
-	{
-		return (Vector3U5BU5D_t1718750761*)NULL;
-	}
-}
-// UnityEngine.Vector2[] UnityEngine.XR.iOS.Utils.serializablePlaneGeometry::get_TexCoords()
-extern "C" IL2CPP_METHOD_ATTR Vector2U5BU5D_t1457185986* serializablePlaneGeometry_get_TexCoords_m2833194137 (serializablePlaneGeometry_t3471745378 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (serializablePlaneGeometry_get_TexCoords_m2833194137_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	Vector2U5BU5D_t1457185986* V_1 = NULL;
-	int32_t V_2 = 0;
-	int32_t V_3 = 0;
-	{
-		ByteU5BU5D_t4116647657* L_0 = __this->get_texCoords_1();
-		if (!L_0)
-		{
-			goto IL_006b;
-		}
-	}
-	{
-		ByteU5BU5D_t4116647657* L_1 = __this->get_texCoords_1();
-		NullCheck(L_1);
-		V_0 = ((int32_t)((int32_t)(((int32_t)((int32_t)(((RuntimeArray *)L_1)->max_length))))/(int32_t)8));
-		int32_t L_2 = V_0;
-		Vector2U5BU5D_t1457185986* L_3 = (Vector2U5BU5D_t1457185986*)SZArrayNew(Vector2U5BU5D_t1457185986_il2cpp_TypeInfo_var, (uint32_t)L_2);
-		V_1 = L_3;
-		V_2 = 0;
-		goto IL_0062;
-	}
-
-IL_0024:
-	{
-		int32_t L_4 = V_2;
-		V_3 = ((int32_t)il2cpp_codegen_multiply((int32_t)L_4, (int32_t)2));
-		Vector2U5BU5D_t1457185986* L_5 = V_1;
-		int32_t L_6 = V_2;
-		NullCheck(L_5);
-		ByteU5BU5D_t4116647657* L_7 = __this->get_texCoords_1();
-		int32_t L_8 = V_3;
-		IL2CPP_RUNTIME_CLASS_INIT(BitConverter_t3118986983_il2cpp_TypeInfo_var);
-		float L_9 = BitConverter_ToSingle_m2597008633(NULL /*static, unused*/, L_7, ((int32_t)il2cpp_codegen_multiply((int32_t)L_8, (int32_t)4)), /*hidden argument*/NULL);
-		((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_6)))->set_x_0(L_9);
-		Vector2U5BU5D_t1457185986* L_10 = V_1;
-		int32_t L_11 = V_2;
-		NullCheck(L_10);
-		ByteU5BU5D_t4116647657* L_12 = __this->get_texCoords_1();
-		int32_t L_13 = V_3;
-		float L_14 = BitConverter_ToSingle_m2597008633(NULL /*static, unused*/, L_12, ((int32_t)il2cpp_codegen_multiply((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_13, (int32_t)1)), (int32_t)4)), /*hidden argument*/NULL);
-		((L_10)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_11)))->set_y_1(L_14);
-		int32_t L_15 = V_2;
-		V_2 = ((int32_t)il2cpp_codegen_add((int32_t)L_15, (int32_t)1));
-	}
-
-IL_0062:
-	{
-		int32_t L_16 = V_2;
-		int32_t L_17 = V_0;
-		if ((((int32_t)L_16) < ((int32_t)L_17)))
-		{
-			goto IL_0024;
-		}
-	}
-	{
-		Vector2U5BU5D_t1457185986* L_18 = V_1;
-		return L_18;
-	}
-
-IL_006b:
-	{
-		return (Vector2U5BU5D_t1457185986*)NULL;
-	}
-}
-// System.Int32[] UnityEngine.XR.iOS.Utils.serializablePlaneGeometry::get_TriangleIndices()
-extern "C" IL2CPP_METHOD_ATTR Int32U5BU5D_t385246372* serializablePlaneGeometry_get_TriangleIndices_m1206890056 (serializablePlaneGeometry_t3471745378 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (serializablePlaneGeometry_get_TriangleIndices_m1206890056_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Int32U5BU5D_t385246372* V_0 = NULL;
-	{
-		ByteU5BU5D_t4116647657* L_0 = __this->get_triIndices_2();
-		if (!L_0)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		ByteU5BU5D_t4116647657* L_1 = __this->get_triIndices_2();
-		Int32U5BU5D_t385246372* L_2 = ObjectSerializationExtension_Deserialize_TisInt32U5BU5D_t385246372_m1366516915(NULL /*static, unused*/, L_1, /*hidden argument*/ObjectSerializationExtension_Deserialize_TisInt32U5BU5D_t385246372_m1366516915_RuntimeMethod_var);
-		V_0 = L_2;
-		Int32U5BU5D_t385246372* L_3 = V_0;
-		return L_3;
-	}
-
-IL_0019:
-	{
-		return (Int32U5BU5D_t385246372*)NULL;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
