@@ -5,9 +5,8 @@ Only for ios 12.1 and more
 
 
 
-# # The accuray of the project:
-![distance from app](https://github.com/Yiyuan7/sp_2.0/blob/master/IMG_3215.PNG)
-![real distance](https://github.com/Yiyuan7/sp_2.0/blob/master/magic_keyboard.jpg)
+## The accuray of the project:
+![verify](https://github.com/Yiyuan7/sp_2.0/blob/master/Messages%20Image(2274212712).png)
 
 
 ## demo:
